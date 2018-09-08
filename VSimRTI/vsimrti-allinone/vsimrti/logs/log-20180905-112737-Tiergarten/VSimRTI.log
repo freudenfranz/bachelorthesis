@@ -1,0 +1,47 @@
+2018-09-05 11:27:37,498 INFO  VSimRTIStarter - File found, read successfully.
+The following object was created (This is the created, internal JSON data object and might differ from the initial JSON-String read).
+The normal string representation.
+{"localHosts":[{"id":"local","workingDirectory":"./tmp","address":"localhost","operatingSystem":"linux"}],"remoteHosts":[{"user":"username","password":"password","port":22,"id":"remote","workingDirectory":"/home/vsimrti/test/tmp","address":"192.168.0.1","operatingSystem":"linux"}]}
+The pretty string representation.
+{
+  "localHosts": [
+    {
+      "id": "local",
+      "workingDirectory": "./tmp",
+      "address": "localhost",
+      "operatingSystem": "linux"
+    }
+  ],
+  "remoteHosts": [
+    {
+      "user": "username",
+      "password": "password",
+      "port": 22,
+      "id": "remote",
+      "workingDirectory": "/home/vsimrti/test/tmp",
+      "address": "192.168.0.1",
+      "operatingSystem": "linux"
+    }
+  ]
+}
+2018-09-05 11:27:37,565 INFO  VSimRTIStarter - Port not given (port == 0). Find free port: 41229
+2018-09-05 11:27:37,802 INFO  VisualizationAmbassador - connectToFederate
+2018-09-05 11:27:37,839 INFO  VisualizationAmbassador - cfg instanceof ExternalVisualizerConfig
+2018-09-05 11:27:37,855 INFO  VisualizationAmbassador - register the initialized visualizer
+2018-09-05 11:27:37,860 INFO  VisualizationAmbassador - cfg instanceof ExternalVisualizerConfig
+2018-09-05 11:27:37,861 INFO  VisualizationAmbassador - register the initialized visualizer
+2018-09-05 11:27:38,685 INFO  LicenseCheck - writing license file
+2018-09-05 11:27:38,695 INFO  f - License valid
+2018-09-05 11:27:38,705 INFO  FederationManagement - Federation with id= Tiergarten is started
+2018-09-05 11:27:38,706 INFO  FederationManagement - join federate with id sns
+2018-09-05 11:27:38,708 INFO  FederationManagement - join federate with id sumo
+2018-09-05 11:27:38,720 INFO  FederationManagement - Start sumo local in ./tmp/sumo
+2018-09-05 11:27:38,721 INFO  FederationManagement - join federate with id applicationNT
+2018-09-05 11:27:38,721 INFO  FederationManagement - join federate with id eventserver
+2018-09-05 11:27:38,721 INFO  FederationManagement - join federate with id mapping3
+2018-09-05 11:27:38,722 INFO  FederationManagement - join federate with id battery
+2018-09-05 11:27:38,722 INFO  FederationManagement - join federate with id visualizer
+2018-09-05 11:27:38,896 WARN  SQLiteLoader - Error loading roundabouts: [SQLITE_ERROR] SQL error or missing database (no such table: Roundabout). Skipping
+2018-09-05 11:28:01,802 INFO  VSimRTIStarter - Simulation stated: 2018-09-05 11:27:36
+2018-09-05 11:28:01,803 INFO  VSimRTIStarter - Simulation ended: 2018-09-05 11:28:01
+2018-09-05 11:28:01,803 INFO  VSimRTIStarter - Finishing simulation (duration: 25.53s = 25530.0ms)

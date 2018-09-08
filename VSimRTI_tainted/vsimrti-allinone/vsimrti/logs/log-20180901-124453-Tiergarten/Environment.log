@@ -1,0 +1,31 @@
+2018-09-01 12:44:55,423 INFO  EventserverAmbassador - File found, read successfully.
+The following object was created (This is the created, internal JSON data object and might differ from the initial JSON-String read).
+The normal string representation.
+{"events":[{"type":"Obstacle","rectangle":{"a":{"longitude":13.325493335723877,"latitude":52.51456075310111},"b":{"longitude":13.337509632110596,"latitude":52.511596424357414}},"strength":1,"time":{"start":0,"end":60}}],"parkingLots":[]}
+The pretty string representation.
+{
+  "events": [
+    {
+      "type": "Obstacle",
+      "rectangle": {
+        "a": {
+          "longitude": 13.325493335723877,
+          "latitude": 52.51456075310111
+        },
+        "b": {
+          "longitude": 13.337509632110596,
+          "latitude": 52.511596424357414
+        }
+      },
+      "strength": 1,
+      "time": {
+        "start": 0,
+        "end": 60
+      }
+    }
+  ],
+  "parkingLots": []
+}
+2018-09-01 12:45:04,069 INFO  EventserverAmbassador - Registered for sensor information: id=tl_0 at time 0.000,000,000 s
+2018-09-01 12:45:04,072 INFO  EventserverAmbassador - Registered for sensor information: id=tl_1 at time 0.000,000,000 s
+2018-09-01 12:45:04,096 INFO  EventserverAmbassador - Registered for sensor information: id=rsu_0 at time 0.000,000,000 s

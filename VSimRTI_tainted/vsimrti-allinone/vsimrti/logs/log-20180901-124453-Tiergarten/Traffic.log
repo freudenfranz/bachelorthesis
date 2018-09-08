@@ -1,0 +1,30 @@
+2018-09-01 12:44:55,001 INFO  SumoGUIAmbassador - File found, read successfully.
+The following object was created (This is the created, internal JSON data object and might differ from the initial JSON-String read).
+The normal string representation.
+{"updateInterval":1000,"sumoConfigurationFile":"tiergarten.sumo.cfg","exitOnInsertionError":true,"additionalSumoParameters":" --time-to-teleport 0  --seed 100000"}
+The pretty string representation.
+{
+  "updateInterval": 1000,
+  "sumoConfigurationFile": "tiergarten.sumo.cfg",
+  "exitOnInsertionError": true,
+  "additionalSumoParameters": " --time-to-teleport 0  --seed 100000"
+}
+2018-09-01 12:44:55,001 INFO  SumoGUIAmbassador - cSumo.updateInterval: 1000
+2018-09-01 12:44:55,001 INFO  SumoGUIAmbassador - cSumo.sumoConfigurationFile: tiergarten.sumo.cfg
+2018-09-01 12:44:55,002 INFO  SumoGUIAmbassador - cSumo.sumoConfigurationFile: tiergarten.sumo.cfg
+2018-09-01 12:44:55,115 INFO  SumoGUIAmbassador - routeFilename: tiergarten.rou.xml
+2018-09-01 12:44:55,136 INFO  SumoGUIAmbassador - stepSize: 1.0
+2018-09-01 12:44:59,085 INFO  SumoGUIAmbassador - Start Federate local
+2018-09-01 12:44:59,085 INFO  SumoGUIAmbassador - Directory: ./tmp/sumo
+2018-09-01 12:44:59,112 WARN  SumoGUIAmbassador - Error while connecting to SUMO. Retrying.
+2018-09-01 12:45:00,113 WARN  SumoGUIAmbassador - Error while connecting to SUMO. Retrying.
+2018-09-01 12:45:01,113 WARN  SumoGUIAmbassador - Error while connecting to SUMO. Retrying.
+2018-09-01 12:45:02,116 INFO  SumoGUIAmbassador - Process SumoAmbassador : Loading configuration... done.
+2018-09-01 12:45:03,907 INFO  SumoGUIAmbassador - Current API version of SUMO is 14 (=SUMO 0.29.0)
+2018-09-01 12:45:04,238 INFO  SumoGUIAmbassador - Receive ChangeTrafficLightsState request
+2018-09-01 12:45:04,238 INFO  SumoGUIAmbassador - ChangeTrafficLightsState At 0 tlUnitId=tl_0 tlGroupId=252864801 paramType=ProgramId
+2018-09-01 12:45:04,275 INFO  SumoGUIAmbassador - Receive ChangeTrafficLightsState request
+2018-09-01 12:45:04,275 INFO  SumoGUIAmbassador - ChangeTrafficLightsState At 0 tlUnitId=tl_1 tlGroupId=27011311 paramType=ProgramId
+2018-09-01 12:45:04,298 INFO  SumoGUIAmbassador - AddedVehicle "veh_0" received at simulation time 1000000000 ns
+2018-09-01 12:45:04,313 INFO  SumoGUIAmbassador - Adding new vehicle "veh_0" at simulation time 1000000000 ns (type=PKW,routeId=0,laneId=0,departPos=0)
+2018-09-01 12:45:04,317 WARN  SumoGUIAmbassador - Vehicle with id:veh_0 could not be added.(com.dcaiti.vsimrti.rti.exceptions.InternalFederateException)

@@ -1,0 +1,57 @@
+2018-09-05 11:27:37,600 INFO  EventserverAmbassador - File found, read successfully.
+The following object was created (This is the created, internal JSON data object and might differ from the initial JSON-String read).
+The normal string representation.
+{"events":[{"type":"Obstacle","rectangle":{"a":{"longitude":13.325493335723877,"latitude":52.51456075310111},"b":{"longitude":13.337509632110596,"latitude":52.511596424357414}},"strength":1,"time":{"start":0,"end":60}}],"parkingLots":[]}
+The pretty string representation.
+{
+  "events": [
+    {
+      "type": "Obstacle",
+      "rectangle": {
+        "a": {
+          "longitude": 13.325493335723877,
+          "latitude": 52.51456075310111
+        },
+        "b": {
+          "longitude": 13.337509632110596,
+          "latitude": 52.511596424357414
+        }
+      },
+      "strength": 1,
+      "time": {
+        "start": 0,
+        "end": 60
+      }
+    }
+  ],
+  "parkingLots": []
+}
+2018-09-05 11:27:59,336 INFO  EventserverAmbassador - Registered for sensor information: id=tl_0 at time 0.000,000,000 s
+2018-09-05 11:27:59,339 INFO  EventserverAmbassador - Registered for sensor information: id=tl_1 at time 0.000,000,000 s
+2018-09-05 11:27:59,360 INFO  EventserverAmbassador - Registered for sensor information: id=rsu_0 at time 0.000,000,000 s
+2018-09-05 11:27:59,564 INFO  EventserverAmbassador - Registered for sensor information: id=veh_0 at time 2.000,000,000 s
+2018-09-05 11:27:59,704 INFO  EventserverAmbassador - Registered for sensor information: id=veh_1 at time 6.000,000,000 s
+2018-09-05 11:27:59,777 INFO  EventserverAmbassador - Registered for sensor information: id=veh_2 at time 9.000,000,000 s
+2018-09-05 11:27:59,932 INFO  EventserverAmbassador - Registered for sensor information: id=veh_3 at time 11.000,000,000 s
+2018-09-05 11:28:00,267 INFO  EventserverAmbassador - SimTime 38000000000: Emitted sensor data to 1 vehicles
+2018-09-05 11:28:00,281 INFO  EventserverAmbassador - SimTime 39000000000: Emitted sensor data to 1 vehicles
+2018-09-05 11:28:00,288 INFO  EventserverAmbassador - SimTime 40000000000: Emitted sensor data to 1 vehicles
+2018-09-05 11:28:00,301 INFO  EventserverAmbassador - SimTime 41000000000: Emitted sensor data to 1 vehicles
+2018-09-05 11:28:00,306 INFO  EventserverAmbassador - SimTime 42000000000: Emitted sensor data to 1 vehicles
+2018-09-05 11:28:00,313 INFO  EventserverAmbassador - SimTime 43000000000: Emitted sensor data to 2 vehicles
+2018-09-05 11:28:00,327 INFO  EventserverAmbassador - SimTime 44000000000: Emitted sensor data to 2 vehicles
+2018-09-05 11:28:00,340 INFO  EventserverAmbassador - SimTime 45000000000: Emitted sensor data to 2 vehicles
+2018-09-05 11:28:00,347 INFO  EventserverAmbassador - SimTime 46000000000: Emitted sensor data to 2 vehicles
+2018-09-05 11:28:00,369 INFO  EventserverAmbassador - SimTime 47000000000: Emitted sensor data to 3 vehicles
+2018-09-05 11:28:00,377 INFO  EventserverAmbassador - SimTime 48000000000: Emitted sensor data to 3 vehicles
+2018-09-05 11:28:00,389 INFO  EventserverAmbassador - SimTime 49000000000: Emitted sensor data to 3 vehicles
+2018-09-05 11:28:00,437 INFO  EventserverAmbassador - SimTime 50000000000: Emitted sensor data to 3 vehicles
+2018-09-05 11:28:00,447 INFO  EventserverAmbassador - SimTime 51000000000: Emitted sensor data to 3 vehicles
+2018-09-05 11:28:00,453 INFO  EventserverAmbassador - SimTime 52000000000: Emitted sensor data to 4 vehicles
+2018-09-05 11:28:00,462 INFO  EventserverAmbassador - SimTime 53000000000: Emitted sensor data to 4 vehicles
+2018-09-05 11:28:00,467 INFO  EventserverAmbassador - SimTime 54000000000: Emitted sensor data to 4 vehicles
+2018-09-05 11:28:00,478 INFO  EventserverAmbassador - SimTime 55000000000: Emitted sensor data to 4 vehicles
+2018-09-05 11:28:00,486 INFO  EventserverAmbassador - SimTime 56000000000: Emitted sensor data to 4 vehicles
+2018-09-05 11:28:00,504 INFO  EventserverAmbassador - SimTime 57000000000: Emitted sensor data to 4 vehicles
+2018-09-05 11:28:00,515 INFO  EventserverAmbassador - SimTime 58000000000: Emitted sensor data to 4 vehicles
+2018-09-05 11:28:00,525 INFO  EventserverAmbassador - SimTime 59000000000: Emitted sensor data to 4 vehicles

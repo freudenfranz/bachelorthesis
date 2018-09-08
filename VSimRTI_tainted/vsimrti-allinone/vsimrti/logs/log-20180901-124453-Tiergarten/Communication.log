@@ -1,0 +1,7 @@
+2018-09-01 12:44:54,875 INFO  SnsAmbassador - Start Simulation
+2018-09-01 12:44:59,056 INFO  SnsAmbassador - Initialized SNS
+2018-09-01 12:45:04,055 INFO  SnsAmbassador - Add TrafficLight id=tl_0 @time=0.000,000,000 s
+2018-09-01 12:45:04,072 INFO  SnsAmbassador - Add TrafficLight id=tl_1 @time=0.000,000,000 s
+2018-09-01 12:45:04,096 INFO  SnsAmbassador - Add RSU id=rsu_0 @time=0.000,000,000 s
+2018-09-01 12:45:04,156 INFO  SnsAmbassador - Send v2xMessage.id=0 from node=rsu_0 as Topocast (singlehop) @time=0.000,000,000 s
+2018-09-01 12:45:04,234 INFO  SnsAmbassador - Receive v2xMessage.id=0 on node=tl_0 @time=0.000,900,000 s

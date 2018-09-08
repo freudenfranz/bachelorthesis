@@ -1,0 +1,191 @@
+\documentclass[
+a4paper,
+12pt,
+headsepline,
+numbers=noenddot,
+bibliography=totoc,
+index=totoc,
+fleqn,
+DIVcalc,
+headings=normal
+]{article}
+% Standard-Dokument mit
+%   Papierformat A4
+%   Binderand 5 mm
+%   Schrift 12-Punkt
+%   Linie unter der Kopfzeile
+%   Nummern ohne Punkt am Ende
+%   Literaturverzeichnis mit Nummer im Inhaltsverzeichnis
+%   Index mit Nummer im Inhaltsverzeichnis
+%   Formeln werden linksbündig statt zentriert angeordnet
+%   Berechne automatisch gute Werte für DIV
+%		Etwas kleinere Überschriften
+
+% Fonts etc:
+%   8-Bit-Fonts
+\usepackage[T1]{fontenc}
+
+% Schriftart
+\usepackage{helvet}
+
+
+%   zusätzliche Symbole
+\usepackage{textcomp,latexsym}
+
+%   Latin1-Umlaute in der Eingabe
+\usepackage[latin1]{inputenc}
+
+% neu deutsche Rechtschreibung
+\usepackage[ngerman]{babel}
+
+% für die aktuelle Zeit
+\usepackage{scrtime}
+
+%für Definitionen, Theoreme u.Ä.
+\usepackage{theorem}
+\theoremstyle{break}
+\newtheorem{Def}{Definition}
+
+% Web-Adressen auch mit T1-Encoding
+\usepackage[T1]{url}
+% und in tt-Font
+\urlstyle{tt}
+
+% konfigurierbarer Zeilenabstand
+\usepackage{setspace}
+
+% Grafik
+\usepackage{graphicx}
+
+% Mathematik: wer's braucht, sollte folgende Zeilen verwenden:
+\usepackage{amsfonts}
+\usepackage{amsmath}
+
+% Algorithm/Algorithmic-Umgebung für Algorithmen
+\usepackage{algorithm}
+\usepackage{algorithmic}
+
+\usepackage{multibib}
+\usepackage{hyperref}
+
+%% Hyperref erzeugt Hyperlinks in PDF-Dokumenten und erlaubt das
+%% Setzen bestimmter Attribute
+%\usepackage[
+%% Titel der Arbeit
+%pdftitle={<Thema der Arbeit>},
+%% Autor der Arbeit
+%pdfauthor={<Name des Autoren>},
+%% Art der Arbeit
+%pdfsubject=<Typ der Arbeit>]{hyperref}
+
+% fette Seitenzahlen im index für die Hauptreferenz ermöglichen
+% Verwendung: \index{Stichwort|ibf}
+\newcommand{\ibf}[1]{{\bfseries #1}}
+
+% Wer's hübscher findet: Numerierung von Formeln nicht mit
+% Kapitelnummer.Formelnummer, sondern nur mit Formelnummer
+%\renewcommand{\theequation}{\arabic{equation}}
+
+% eine Randnote für fehlende Teile
+\newcommand{\fehlt}[1]{(\marginpar[\hfill!$\longrightarrow$]{$\longleftarrow$!}Hier fehlt \emph{#1})}
+
+% Keinen Einzug bei neuen Absätzen
+ \setlength{\parindent}{0ex}
+
+% Abstand zweier Listenelemente kleiner
+\setlength{\itemsep}{0ex plus0.2ex}
+
+% Benutze bei der Numerierung von Gleichungen "Kapitelnummer.Gleichungsnummer"
+\renewcommand{\theequation}{\thechapter.\arabic{equation}}
+
+% Datum
+%\date{Frankfurt am Main\\ \today \\ \vspace{0.2cm}}
+
+% Und hier geht es los
+\begin{document}
+
+\vspace{4cm}
+  \begin{center}
+
+  \includegraphics[scale=0.2]{TuLogo}\\
+
+  \vspace{0.2cm}
+
+  {\scshape Fachgebiet Komplexe und Verteilte IT-Systeme}\\
+  \vspace{1cm
+  \includegraphics[scale=0.13]{logo}\\ 
+}
+%  {\scshape Institut für Softwaretechnik und Theoretische Informatik}
+  \vspace{1cm}
+
+
+  \bfseries{Maschinelle Extraktion von Modes aus Anforderungsdokumenten in der Automobilbranche}
+  \vspace{2cm}
+
+  - EXPOS\'{E} -
+
+  \vspace{4cm}
+  \begin{tabular}{|p{5cm}|p{9cm}|}
+  \hline
+  Name,Vorname & Pudlitz, Florian\\ \hline
+  Erstellung des Expos\'{e}s & \today\\ \hline
+  Studiengang & Computer Engineering (M.Sc.)\\ \hline
+  Betreuer & Prof. Dr. Kao, Jonas Winkler\\ \hline
+  \end{tabular}
+
+  \end{center}
+
+\newpage
+
+\section{Einleitung}
+Die stetig steigende Anzahl von Funktionen und Assistenzsystemen in einem Fahrzeug führt zu einem Komfortgewinn für den Fahrer und steigert die Sicherheit im Straßenverkehr. Dies geht einher mit einem immer wachsenden Softwareanteil, der für die Steuerung, Regelung, Überwachung und Automatisierung im Fahrzeug verantwortlich ist\cite{SEAutomotiv}. Die wachsende Komplexität stellt eine zunehmende Herausforderung für die Entwickler und Tester dar. Trotz der detaillierten Beschreibungen der Einzelfunktionen in den Anforderungsdokumenten gilt es ein funktionierendes Gesamtsystem zu entwickeln in denen alle Komponenten zuverlässig miteinander arbeiten. \\
+Um den Entwicklungsprozess zu unterstützen, konnte sich eine modellbasierte Softwareentwicklung etablieren. Hierbei wird die Software mit Hilfe von verschiedenen Modellen abgebildet und anschließend automatisiert in Quellcode umgesetzt. Softwareentwickler müssen aus den bestehenden Anforderungsdokumenten Zustände ableiten die in der modellbasierten Softwareentwicklung zum Einsatz kommen. Bisher fehlen jedoch Ansätze komponentenübergreifende globale Zustände aus den Lastenheften automatisiert zu erkennen. Auf der einen Seite profitieren Entwickler von den Informationen, welche globalen Zustände existieren, um die Systeme besser im Gesamtkontext zu verstehen. Auf der anderen Seite unterstützt es die Arbeit der Testentwickler Vorbedingungen für Tests zu erstellen. 
+
+\section{Modes}
+Die modellbasierte Softwareentwicklung beinhaltet die Abbildung der Software und deren Funktionen auf unterschiedliche Systemzustände. Diese Zustände werden Modes genannt\cite{Vogelsang}. 
+Um die Entwicklung eines Algorithmus zu ermöglichen und die Ergebnisse besser evaluieren zu können, ist eine genaue Definition von Modes notwendig. Die folgenden Kriterien müssen erfüllt sein, um als Mode in einem Lastenheft erkannt zu werden:
+\begin{itemize}
+\item Der Wechsel von Modezuständen ist nur während des Betriebs möglich. Parameter und Konstanten werden nicht als Mode erkannt.
+\item Die Zustände können ausschließlich konkrete Werte annehmen. Kontinuierliche Zustandsübergänge, beispielsweise Temperatur und Geschwindigkeit, sind ausgeschlossen.
+\item Die Zustandsänderung ist von außen durch den Nutzer beobachtbar. Es werden keine internen Änderungen berücksichtigt.
+\item Modes müssen eine funktionale Bedeutung für das Gesamtsystem haben. Fehlerzustände sind keine Modes.
+\end{itemize}
+Diese Arbeit konzentriert sich auf die Erkennung von globalen systemübergreifenden Modes. Sie umfassen mehrere einzelne Komponenten und bilden einen Gesamtzustand des Fahrzeugs ab.
+
+\section{Aufgabenstellung}
+Viele Anforderungsdokumente, beispielsweise Lastenhefte, sind in natürlicher Sprache verfasst. Das erhöht das Verständnis bei allen Beteiligten. Gleichzeitig erschwert es die automatisierte Suche von Modes, da domänenspezifische Begriffe und Abkürzungen verwendet werden. \\
+In dieser Arbeit soll ein Algorithmus zur Erkennung von globales Modes entwickelt werden, der anschließend mit Hilfe eines Tools evaluiert wird.\\ Folgende Teilaufgaben konnten dafür identifiziert:
+
+\begin{itemize}
+\item Entwicklung eines Algorithmus zur Erkennung von globalen Modes
+\item Identifikation der möglichen Zustände die ein Mode annehmen kann
+\item Entwicklung eines Softwaretools zur Umsetzung des Algorithmus
+\item Evaluation der Ergebnisse
+\end{itemize}
+
+\section{Lösungsansatz}
+
+Um Modes in Lastenheften automatisiert zu erkennen, sind umfangreiche Analysen der Anforderungs- und Informationstexte nötig. Ein großer Teil bezieht sich auf die Analyse von natürlicher Sprache.\\
+Im ersten Schritt werden Substantive mit Hilfe des Stanford Part-Of-Speech Tagger \cite{Toutanova} herausgefiltert. Anschließend dient die Häufigkeit des Vorkommens in allen ausgewählten Lastenheften einen ersten Anhaltspunkt für globale Modes. Inhaltlich gleiche Modes können über die Häufigkeit wie oft sie nebeneinander auftreten zusammengefasst werden.\\ 
+Im zweiten Schritt hat der Nutzer die Möglichkeit die Auswahl weiter einzugrenzen. Anschließend werden von den verbleibenden Modes die Zustände aus den Anforderungsdokumenten extrahiert. Dazu werden die Informationen eines \textit{Grammatikparsers} eingesetzt \cite{BitPar}. Dieser ermittelt den grammatikalischen Zusammenhang innerhalb eines Texts.\\
+Um die Qualität der Modeextraktion zu erhöhen, wird die Auswahl des Nutzers gespeichert und hat Einfluss in der nächsten Textanalyse.\\
+Weitere Optimierungen, beispielsweise parallele Ausführung der Lastenheftanalyse, sind denkbar.
+%
+%\begin{itemize}
+%\item POS-Tagger, Lemmatisierer für Modes
+%\item Häufigkeiten, Abbkürzungsverzeichnis für Modes
+%\item Wortabhängigkeiten für Zustände der Modes
+%\item GUI (zur Nutzung des Nutzerwissens) zur Verbesserung Zuverlässigkeit
+%\item Lernalgorithmus für Qualitätssteigerung
+%\end{itemize}
+%Um die Erkennung von globalen Modes zu ermöglichen, müssen mehrere Lastenhefte analysiert werden.
+
+\section{Evaluation}
+Um den Algorithmus anschließend zu evaluieren, wird dieser in einem Softwaretool implementiert und die Ausgaben mit einer Referenzliste verglichen.
+Dazu wird ein Set von Lastenheften ausgewählt, in denen globale Modes enthalten sind. Die Lastenhefte werden von der Daimler AG zur Verfügung gestellt. Die Referenzliste von Modes entsteht durch eine manuelle Analyse der Lastenhefte. Dafür wird eine Befragung einer kleinen Gruppe von Softwareentwicklern und Testern der Daimler AG durchgeführt. Anschließend können die identifizierten Modes mit den Ergebnissen des Softwaretools verglichen werden. 
+Die Qualität der Evaluation kann verbessert werden, wenn der Vorgang mit weiteren Sets an Lastenheften durchgeführt wird. 
+\bibliography{Literatur1}
+\bibliographystyle {plain}
+
+\end{document}
+

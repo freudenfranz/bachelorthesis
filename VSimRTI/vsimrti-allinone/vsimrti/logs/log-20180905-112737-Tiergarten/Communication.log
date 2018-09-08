@@ -1,0 +1,688 @@
+2018-09-05 11:27:37,510 INFO  SnsAmbassador - Start Simulation
+2018-09-05 11:27:39,141 INFO  SnsAmbassador - Initialized SNS
+2018-09-05 11:27:59,328 INFO  SnsAmbassador - Add TrafficLight id=tl_0 @time=0.000,000,000 s
+2018-09-05 11:27:59,339 INFO  SnsAmbassador - Add TrafficLight id=tl_1 @time=0.000,000,000 s
+2018-09-05 11:27:59,359 INFO  SnsAmbassador - Add RSU id=rsu_0 @time=0.000,000,000 s
+2018-09-05 11:27:59,397 INFO  SnsAmbassador - Send v2xMessage.id=0 from node=rsu_0 as Topocast (singlehop) @time=0.000,000,000 s
+2018-09-05 11:27:59,464 INFO  SnsAmbassador - Receive v2xMessage.id=0 on node=tl_0 @time=0.000,900,000 s
+2018-09-05 11:27:59,552 INFO  SnsAmbassador - Added Vehicle id=veh_0 @time=2.000,000,000 s
+2018-09-05 11:27:59,582 INFO  SnsAmbassador - Send v2xMessage.id=1 from node=rsu_0 as Topocast (singlehop) @time=2.000,000,000 s
+2018-09-05 11:27:59,586 INFO  SnsAmbassador - Receive v2xMessage.id=1 on node=tl_0 @time=2.000,900,000 s
+2018-09-05 11:27:59,633 INFO  SnsAmbassador - Send v2xMessage.id=2 from node=rsu_0 as Topocast (singlehop) @time=4.000,000,000 s
+2018-09-05 11:27:59,636 INFO  SnsAmbassador - Receive v2xMessage.id=2 on node=tl_0 @time=4.001,900,000 s
+2018-09-05 11:27:59,703 INFO  SnsAmbassador - Added Vehicle id=veh_1 @time=6.000,000,000 s
+2018-09-05 11:27:59,718 INFO  SnsAmbassador - Send v2xMessage.id=3 from node=rsu_0 as Topocast (singlehop) @time=6.000,000,000 s
+2018-09-05 11:27:59,720 INFO  SnsAmbassador - Receive v2xMessage.id=3 on node=tl_0 @time=6.000,400,000 s
+2018-09-05 11:27:59,762 INFO  SnsAmbassador - Send v2xMessage.id=4 from node=rsu_0 as Topocast (singlehop) @time=8.000,000,000 s
+2018-09-05 11:27:59,763 INFO  SnsAmbassador - Receive v2xMessage.id=4 on node=tl_0 @time=8.000,900,000 s
+2018-09-05 11:27:59,776 INFO  SnsAmbassador - Added Vehicle id=veh_2 @time=9.000,000,000 s
+2018-09-05 11:27:59,783 INFO  SnsAmbassador - Send v2xMessage.id=5 from=veh_2 as Geocast (geo routing) @time=9.000,000,000 s
+2018-09-05 11:27:59,881 INFO  SnsAmbassador - Receive v2xMessage.id=5 on node=veh_2 @time=9.040,568,180 s
+2018-09-05 11:27:59,902 INFO  SnsAmbassador - Send v2xMessage.id=6 from node=rsu_0 as Topocast (singlehop) @time=10.000,000,000 s
+2018-09-05 11:27:59,903 INFO  SnsAmbassador - Receive v2xMessage.id=6 on node=tl_0 @time=10.001,400,000 s
+2018-09-05 11:27:59,903 INFO  SnsAmbassador - Send v2xMessage.id=7 from=veh_2 as Geocast (geo routing) @time=10.000,000,000 s
+2018-09-05 11:27:59,909 INFO  SnsAmbassador - Receive v2xMessage.id=7 on node=veh_2 @time=10.054,397,795 s
+2018-09-05 11:27:59,932 INFO  SnsAmbassador - Added Vehicle id=veh_3 @time=11.000,000,000 s
+2018-09-05 11:27:59,945 INFO  SnsAmbassador - Send v2xMessage.id=8 from=veh_2 as Geocast (geo routing) @time=11.000,000,000 s
+2018-09-05 11:27:59,949 INFO  SnsAmbassador - Receive v2xMessage.id=8 on node=veh_3 @time=11.024,627,893 s
+2018-09-05 11:27:59,962 INFO  SnsAmbassador - Send v2xMessage.id=9 from node=rsu_0 as Topocast (singlehop) @time=12.000,000,000 s
+2018-09-05 11:27:59,963 INFO  SnsAmbassador - Receive v2xMessage.id=9 on node=tl_0 @time=12.000,900,000 s
+2018-09-05 11:27:59,963 INFO  SnsAmbassador - Send v2xMessage.id=10 from=veh_2 as Geocast (geo routing) @time=12.000,000,000 s
+2018-09-05 11:27:59,963 INFO  SnsAmbassador - Receive v2xMessage.id=10 on node=veh_3 @time=12.059,624,871 s
+2018-09-05 11:27:59,974 INFO  SnsAmbassador - Send v2xMessage.id=11 from=veh_2 as Geocast (geo routing) @time=13.000,000,000 s
+2018-09-05 11:27:59,979 INFO  SnsAmbassador - Send v2xMessage.id=12 from node=rsu_0 as Topocast (singlehop) @time=14.000,000,000 s
+2018-09-05 11:27:59,980 INFO  SnsAmbassador - Receive v2xMessage.id=12 on node=veh_0 @time=14.000,400,000 s
+2018-09-05 11:27:59,980 INFO  SnsAmbassador - Receive v2xMessage.id=12 on node=tl_0 @time=14.000,400,000 s
+2018-09-05 11:27:59,981 INFO  SnsAmbassador - Send v2xMessage.id=13 from=veh_2 as Geocast (geo routing) @time=14.000,000,000 s
+2018-09-05 11:27:59,993 INFO  SnsAmbassador - Send v2xMessage.id=14 from=veh_2 as Geocast (geo routing) @time=15.000,000,000 s
+2018-09-05 11:28:00,007 INFO  SnsAmbassador - Send v2xMessage.id=15 from node=rsu_0 as Topocast (singlehop) @time=16.000,000,000 s
+2018-09-05 11:28:00,009 INFO  SnsAmbassador - Receive v2xMessage.id=15 on node=veh_0 @time=16.000,400,000 s
+2018-09-05 11:28:00,014 INFO  SnsAmbassador - Receive v2xMessage.id=15 on node=tl_0 @time=16.000,400,000 s
+2018-09-05 11:28:00,014 INFO  SnsAmbassador - Send v2xMessage.id=16 from=veh_2 as Geocast (geo routing) @time=16.000,000,000 s
+2018-09-05 11:28:00,026 INFO  SnsAmbassador - Send v2xMessage.id=17 from=veh_2 as Geocast (geo routing) @time=17.000,000,000 s
+2018-09-05 11:28:00,036 INFO  SnsAmbassador - Send v2xMessage.id=18 from node=rsu_0 as Topocast (singlehop) @time=18.000,000,000 s
+2018-09-05 11:28:00,038 INFO  SnsAmbassador - Receive v2xMessage.id=18 on node=veh_0 @time=18.001,400,000 s
+2018-09-05 11:28:00,038 INFO  SnsAmbassador - Receive v2xMessage.id=18 on node=veh_1 @time=18.001,400,000 s
+2018-09-05 11:28:00,038 INFO  SnsAmbassador - Receive v2xMessage.id=18 on node=tl_0 @time=18.001,400,000 s
+2018-09-05 11:28:00,042 INFO  SnsAmbassador - Send v2xMessage.id=19 from=veh_2 as Geocast (geo routing) @time=18.000,000,000 s
+2018-09-05 11:28:00,053 INFO  SnsAmbassador - Send v2xMessage.id=20 from=veh_2 as Geocast (geo routing) @time=19.000,000,000 s
+2018-09-05 11:28:00,057 INFO  SnsAmbassador - Send v2xMessage.id=21 from node=rsu_0 as Topocast (singlehop) @time=20.000,000,000 s
+2018-09-05 11:28:00,065 INFO  SnsAmbassador - Receive v2xMessage.id=21 on node=veh_2 @time=20.001,900,000 s
+2018-09-05 11:28:00,065 INFO  SnsAmbassador - Receive v2xMessage.id=21 on node=veh_0 @time=20.001,900,000 s
+2018-09-05 11:28:00,065 INFO  SnsAmbassador - Receive v2xMessage.id=21 on node=veh_1 @time=20.001,900,000 s
+2018-09-05 11:28:00,065 INFO  SnsAmbassador - Receive v2xMessage.id=21 on node=tl_0 @time=20.001,900,000 s
+2018-09-05 11:28:00,066 INFO  SnsAmbassador - Send v2xMessage.id=22 from=veh_2 as Geocast (geo routing) @time=20.000,000,000 s
+2018-09-05 11:28:00,081 INFO  SnsAmbassador - Send v2xMessage.id=23 from=veh_2 as Geocast (geo routing) @time=21.000,000,000 s
+2018-09-05 11:28:00,088 INFO  SnsAmbassador - Send v2xMessage.id=24 from node=rsu_0 as Topocast (singlehop) @time=22.000,000,000 s
+2018-09-05 11:28:00,093 INFO  SnsAmbassador - Receive v2xMessage.id=24 on node=veh_2 @time=22.001,900,000 s
+2018-09-05 11:28:00,094 INFO  SnsAmbassador - Receive v2xMessage.id=24 on node=veh_3 @time=22.001,900,000 s
+2018-09-05 11:28:00,094 INFO  SnsAmbassador - Receive v2xMessage.id=24 on node=veh_0 @time=22.001,900,000 s
+2018-09-05 11:28:00,094 INFO  SnsAmbassador - Receive v2xMessage.id=24 on node=veh_1 @time=22.001,900,000 s
+2018-09-05 11:28:00,094 INFO  SnsAmbassador - Receive v2xMessage.id=24 on node=tl_0 @time=22.001,900,000 s
+2018-09-05 11:28:00,095 INFO  SnsAmbassador - Send v2xMessage.id=25 from=veh_2 as Geocast (geo routing) @time=22.000,000,000 s
+2018-09-05 11:28:00,102 INFO  SnsAmbassador - Send v2xMessage.id=26 from=veh_2 as Geocast (geo routing) @time=23.000,000,000 s
+2018-09-05 11:28:00,111 INFO  SnsAmbassador - Send v2xMessage.id=27 from node=rsu_0 as Topocast (singlehop) @time=24.000,000,000 s
+2018-09-05 11:28:00,113 INFO  SnsAmbassador - Receive v2xMessage.id=27 on node=veh_2 @time=24.002,400,000 s
+2018-09-05 11:28:00,113 INFO  SnsAmbassador - Receive v2xMessage.id=27 on node=veh_3 @time=24.002,400,000 s
+2018-09-05 11:28:00,113 INFO  SnsAmbassador - Receive v2xMessage.id=27 on node=veh_0 @time=24.002,400,000 s
+2018-09-05 11:28:00,113 INFO  SnsAmbassador - Receive v2xMessage.id=27 on node=veh_1 @time=24.002,400,000 s
+2018-09-05 11:28:00,113 INFO  SnsAmbassador - Receive v2xMessage.id=27 on node=tl_0 @time=24.002,400,000 s
+2018-09-05 11:28:00,121 INFO  SnsAmbassador - Send v2xMessage.id=28 from=veh_2 as Geocast (geo routing) @time=24.000,000,000 s
+2018-09-05 11:28:00,134 INFO  SnsAmbassador - Send v2xMessage.id=29 from=veh_2 as Geocast (geo routing) @time=25.000,000,000 s
+2018-09-05 11:28:00,144 INFO  SnsAmbassador - Send v2xMessage.id=30 from node=rsu_0 as Topocast (singlehop) @time=26.000,000,000 s
+2018-09-05 11:28:00,149 INFO  SnsAmbassador - Receive v2xMessage.id=30 on node=veh_2 @time=26.000,900,000 s
+2018-09-05 11:28:00,149 INFO  SnsAmbassador - Receive v2xMessage.id=30 on node=veh_3 @time=26.000,900,000 s
+2018-09-05 11:28:00,149 INFO  SnsAmbassador - Receive v2xMessage.id=30 on node=veh_0 @time=26.000,900,000 s
+2018-09-05 11:28:00,149 INFO  SnsAmbassador - Receive v2xMessage.id=30 on node=veh_1 @time=26.000,900,000 s
+2018-09-05 11:28:00,149 INFO  SnsAmbassador - Receive v2xMessage.id=30 on node=tl_0 @time=26.000,900,000 s
+2018-09-05 11:28:00,150 INFO  SnsAmbassador - Send v2xMessage.id=31 from=veh_2 as Geocast (geo routing) @time=26.000,000,000 s
+2018-09-05 11:28:00,159 INFO  SnsAmbassador - Send v2xMessage.id=32 from=veh_2 as Geocast (geo routing) @time=27.000,000,000 s
+2018-09-05 11:28:00,164 INFO  SnsAmbassador - Send v2xMessage.id=33 from node=rsu_0 as Topocast (singlehop) @time=28.000,000,000 s
+2018-09-05 11:28:00,167 INFO  SnsAmbassador - Receive v2xMessage.id=33 on node=veh_2 @time=28.002,400,000 s
+2018-09-05 11:28:00,167 INFO  SnsAmbassador - Receive v2xMessage.id=33 on node=veh_3 @time=28.002,400,000 s
+2018-09-05 11:28:00,167 INFO  SnsAmbassador - Receive v2xMessage.id=33 on node=veh_0 @time=28.002,400,000 s
+2018-09-05 11:28:00,168 INFO  SnsAmbassador - Receive v2xMessage.id=33 on node=veh_1 @time=28.002,400,000 s
+2018-09-05 11:28:00,168 INFO  SnsAmbassador - Receive v2xMessage.id=33 on node=tl_0 @time=28.002,400,000 s
+2018-09-05 11:28:00,168 INFO  SnsAmbassador - Send v2xMessage.id=34 from=veh_2 as Geocast (geo routing) @time=28.000,000,000 s
+2018-09-05 11:28:00,172 INFO  SnsAmbassador - Send v2xMessage.id=35 from=veh_2 as Geocast (geo routing) @time=29.000,000,000 s
+2018-09-05 11:28:00,176 INFO  SnsAmbassador - Send v2xMessage.id=36 from node=rsu_0 as Topocast (singlehop) @time=30.000,000,000 s
+2018-09-05 11:28:00,182 INFO  SnsAmbassador - Receive v2xMessage.id=36 on node=veh_2 @time=30.000,400,000 s
+2018-09-05 11:28:00,185 INFO  SnsAmbassador - Receive v2xMessage.id=36 on node=veh_3 @time=30.000,400,000 s
+2018-09-05 11:28:00,185 INFO  SnsAmbassador - Receive v2xMessage.id=36 on node=veh_0 @time=30.000,400,000 s
+2018-09-05 11:28:00,185 INFO  SnsAmbassador - Receive v2xMessage.id=36 on node=veh_1 @time=30.000,400,000 s
+2018-09-05 11:28:00,185 INFO  SnsAmbassador - Receive v2xMessage.id=36 on node=tl_0 @time=30.000,400,000 s
+2018-09-05 11:28:00,185 INFO  SnsAmbassador - Send v2xMessage.id=37 from=veh_2 as Geocast (geo routing) @time=30.000,000,000 s
+2018-09-05 11:28:00,192 INFO  SnsAmbassador - Send v2xMessage.id=38 from=veh_2 as Geocast (geo routing) @time=31.000,000,000 s
+2018-09-05 11:28:00,196 INFO  SnsAmbassador - Send v2xMessage.id=39 from node=rsu_0 as Topocast (singlehop) @time=32.000,000,000 s
+2018-09-05 11:28:00,197 INFO  SnsAmbassador - Receive v2xMessage.id=39 on node=veh_2 @time=32.000,900,000 s
+2018-09-05 11:28:00,198 INFO  SnsAmbassador - Receive v2xMessage.id=39 on node=veh_3 @time=32.000,900,000 s
+2018-09-05 11:28:00,198 INFO  SnsAmbassador - Receive v2xMessage.id=39 on node=veh_0 @time=32.000,900,000 s
+2018-09-05 11:28:00,198 INFO  SnsAmbassador - Receive v2xMessage.id=39 on node=veh_1 @time=32.000,900,000 s
+2018-09-05 11:28:00,198 INFO  SnsAmbassador - Receive v2xMessage.id=39 on node=tl_0 @time=32.000,900,000 s
+2018-09-05 11:28:00,198 INFO  SnsAmbassador - Send v2xMessage.id=40 from=veh_2 as Geocast (geo routing) @time=32.000,000,000 s
+2018-09-05 11:28:00,206 INFO  SnsAmbassador - Send v2xMessage.id=41 from=veh_2 as Geocast (geo routing) @time=33.000,000,000 s
+2018-09-05 11:28:00,212 INFO  SnsAmbassador - Send v2xMessage.id=42 from node=rsu_0 as Topocast (singlehop) @time=34.000,000,000 s
+2018-09-05 11:28:00,215 INFO  SnsAmbassador - Receive v2xMessage.id=42 on node=veh_2 @time=34.002,400,000 s
+2018-09-05 11:28:00,215 INFO  SnsAmbassador - Receive v2xMessage.id=42 on node=veh_3 @time=34.002,400,000 s
+2018-09-05 11:28:00,215 INFO  SnsAmbassador - Receive v2xMessage.id=42 on node=veh_0 @time=34.002,400,000 s
+2018-09-05 11:28:00,215 INFO  SnsAmbassador - Receive v2xMessage.id=42 on node=veh_1 @time=34.002,400,000 s
+2018-09-05 11:28:00,215 INFO  SnsAmbassador - Receive v2xMessage.id=42 on node=tl_0 @time=34.002,400,000 s
+2018-09-05 11:28:00,216 INFO  SnsAmbassador - Send v2xMessage.id=43 from=veh_2 as Geocast (geo routing) @time=34.000,000,000 s
+2018-09-05 11:28:00,220 INFO  SnsAmbassador - Send v2xMessage.id=44 from=veh_2 as Geocast (geo routing) @time=35.000,000,000 s
+2018-09-05 11:28:00,238 INFO  SnsAmbassador - Send v2xMessage.id=45 from node=rsu_0 as Topocast (singlehop) @time=36.000,000,000 s
+2018-09-05 11:28:00,248 INFO  SnsAmbassador - Receive v2xMessage.id=45 on node=veh_2 @time=36.001,900,000 s
+2018-09-05 11:28:00,248 INFO  SnsAmbassador - Receive v2xMessage.id=45 on node=veh_3 @time=36.001,900,000 s
+2018-09-05 11:28:00,248 INFO  SnsAmbassador - Receive v2xMessage.id=45 on node=veh_0 @time=36.001,900,000 s
+2018-09-05 11:28:00,248 INFO  SnsAmbassador - Receive v2xMessage.id=45 on node=veh_1 @time=36.001,900,000 s
+2018-09-05 11:28:00,248 INFO  SnsAmbassador - Receive v2xMessage.id=45 on node=tl_0 @time=36.001,900,000 s
+2018-09-05 11:28:00,249 INFO  SnsAmbassador - Send v2xMessage.id=46 from=veh_2 as Geocast (geo routing) @time=36.000,000,000 s
+2018-09-05 11:28:00,257 INFO  SnsAmbassador - Send v2xMessage.id=47 from=veh_2 as Geocast (geo routing) @time=37.000,000,000 s
+2018-09-05 11:28:00,269 INFO  SnsAmbassador - Send v2xMessage.id=48 from node=rsu_0 as Topocast (singlehop) @time=38.000,000,000 s
+2018-09-05 11:28:00,270 INFO  SnsAmbassador - Receive v2xMessage.id=48 on node=veh_2 @time=38.000,400,000 s
+2018-09-05 11:28:00,270 INFO  SnsAmbassador - Receive v2xMessage.id=48 on node=veh_3 @time=38.000,400,000 s
+2018-09-05 11:28:00,270 INFO  SnsAmbassador - Receive v2xMessage.id=48 on node=veh_0 @time=38.000,400,000 s
+2018-09-05 11:28:00,270 INFO  SnsAmbassador - Receive v2xMessage.id=48 on node=veh_1 @time=38.000,400,000 s
+2018-09-05 11:28:00,270 INFO  SnsAmbassador - Receive v2xMessage.id=48 on node=tl_0 @time=38.000,400,000 s
+2018-09-05 11:28:00,270 INFO  SnsAmbassador - Send v2xMessage.id=49 from=veh_2 as Geocast (geo routing) @time=38.000,000,000 s
+2018-09-05 11:28:00,282 INFO  SnsAmbassador - Send v2xMessage.id=50 from=veh_2 as Geocast (geo routing) @time=39.000,000,000 s
+2018-09-05 11:28:00,289 INFO  SnsAmbassador - Send v2xMessage.id=51 from node=rsu_0 as Topocast (singlehop) @time=40.000,000,000 s
+2018-09-05 11:28:00,291 INFO  SnsAmbassador - Receive v2xMessage.id=51 on node=veh_2 @time=40.000,900,000 s
+2018-09-05 11:28:00,291 INFO  SnsAmbassador - Receive v2xMessage.id=51 on node=veh_3 @time=40.000,900,000 s
+2018-09-05 11:28:00,291 INFO  SnsAmbassador - Receive v2xMessage.id=51 on node=veh_0 @time=40.000,900,000 s
+2018-09-05 11:28:00,291 INFO  SnsAmbassador - Receive v2xMessage.id=51 on node=veh_1 @time=40.000,900,000 s
+2018-09-05 11:28:00,291 INFO  SnsAmbassador - Receive v2xMessage.id=51 on node=tl_0 @time=40.000,900,000 s
+2018-09-05 11:28:00,291 INFO  SnsAmbassador - Send v2xMessage.id=52 from=veh_2 as Geocast (geo routing) @time=40.000,000,000 s
+2018-09-05 11:28:00,301 INFO  SnsAmbassador - Send v2xMessage.id=53 from=veh_2 as Geocast (geo routing) @time=41.000,000,000 s
+2018-09-05 11:28:00,307 INFO  SnsAmbassador - Send v2xMessage.id=54 from node=rsu_0 as Topocast (singlehop) @time=42.000,000,000 s
+2018-09-05 11:28:00,309 INFO  SnsAmbassador - Receive v2xMessage.id=54 on node=veh_2 @time=42.000,400,000 s
+2018-09-05 11:28:00,309 INFO  SnsAmbassador - Receive v2xMessage.id=54 on node=veh_3 @time=42.000,400,000 s
+2018-09-05 11:28:00,309 INFO  SnsAmbassador - Receive v2xMessage.id=54 on node=veh_0 @time=42.000,400,000 s
+2018-09-05 11:28:00,309 INFO  SnsAmbassador - Receive v2xMessage.id=54 on node=veh_1 @time=42.000,400,000 s
+2018-09-05 11:28:00,309 INFO  SnsAmbassador - Receive v2xMessage.id=54 on node=tl_0 @time=42.000,400,000 s
+2018-09-05 11:28:00,309 INFO  SnsAmbassador - Send v2xMessage.id=55 from=veh_2 as Geocast (geo routing) @time=42.000,000,000 s
+2018-09-05 11:28:00,313 INFO  SnsAmbassador - Send v2xMessage.id=56 from=veh_2 as Geocast (geo routing) @time=43.000,000,000 s
+2018-09-05 11:28:00,328 INFO  SnsAmbassador - Send v2xMessage.id=57 from node=rsu_0 as Topocast (singlehop) @time=44.000,000,000 s
+2018-09-05 11:28:00,334 INFO  SnsAmbassador - Receive v2xMessage.id=57 on node=veh_2 @time=44.001,400,000 s
+2018-09-05 11:28:00,334 INFO  SnsAmbassador - Receive v2xMessage.id=57 on node=veh_3 @time=44.001,400,000 s
+2018-09-05 11:28:00,334 INFO  SnsAmbassador - Receive v2xMessage.id=57 on node=veh_0 @time=44.001,400,000 s
+2018-09-05 11:28:00,334 INFO  SnsAmbassador - Receive v2xMessage.id=57 on node=veh_1 @time=44.001,400,000 s
+2018-09-05 11:28:00,334 INFO  SnsAmbassador - Receive v2xMessage.id=57 on node=tl_0 @time=44.001,400,000 s
+2018-09-05 11:28:00,334 INFO  SnsAmbassador - Send v2xMessage.id=58 from=veh_2 as Geocast (geo routing) @time=44.000,000,000 s
+2018-09-05 11:28:00,342 INFO  SnsAmbassador - Send v2xMessage.id=59 from=veh_2 as Geocast (geo routing) @time=45.000,000,000 s
+2018-09-05 11:28:00,356 INFO  SnsAmbassador - Send v2xMessage.id=60 from node=rsu_0 as Topocast (singlehop) @time=46.000,000,000 s
+2018-09-05 11:28:00,358 INFO  SnsAmbassador - Receive v2xMessage.id=60 on node=veh_2 @time=46.000,900,000 s
+2018-09-05 11:28:00,358 INFO  SnsAmbassador - Receive v2xMessage.id=60 on node=veh_3 @time=46.000,900,000 s
+2018-09-05 11:28:00,358 INFO  SnsAmbassador - Receive v2xMessage.id=60 on node=veh_0 @time=46.000,900,000 s
+2018-09-05 11:28:00,358 INFO  SnsAmbassador - Receive v2xMessage.id=60 on node=veh_1 @time=46.000,900,000 s
+2018-09-05 11:28:00,358 INFO  SnsAmbassador - Receive v2xMessage.id=60 on node=tl_0 @time=46.000,900,000 s
+2018-09-05 11:28:00,358 INFO  SnsAmbassador - Send v2xMessage.id=61 from=veh_2 as Geocast (geo routing) @time=46.000,000,000 s
+2018-09-05 11:28:00,371 INFO  SnsAmbassador - Send v2xMessage.id=62 from=veh_2 as Geocast (geo routing) @time=47.000,000,000 s
+2018-09-05 11:28:00,379 INFO  SnsAmbassador - Send v2xMessage.id=63 from node=rsu_0 as Topocast (singlehop) @time=48.000,000,000 s
+2018-09-05 11:28:00,383 INFO  SnsAmbassador - Receive v2xMessage.id=63 on node=veh_2 @time=48.001,400,000 s
+2018-09-05 11:28:00,383 INFO  SnsAmbassador - Receive v2xMessage.id=63 on node=veh_3 @time=48.001,400,000 s
+2018-09-05 11:28:00,384 INFO  SnsAmbassador - Receive v2xMessage.id=63 on node=veh_0 @time=48.001,400,000 s
+2018-09-05 11:28:00,384 INFO  SnsAmbassador - Receive v2xMessage.id=63 on node=veh_1 @time=48.001,400,000 s
+2018-09-05 11:28:00,385 INFO  SnsAmbassador - Receive v2xMessage.id=63 on node=tl_0 @time=48.001,400,000 s
+2018-09-05 11:28:00,385 INFO  SnsAmbassador - Send v2xMessage.id=64 from=veh_2 as Geocast (geo routing) @time=48.000,000,000 s
+2018-09-05 11:28:00,389 INFO  SnsAmbassador - Send v2xMessage.id=65 from=veh_2 as Geocast (geo routing) @time=49.000,000,000 s
+2018-09-05 11:28:00,438 INFO  SnsAmbassador - Send v2xMessage.id=66 from node=rsu_0 as Topocast (singlehop) @time=50.000,000,000 s
+2018-09-05 11:28:00,439 INFO  SnsAmbassador - Receive v2xMessage.id=66 on node=veh_2 @time=50.001,400,000 s
+2018-09-05 11:28:00,439 INFO  SnsAmbassador - Receive v2xMessage.id=66 on node=veh_3 @time=50.001,400,000 s
+2018-09-05 11:28:00,439 INFO  SnsAmbassador - Receive v2xMessage.id=66 on node=veh_0 @time=50.001,400,000 s
+2018-09-05 11:28:00,439 INFO  SnsAmbassador - Receive v2xMessage.id=66 on node=veh_1 @time=50.001,400,000 s
+2018-09-05 11:28:00,439 INFO  SnsAmbassador - Receive v2xMessage.id=66 on node=tl_0 @time=50.001,400,000 s
+2018-09-05 11:28:00,439 INFO  SnsAmbassador - Send v2xMessage.id=67 from=veh_2 as Geocast (geo routing) @time=50.000,000,000 s
+2018-09-05 11:28:00,449 INFO  SnsAmbassador - Send v2xMessage.id=68 from=veh_2 as Geocast (geo routing) @time=51.000,000,000 s
+2018-09-05 11:28:00,454 INFO  SnsAmbassador - Send v2xMessage.id=69 from node=rsu_0 as Topocast (singlehop) @time=52.000,000,000 s
+2018-09-05 11:28:00,459 INFO  SnsAmbassador - Receive v2xMessage.id=69 on node=veh_2 @time=52.001,900,000 s
+2018-09-05 11:28:00,459 INFO  SnsAmbassador - Receive v2xMessage.id=69 on node=veh_3 @time=52.001,900,000 s
+2018-09-05 11:28:00,459 INFO  SnsAmbassador - Receive v2xMessage.id=69 on node=veh_0 @time=52.001,900,000 s
+2018-09-05 11:28:00,459 INFO  SnsAmbassador - Receive v2xMessage.id=69 on node=veh_1 @time=52.001,900,000 s
+2018-09-05 11:28:00,459 INFO  SnsAmbassador - Receive v2xMessage.id=69 on node=tl_0 @time=52.001,900,000 s
+2018-09-05 11:28:00,460 INFO  SnsAmbassador - Send v2xMessage.id=70 from=veh_2 as Geocast (geo routing) @time=52.000,000,000 s
+2018-09-05 11:28:00,463 INFO  SnsAmbassador - Send v2xMessage.id=71 from=veh_2 as Geocast (geo routing) @time=53.000,000,000 s
+2018-09-05 11:28:00,467 INFO  SnsAmbassador - Send v2xMessage.id=72 from node=rsu_0 as Topocast (singlehop) @time=54.000,000,000 s
+2018-09-05 11:28:00,469 INFO  SnsAmbassador - Receive v2xMessage.id=72 on node=veh_2 @time=54.002,400,000 s
+2018-09-05 11:28:00,469 INFO  SnsAmbassador - Receive v2xMessage.id=72 on node=veh_3 @time=54.002,400,000 s
+2018-09-05 11:28:00,469 INFO  SnsAmbassador - Receive v2xMessage.id=72 on node=veh_0 @time=54.002,400,000 s
+2018-09-05 11:28:00,469 INFO  SnsAmbassador - Receive v2xMessage.id=72 on node=veh_1 @time=54.002,400,000 s
+2018-09-05 11:28:00,469 INFO  SnsAmbassador - Receive v2xMessage.id=72 on node=tl_0 @time=54.002,400,000 s
+2018-09-05 11:28:00,470 INFO  SnsAmbassador - Send v2xMessage.id=73 from=veh_2 as Geocast (geo routing) @time=54.000,000,000 s
+2018-09-05 11:28:00,479 INFO  SnsAmbassador - Send v2xMessage.id=74 from=veh_2 as Geocast (geo routing) @time=55.000,000,000 s
+2018-09-05 11:28:00,487 INFO  SnsAmbassador - Send v2xMessage.id=75 from node=rsu_0 as Topocast (singlehop) @time=56.000,000,000 s
+2018-09-05 11:28:00,493 INFO  SnsAmbassador - Receive v2xMessage.id=75 on node=veh_2 @time=56.001,900,000 s
+2018-09-05 11:28:00,493 INFO  SnsAmbassador - Receive v2xMessage.id=75 on node=veh_3 @time=56.001,900,000 s
+2018-09-05 11:28:00,493 INFO  SnsAmbassador - Receive v2xMessage.id=75 on node=veh_0 @time=56.001,900,000 s
+2018-09-05 11:28:00,493 INFO  SnsAmbassador - Receive v2xMessage.id=75 on node=veh_1 @time=56.001,900,000 s
+2018-09-05 11:28:00,493 INFO  SnsAmbassador - Receive v2xMessage.id=75 on node=tl_0 @time=56.001,900,000 s
+2018-09-05 11:28:00,497 INFO  SnsAmbassador - Send v2xMessage.id=76 from=veh_2 as Geocast (geo routing) @time=56.000,000,000 s
+2018-09-05 11:28:00,510 INFO  SnsAmbassador - Send v2xMessage.id=77 from=veh_2 as Geocast (geo routing) @time=57.000,000,000 s
+2018-09-05 11:28:00,516 INFO  SnsAmbassador - Send v2xMessage.id=78 from node=rsu_0 as Topocast (singlehop) @time=58.000,000,000 s
+2018-09-05 11:28:00,517 INFO  SnsAmbassador - Receive v2xMessage.id=78 on node=veh_2 @time=58.000,400,000 s
+2018-09-05 11:28:00,518 INFO  SnsAmbassador - Receive v2xMessage.id=78 on node=veh_3 @time=58.000,400,000 s
+2018-09-05 11:28:00,518 INFO  SnsAmbassador - Receive v2xMessage.id=78 on node=veh_0 @time=58.000,400,000 s
+2018-09-05 11:28:00,518 INFO  SnsAmbassador - Receive v2xMessage.id=78 on node=veh_1 @time=58.000,400,000 s
+2018-09-05 11:28:00,518 INFO  SnsAmbassador - Receive v2xMessage.id=78 on node=tl_0 @time=58.000,400,000 s
+2018-09-05 11:28:00,518 INFO  SnsAmbassador - Send v2xMessage.id=79 from=veh_2 as Geocast (geo routing) @time=58.000,000,000 s
+2018-09-05 11:28:00,531 INFO  SnsAmbassador - Send v2xMessage.id=80 from=veh_2 as Geocast (geo routing) @time=59.000,000,000 s
+2018-09-05 11:28:00,535 INFO  SnsAmbassador - Send v2xMessage.id=81 from node=rsu_0 as Topocast (singlehop) @time=60.000,000,000 s
+2018-09-05 11:28:00,536 INFO  SnsAmbassador - Receive v2xMessage.id=81 on node=veh_2 @time=60.002,400,000 s
+2018-09-05 11:28:00,536 INFO  SnsAmbassador - Receive v2xMessage.id=81 on node=veh_3 @time=60.002,400,000 s
+2018-09-05 11:28:00,536 INFO  SnsAmbassador - Receive v2xMessage.id=81 on node=veh_0 @time=60.002,400,000 s
+2018-09-05 11:28:00,536 INFO  SnsAmbassador - Receive v2xMessage.id=81 on node=veh_1 @time=60.002,400,000 s
+2018-09-05 11:28:00,536 INFO  SnsAmbassador - Receive v2xMessage.id=81 on node=tl_0 @time=60.002,400,000 s
+2018-09-05 11:28:00,536 INFO  SnsAmbassador - Send v2xMessage.id=82 from=veh_2 as Geocast (geo routing) @time=60.000,000,000 s
+2018-09-05 11:28:00,550 INFO  SnsAmbassador - Send v2xMessage.id=83 from=veh_2 as Geocast (geo routing) @time=61.000,000,000 s
+2018-09-05 11:28:00,553 INFO  SnsAmbassador - Send v2xMessage.id=84 from node=rsu_0 as Topocast (singlehop) @time=62.000,000,000 s
+2018-09-05 11:28:00,554 INFO  SnsAmbassador - Receive v2xMessage.id=84 on node=veh_2 @time=62.000,900,000 s
+2018-09-05 11:28:00,554 INFO  SnsAmbassador - Receive v2xMessage.id=84 on node=veh_3 @time=62.000,900,000 s
+2018-09-05 11:28:00,554 INFO  SnsAmbassador - Receive v2xMessage.id=84 on node=veh_0 @time=62.000,900,000 s
+2018-09-05 11:28:00,554 INFO  SnsAmbassador - Receive v2xMessage.id=84 on node=veh_1 @time=62.000,900,000 s
+2018-09-05 11:28:00,555 INFO  SnsAmbassador - Receive v2xMessage.id=84 on node=tl_0 @time=62.000,900,000 s
+2018-09-05 11:28:00,562 INFO  SnsAmbassador - Send v2xMessage.id=85 from=veh_2 as Geocast (geo routing) @time=62.000,000,000 s
+2018-09-05 11:28:00,566 INFO  SnsAmbassador - Send v2xMessage.id=86 from=veh_2 as Geocast (geo routing) @time=63.000,000,000 s
+2018-09-05 11:28:00,569 INFO  SnsAmbassador - Send v2xMessage.id=87 from node=rsu_0 as Topocast (singlehop) @time=64.000,000,000 s
+2018-09-05 11:28:00,570 INFO  SnsAmbassador - Receive v2xMessage.id=87 on node=veh_2 @time=64.001,900,000 s
+2018-09-05 11:28:00,570 INFO  SnsAmbassador - Receive v2xMessage.id=87 on node=veh_3 @time=64.001,900,000 s
+2018-09-05 11:28:00,570 INFO  SnsAmbassador - Receive v2xMessage.id=87 on node=veh_0 @time=64.001,900,000 s
+2018-09-05 11:28:00,571 INFO  SnsAmbassador - Receive v2xMessage.id=87 on node=veh_1 @time=64.001,900,000 s
+2018-09-05 11:28:00,571 INFO  SnsAmbassador - Receive v2xMessage.id=87 on node=tl_0 @time=64.001,900,000 s
+2018-09-05 11:28:00,571 INFO  SnsAmbassador - Send v2xMessage.id=88 from=veh_2 as Geocast (geo routing) @time=64.000,000,000 s
+2018-09-05 11:28:00,580 INFO  SnsAmbassador - Send v2xMessage.id=89 from=veh_2 as Geocast (geo routing) @time=65.000,000,000 s
+2018-09-05 11:28:00,585 INFO  SnsAmbassador - Send v2xMessage.id=90 from node=rsu_0 as Topocast (singlehop) @time=66.000,000,000 s
+2018-09-05 11:28:00,588 INFO  SnsAmbassador - Receive v2xMessage.id=90 on node=veh_2 @time=66.000,900,000 s
+2018-09-05 11:28:00,588 INFO  SnsAmbassador - Receive v2xMessage.id=90 on node=veh_3 @time=66.000,900,000 s
+2018-09-05 11:28:00,588 INFO  SnsAmbassador - Receive v2xMessage.id=90 on node=veh_0 @time=66.000,900,000 s
+2018-09-05 11:28:00,588 INFO  SnsAmbassador - Receive v2xMessage.id=90 on node=veh_1 @time=66.000,900,000 s
+2018-09-05 11:28:00,588 INFO  SnsAmbassador - Receive v2xMessage.id=90 on node=tl_0 @time=66.000,900,000 s
+2018-09-05 11:28:00,589 INFO  SnsAmbassador - Send v2xMessage.id=91 from=veh_2 as Geocast (geo routing) @time=66.000,000,000 s
+2018-09-05 11:28:00,594 INFO  SnsAmbassador - Send v2xMessage.id=92 from=veh_2 as Geocast (geo routing) @time=67.000,000,000 s
+2018-09-05 11:28:00,597 INFO  SnsAmbassador - Send v2xMessage.id=93 from node=rsu_0 as Topocast (singlehop) @time=68.000,000,000 s
+2018-09-05 11:28:00,599 INFO  SnsAmbassador - Receive v2xMessage.id=93 on node=veh_2 @time=68.000,900,000 s
+2018-09-05 11:28:00,599 INFO  SnsAmbassador - Receive v2xMessage.id=93 on node=veh_3 @time=68.000,900,000 s
+2018-09-05 11:28:00,599 INFO  SnsAmbassador - Receive v2xMessage.id=93 on node=veh_0 @time=68.000,900,000 s
+2018-09-05 11:28:00,599 INFO  SnsAmbassador - Receive v2xMessage.id=93 on node=veh_1 @time=68.000,900,000 s
+2018-09-05 11:28:00,599 INFO  SnsAmbassador - Receive v2xMessage.id=93 on node=tl_0 @time=68.000,900,000 s
+2018-09-05 11:28:00,599 INFO  SnsAmbassador - Send v2xMessage.id=94 from=veh_2 as Geocast (geo routing) @time=68.000,000,000 s
+2018-09-05 11:28:00,602 INFO  SnsAmbassador - Send v2xMessage.id=95 from=veh_2 as Geocast (geo routing) @time=69.000,000,000 s
+2018-09-05 11:28:00,608 INFO  SnsAmbassador - Send v2xMessage.id=96 from node=rsu_0 as Topocast (singlehop) @time=70.000,000,000 s
+2018-09-05 11:28:00,609 INFO  SnsAmbassador - Receive v2xMessage.id=96 on node=veh_2 @time=70.001,400,000 s
+2018-09-05 11:28:00,609 INFO  SnsAmbassador - Receive v2xMessage.id=96 on node=veh_3 @time=70.001,400,000 s
+2018-09-05 11:28:00,609 INFO  SnsAmbassador - Receive v2xMessage.id=96 on node=veh_0 @time=70.001,400,000 s
+2018-09-05 11:28:00,609 INFO  SnsAmbassador - Receive v2xMessage.id=96 on node=veh_1 @time=70.001,400,000 s
+2018-09-05 11:28:00,609 INFO  SnsAmbassador - Receive v2xMessage.id=96 on node=tl_0 @time=70.001,400,000 s
+2018-09-05 11:28:00,609 INFO  SnsAmbassador - Send v2xMessage.id=97 from=veh_2 as Geocast (geo routing) @time=70.000,000,000 s
+2018-09-05 11:28:00,616 INFO  SnsAmbassador - Send v2xMessage.id=98 from=veh_2 as Geocast (geo routing) @time=71.000,000,000 s
+2018-09-05 11:28:00,619 INFO  SnsAmbassador - Send v2xMessage.id=99 from node=rsu_0 as Topocast (singlehop) @time=72.000,000,000 s
+2018-09-05 11:28:00,620 INFO  SnsAmbassador - Receive v2xMessage.id=99 on node=veh_2 @time=72.000,900,000 s
+2018-09-05 11:28:00,620 INFO  SnsAmbassador - Receive v2xMessage.id=99 on node=veh_3 @time=72.000,900,000 s
+2018-09-05 11:28:00,620 INFO  SnsAmbassador - Receive v2xMessage.id=99 on node=veh_0 @time=72.000,900,000 s
+2018-09-05 11:28:00,620 INFO  SnsAmbassador - Receive v2xMessage.id=99 on node=veh_1 @time=72.000,900,000 s
+2018-09-05 11:28:00,620 INFO  SnsAmbassador - Receive v2xMessage.id=99 on node=tl_0 @time=72.000,900,000 s
+2018-09-05 11:28:00,621 INFO  SnsAmbassador - Send v2xMessage.id=100 from=veh_2 as Geocast (geo routing) @time=72.000,000,000 s
+2018-09-05 11:28:00,626 INFO  SnsAmbassador - Send v2xMessage.id=101 from=veh_2 as Geocast (geo routing) @time=73.000,000,000 s
+2018-09-05 11:28:00,629 INFO  SnsAmbassador - Send v2xMessage.id=102 from node=rsu_0 as Topocast (singlehop) @time=74.000,000,000 s
+2018-09-05 11:28:00,630 INFO  SnsAmbassador - Receive v2xMessage.id=102 on node=veh_2 @time=74.002,400,000 s
+2018-09-05 11:28:00,631 INFO  SnsAmbassador - Receive v2xMessage.id=102 on node=veh_3 @time=74.002,400,000 s
+2018-09-05 11:28:00,631 INFO  SnsAmbassador - Receive v2xMessage.id=102 on node=veh_0 @time=74.002,400,000 s
+2018-09-05 11:28:00,631 INFO  SnsAmbassador - Receive v2xMessage.id=102 on node=veh_1 @time=74.002,400,000 s
+2018-09-05 11:28:00,631 INFO  SnsAmbassador - Receive v2xMessage.id=102 on node=tl_0 @time=74.002,400,000 s
+2018-09-05 11:28:00,631 INFO  SnsAmbassador - Send v2xMessage.id=103 from=veh_2 as Geocast (geo routing) @time=74.000,000,000 s
+2018-09-05 11:28:00,635 INFO  SnsAmbassador - Send v2xMessage.id=104 from=veh_2 as Geocast (geo routing) @time=75.000,000,000 s
+2018-09-05 11:28:00,642 INFO  SnsAmbassador - Send v2xMessage.id=105 from node=rsu_0 as Topocast (singlehop) @time=76.000,000,000 s
+2018-09-05 11:28:00,644 INFO  SnsAmbassador - Receive v2xMessage.id=105 on node=veh_2 @time=76.000,900,000 s
+2018-09-05 11:28:00,645 INFO  SnsAmbassador - Receive v2xMessage.id=105 on node=veh_3 @time=76.000,900,000 s
+2018-09-05 11:28:00,645 INFO  SnsAmbassador - Receive v2xMessage.id=105 on node=veh_0 @time=76.000,900,000 s
+2018-09-05 11:28:00,645 INFO  SnsAmbassador - Receive v2xMessage.id=105 on node=veh_1 @time=76.000,900,000 s
+2018-09-05 11:28:00,645 INFO  SnsAmbassador - Receive v2xMessage.id=105 on node=tl_0 @time=76.000,900,000 s
+2018-09-05 11:28:00,647 INFO  SnsAmbassador - Send v2xMessage.id=106 from=veh_2 as Geocast (geo routing) @time=76.000,000,000 s
+2018-09-05 11:28:00,651 INFO  SnsAmbassador - Send v2xMessage.id=107 from=veh_2 as Geocast (geo routing) @time=77.000,000,000 s
+2018-09-05 11:28:00,664 INFO  SnsAmbassador - Send v2xMessage.id=108 from node=rsu_0 as Topocast (singlehop) @time=78.000,000,000 s
+2018-09-05 11:28:00,668 INFO  SnsAmbassador - Receive v2xMessage.id=108 on node=veh_2 @time=78.001,900,000 s
+2018-09-05 11:28:00,668 INFO  SnsAmbassador - Receive v2xMessage.id=108 on node=veh_3 @time=78.001,900,000 s
+2018-09-05 11:28:00,668 INFO  SnsAmbassador - Receive v2xMessage.id=108 on node=veh_0 @time=78.001,900,000 s
+2018-09-05 11:28:00,668 INFO  SnsAmbassador - Receive v2xMessage.id=108 on node=veh_1 @time=78.001,900,000 s
+2018-09-05 11:28:00,668 INFO  SnsAmbassador - Receive v2xMessage.id=108 on node=tl_0 @time=78.001,900,000 s
+2018-09-05 11:28:00,668 INFO  SnsAmbassador - Send v2xMessage.id=109 from=veh_2 as Geocast (geo routing) @time=78.000,000,000 s
+2018-09-05 11:28:00,697 INFO  SnsAmbassador - Send v2xMessage.id=110 from=veh_2 as Geocast (geo routing) @time=79.000,000,000 s
+2018-09-05 11:28:00,703 INFO  SnsAmbassador - Send v2xMessage.id=111 from node=rsu_0 as Topocast (singlehop) @time=80.000,000,000 s
+2018-09-05 11:28:00,704 INFO  SnsAmbassador - Receive v2xMessage.id=111 on node=veh_2 @time=80.001,900,000 s
+2018-09-05 11:28:00,708 INFO  SnsAmbassador - Receive v2xMessage.id=111 on node=veh_3 @time=80.001,900,000 s
+2018-09-05 11:28:00,709 INFO  SnsAmbassador - Receive v2xMessage.id=111 on node=veh_0 @time=80.001,900,000 s
+2018-09-05 11:28:00,710 INFO  SnsAmbassador - Receive v2xMessage.id=111 on node=veh_1 @time=80.001,900,000 s
+2018-09-05 11:28:00,710 INFO  SnsAmbassador - Receive v2xMessage.id=111 on node=tl_0 @time=80.001,900,000 s
+2018-09-05 11:28:00,710 INFO  SnsAmbassador - Send v2xMessage.id=112 from=veh_2 as Geocast (geo routing) @time=80.000,000,000 s
+2018-09-05 11:28:00,718 INFO  SnsAmbassador - Send v2xMessage.id=113 from=veh_2 as Geocast (geo routing) @time=81.000,000,000 s
+2018-09-05 11:28:00,727 INFO  SnsAmbassador - Send v2xMessage.id=114 from node=rsu_0 as Topocast (singlehop) @time=82.000,000,000 s
+2018-09-05 11:28:00,729 INFO  SnsAmbassador - Receive v2xMessage.id=114 on node=veh_2 @time=82.002,400,000 s
+2018-09-05 11:28:00,729 INFO  SnsAmbassador - Receive v2xMessage.id=114 on node=veh_3 @time=82.002,400,000 s
+2018-09-05 11:28:00,729 INFO  SnsAmbassador - Receive v2xMessage.id=114 on node=veh_0 @time=82.002,400,000 s
+2018-09-05 11:28:00,729 INFO  SnsAmbassador - Receive v2xMessage.id=114 on node=veh_1 @time=82.002,400,000 s
+2018-09-05 11:28:00,729 INFO  SnsAmbassador - Receive v2xMessage.id=114 on node=tl_0 @time=82.002,400,000 s
+2018-09-05 11:28:00,729 INFO  SnsAmbassador - Send v2xMessage.id=115 from=veh_2 as Geocast (geo routing) @time=82.000,000,000 s
+2018-09-05 11:28:00,738 INFO  SnsAmbassador - Send v2xMessage.id=116 from=veh_2 as Geocast (geo routing) @time=83.000,000,000 s
+2018-09-05 11:28:00,743 INFO  SnsAmbassador - Send v2xMessage.id=117 from node=rsu_0 as Topocast (singlehop) @time=84.000,000,000 s
+2018-09-05 11:28:00,747 INFO  SnsAmbassador - Receive v2xMessage.id=117 on node=veh_2 @time=84.001,900,000 s
+2018-09-05 11:28:00,750 INFO  SnsAmbassador - Receive v2xMessage.id=117 on node=veh_3 @time=84.001,900,000 s
+2018-09-05 11:28:00,750 INFO  SnsAmbassador - Receive v2xMessage.id=117 on node=veh_0 @time=84.001,900,000 s
+2018-09-05 11:28:00,750 INFO  SnsAmbassador - Receive v2xMessage.id=117 on node=veh_1 @time=84.001,900,000 s
+2018-09-05 11:28:00,750 INFO  SnsAmbassador - Receive v2xMessage.id=117 on node=tl_0 @time=84.001,900,000 s
+2018-09-05 11:28:00,751 INFO  SnsAmbassador - Send v2xMessage.id=118 from=veh_2 as Geocast (geo routing) @time=84.000,000,000 s
+2018-09-05 11:28:00,754 INFO  SnsAmbassador - Send v2xMessage.id=119 from=veh_2 as Geocast (geo routing) @time=85.000,000,000 s
+2018-09-05 11:28:00,768 INFO  SnsAmbassador - Send v2xMessage.id=120 from node=rsu_0 as Topocast (singlehop) @time=86.000,000,000 s
+2018-09-05 11:28:00,768 INFO  SnsAmbassador - Receive v2xMessage.id=120 on node=veh_2 @time=86.002,400,000 s
+2018-09-05 11:28:00,768 INFO  SnsAmbassador - Receive v2xMessage.id=120 on node=veh_3 @time=86.002,400,000 s
+2018-09-05 11:28:00,768 INFO  SnsAmbassador - Receive v2xMessage.id=120 on node=veh_0 @time=86.002,400,000 s
+2018-09-05 11:28:00,769 INFO  SnsAmbassador - Receive v2xMessage.id=120 on node=veh_1 @time=86.002,400,000 s
+2018-09-05 11:28:00,769 INFO  SnsAmbassador - Receive v2xMessage.id=120 on node=tl_0 @time=86.002,400,000 s
+2018-09-05 11:28:00,769 INFO  SnsAmbassador - Send v2xMessage.id=121 from=veh_2 as Geocast (geo routing) @time=86.000,000,000 s
+2018-09-05 11:28:00,772 INFO  SnsAmbassador - Send v2xMessage.id=122 from=veh_2 as Geocast (geo routing) @time=87.000,000,000 s
+2018-09-05 11:28:00,778 INFO  SnsAmbassador - Send v2xMessage.id=123 from node=rsu_0 as Topocast (singlehop) @time=88.000,000,000 s
+2018-09-05 11:28:00,780 INFO  SnsAmbassador - Receive v2xMessage.id=123 on node=veh_2 @time=88.000,900,000 s
+2018-09-05 11:28:00,780 INFO  SnsAmbassador - Receive v2xMessage.id=123 on node=veh_3 @time=88.000,900,000 s
+2018-09-05 11:28:00,780 INFO  SnsAmbassador - Receive v2xMessage.id=123 on node=veh_0 @time=88.000,900,000 s
+2018-09-05 11:28:00,780 INFO  SnsAmbassador - Receive v2xMessage.id=123 on node=veh_1 @time=88.000,900,000 s
+2018-09-05 11:28:00,780 INFO  SnsAmbassador - Receive v2xMessage.id=123 on node=tl_0 @time=88.000,900,000 s
+2018-09-05 11:28:00,780 INFO  SnsAmbassador - Send v2xMessage.id=124 from=veh_2 as Geocast (geo routing) @time=88.000,000,000 s
+2018-09-05 11:28:00,787 INFO  SnsAmbassador - Send v2xMessage.id=125 from=veh_2 as Geocast (geo routing) @time=89.000,000,000 s
+2018-09-05 11:28:00,793 INFO  SnsAmbassador - Send v2xMessage.id=126 from node=rsu_0 as Topocast (singlehop) @time=90.000,000,000 s
+2018-09-05 11:28:00,798 INFO  SnsAmbassador - Receive v2xMessage.id=126 on node=veh_2 @time=90.000,900,000 s
+2018-09-05 11:28:00,798 INFO  SnsAmbassador - Receive v2xMessage.id=126 on node=veh_3 @time=90.000,900,000 s
+2018-09-05 11:28:00,798 INFO  SnsAmbassador - Receive v2xMessage.id=126 on node=veh_0 @time=90.000,900,000 s
+2018-09-05 11:28:00,798 INFO  SnsAmbassador - Receive v2xMessage.id=126 on node=veh_1 @time=90.000,900,000 s
+2018-09-05 11:28:00,798 INFO  SnsAmbassador - Receive v2xMessage.id=126 on node=tl_0 @time=90.000,900,000 s
+2018-09-05 11:28:00,799 INFO  SnsAmbassador - Send v2xMessage.id=127 from=veh_2 as Geocast (geo routing) @time=90.000,000,000 s
+2018-09-05 11:28:00,808 INFO  SnsAmbassador - Send v2xMessage.id=128 from=veh_2 as Geocast (geo routing) @time=91.000,000,000 s
+2018-09-05 11:28:00,812 INFO  SnsAmbassador - Send v2xMessage.id=129 from node=rsu_0 as Topocast (singlehop) @time=92.000,000,000 s
+2018-09-05 11:28:00,813 INFO  SnsAmbassador - Receive v2xMessage.id=129 on node=veh_2 @time=92.001,900,000 s
+2018-09-05 11:28:00,813 INFO  SnsAmbassador - Receive v2xMessage.id=129 on node=veh_3 @time=92.001,900,000 s
+2018-09-05 11:28:00,813 INFO  SnsAmbassador - Receive v2xMessage.id=129 on node=veh_0 @time=92.001,900,000 s
+2018-09-05 11:28:00,813 INFO  SnsAmbassador - Receive v2xMessage.id=129 on node=veh_1 @time=92.001,900,000 s
+2018-09-05 11:28:00,813 INFO  SnsAmbassador - Receive v2xMessage.id=129 on node=tl_0 @time=92.001,900,000 s
+2018-09-05 11:28:00,814 INFO  SnsAmbassador - Send v2xMessage.id=130 from=veh_2 as Geocast (geo routing) @time=92.000,000,000 s
+2018-09-05 11:28:00,818 INFO  SnsAmbassador - Send v2xMessage.id=131 from=veh_2 as Geocast (geo routing) @time=93.000,000,000 s
+2018-09-05 11:28:00,827 INFO  SnsAmbassador - Send v2xMessage.id=132 from node=rsu_0 as Topocast (singlehop) @time=94.000,000,000 s
+2018-09-05 11:28:00,828 INFO  SnsAmbassador - Receive v2xMessage.id=132 on node=veh_2 @time=94.000,900,000 s
+2018-09-05 11:28:00,828 INFO  SnsAmbassador - Receive v2xMessage.id=132 on node=veh_3 @time=94.000,900,000 s
+2018-09-05 11:28:00,828 INFO  SnsAmbassador - Receive v2xMessage.id=132 on node=veh_0 @time=94.000,900,000 s
+2018-09-05 11:28:00,828 INFO  SnsAmbassador - Receive v2xMessage.id=132 on node=veh_1 @time=94.000,900,000 s
+2018-09-05 11:28:00,828 INFO  SnsAmbassador - Receive v2xMessage.id=132 on node=tl_0 @time=94.000,900,000 s
+2018-09-05 11:28:00,828 INFO  SnsAmbassador - Send v2xMessage.id=133 from=veh_2 as Geocast (geo routing) @time=94.000,000,000 s
+2018-09-05 11:28:00,839 INFO  SnsAmbassador - Send v2xMessage.id=134 from=veh_2 as Geocast (geo routing) @time=95.000,000,000 s
+2018-09-05 11:28:00,844 INFO  SnsAmbassador - Send v2xMessage.id=135 from node=rsu_0 as Topocast (singlehop) @time=96.000,000,000 s
+2018-09-05 11:28:00,845 INFO  SnsAmbassador - Receive v2xMessage.id=135 on node=veh_2 @time=96.001,900,000 s
+2018-09-05 11:28:00,845 INFO  SnsAmbassador - Receive v2xMessage.id=135 on node=veh_3 @time=96.001,900,000 s
+2018-09-05 11:28:00,845 INFO  SnsAmbassador - Receive v2xMessage.id=135 on node=veh_0 @time=96.001,900,000 s
+2018-09-05 11:28:00,846 INFO  SnsAmbassador - Receive v2xMessage.id=135 on node=veh_1 @time=96.001,900,000 s
+2018-09-05 11:28:00,846 INFO  SnsAmbassador - Receive v2xMessage.id=135 on node=tl_0 @time=96.001,900,000 s
+2018-09-05 11:28:00,846 INFO  SnsAmbassador - Send v2xMessage.id=136 from=veh_2 as Geocast (geo routing) @time=96.000,000,000 s
+2018-09-05 11:28:00,849 INFO  SnsAmbassador - Send v2xMessage.id=137 from=veh_2 as Geocast (geo routing) @time=97.000,000,000 s
+2018-09-05 11:28:00,858 INFO  SnsAmbassador - Send v2xMessage.id=138 from node=rsu_0 as Topocast (singlehop) @time=98.000,000,000 s
+2018-09-05 11:28:00,859 INFO  SnsAmbassador - Receive v2xMessage.id=138 on node=veh_2 @time=98.001,900,000 s
+2018-09-05 11:28:00,859 INFO  SnsAmbassador - Receive v2xMessage.id=138 on node=veh_3 @time=98.001,900,000 s
+2018-09-05 11:28:00,859 INFO  SnsAmbassador - Receive v2xMessage.id=138 on node=veh_0 @time=98.001,900,000 s
+2018-09-05 11:28:00,859 INFO  SnsAmbassador - Receive v2xMessage.id=138 on node=veh_1 @time=98.001,900,000 s
+2018-09-05 11:28:00,859 INFO  SnsAmbassador - Receive v2xMessage.id=138 on node=tl_0 @time=98.001,900,000 s
+2018-09-05 11:28:00,860 INFO  SnsAmbassador - Send v2xMessage.id=139 from=veh_2 as Geocast (geo routing) @time=98.000,000,000 s
+2018-09-05 11:28:00,868 INFO  SnsAmbassador - Send v2xMessage.id=140 from=veh_2 as Geocast (geo routing) @time=99.000,000,000 s
+2018-09-05 11:28:00,875 INFO  SnsAmbassador - Send v2xMessage.id=141 from node=rsu_0 as Topocast (singlehop) @time=100.000,000,000 s
+2018-09-05 11:28:00,876 INFO  SnsAmbassador - Receive v2xMessage.id=141 on node=veh_2 @time=100.001,900,000 s
+2018-09-05 11:28:00,876 INFO  SnsAmbassador - Receive v2xMessage.id=141 on node=veh_3 @time=100.001,900,000 s
+2018-09-05 11:28:00,876 INFO  SnsAmbassador - Receive v2xMessage.id=141 on node=veh_0 @time=100.001,900,000 s
+2018-09-05 11:28:00,876 INFO  SnsAmbassador - Receive v2xMessage.id=141 on node=veh_1 @time=100.001,900,000 s
+2018-09-05 11:28:00,876 INFO  SnsAmbassador - Receive v2xMessage.id=141 on node=tl_0 @time=100.001,900,000 s
+2018-09-05 11:28:00,876 INFO  SnsAmbassador - Send v2xMessage.id=142 from=veh_2 as Geocast (geo routing) @time=100.000,000,000 s
+2018-09-05 11:28:00,888 INFO  SnsAmbassador - Send v2xMessage.id=143 from=veh_2 as Geocast (geo routing) @time=101.000,000,000 s
+2018-09-05 11:28:00,894 INFO  SnsAmbassador - Send v2xMessage.id=144 from node=rsu_0 as Topocast (singlehop) @time=102.000,000,000 s
+2018-09-05 11:28:00,895 INFO  SnsAmbassador - Receive v2xMessage.id=144 on node=veh_2 @time=102.000,900,000 s
+2018-09-05 11:28:00,895 INFO  SnsAmbassador - Receive v2xMessage.id=144 on node=veh_3 @time=102.000,900,000 s
+2018-09-05 11:28:00,895 INFO  SnsAmbassador - Receive v2xMessage.id=144 on node=veh_0 @time=102.000,900,000 s
+2018-09-05 11:28:00,895 INFO  SnsAmbassador - Receive v2xMessage.id=144 on node=veh_1 @time=102.000,900,000 s
+2018-09-05 11:28:00,895 INFO  SnsAmbassador - Receive v2xMessage.id=144 on node=tl_0 @time=102.000,900,000 s
+2018-09-05 11:28:00,895 INFO  SnsAmbassador - Send v2xMessage.id=145 from=veh_2 as Geocast (geo routing) @time=102.000,000,000 s
+2018-09-05 11:28:00,899 INFO  SnsAmbassador - Send v2xMessage.id=146 from=veh_2 as Geocast (geo routing) @time=103.000,000,000 s
+2018-09-05 11:28:00,902 INFO  SnsAmbassador - Send v2xMessage.id=147 from node=rsu_0 as Topocast (singlehop) @time=104.000,000,000 s
+2018-09-05 11:28:00,903 INFO  SnsAmbassador - Receive v2xMessage.id=147 on node=veh_2 @time=104.001,400,000 s
+2018-09-05 11:28:00,903 INFO  SnsAmbassador - Receive v2xMessage.id=147 on node=veh_3 @time=104.001,400,000 s
+2018-09-05 11:28:00,903 INFO  SnsAmbassador - Receive v2xMessage.id=147 on node=veh_0 @time=104.001,400,000 s
+2018-09-05 11:28:00,903 INFO  SnsAmbassador - Receive v2xMessage.id=147 on node=veh_1 @time=104.001,400,000 s
+2018-09-05 11:28:00,903 INFO  SnsAmbassador - Receive v2xMessage.id=147 on node=tl_0 @time=104.001,400,000 s
+2018-09-05 11:28:00,903 INFO  SnsAmbassador - Send v2xMessage.id=148 from=veh_2 as Geocast (geo routing) @time=104.000,000,000 s
+2018-09-05 11:28:00,916 INFO  SnsAmbassador - Send v2xMessage.id=149 from=veh_2 as Geocast (geo routing) @time=105.000,000,000 s
+2018-09-05 11:28:00,929 INFO  SnsAmbassador - Send v2xMessage.id=150 from node=rsu_0 as Topocast (singlehop) @time=106.000,000,000 s
+2018-09-05 11:28:00,932 INFO  SnsAmbassador - Receive v2xMessage.id=150 on node=veh_2 @time=106.001,400,000 s
+2018-09-05 11:28:00,932 INFO  SnsAmbassador - Receive v2xMessage.id=150 on node=veh_3 @time=106.001,400,000 s
+2018-09-05 11:28:00,932 INFO  SnsAmbassador - Receive v2xMessage.id=150 on node=veh_0 @time=106.001,400,000 s
+2018-09-05 11:28:00,932 INFO  SnsAmbassador - Receive v2xMessage.id=150 on node=veh_1 @time=106.001,400,000 s
+2018-09-05 11:28:00,932 INFO  SnsAmbassador - Receive v2xMessage.id=150 on node=tl_0 @time=106.001,400,000 s
+2018-09-05 11:28:00,933 INFO  SnsAmbassador - Send v2xMessage.id=151 from=veh_2 as Geocast (geo routing) @time=106.000,000,000 s
+2018-09-05 11:28:00,936 INFO  SnsAmbassador - Send v2xMessage.id=152 from=veh_2 as Geocast (geo routing) @time=107.000,000,000 s
+2018-09-05 11:28:00,939 INFO  SnsAmbassador - Send v2xMessage.id=153 from node=rsu_0 as Topocast (singlehop) @time=108.000,000,000 s
+2018-09-05 11:28:00,941 INFO  SnsAmbassador - Receive v2xMessage.id=153 on node=veh_2 @time=108.001,400,000 s
+2018-09-05 11:28:00,941 INFO  SnsAmbassador - Receive v2xMessage.id=153 on node=veh_3 @time=108.001,400,000 s
+2018-09-05 11:28:00,941 INFO  SnsAmbassador - Receive v2xMessage.id=153 on node=veh_0 @time=108.001,400,000 s
+2018-09-05 11:28:00,943 INFO  SnsAmbassador - Receive v2xMessage.id=153 on node=veh_1 @time=108.001,400,000 s
+2018-09-05 11:28:00,943 INFO  SnsAmbassador - Receive v2xMessage.id=153 on node=tl_0 @time=108.001,400,000 s
+2018-09-05 11:28:00,944 INFO  SnsAmbassador - Send v2xMessage.id=154 from=veh_2 as Geocast (geo routing) @time=108.000,000,000 s
+2018-09-05 11:28:00,948 INFO  SnsAmbassador - Send v2xMessage.id=155 from=veh_2 as Geocast (geo routing) @time=109.000,000,000 s
+2018-09-05 11:28:00,951 INFO  SnsAmbassador - Send v2xMessage.id=156 from node=rsu_0 as Topocast (singlehop) @time=110.000,000,000 s
+2018-09-05 11:28:00,953 INFO  SnsAmbassador - Receive v2xMessage.id=156 on node=veh_2 @time=110.000,400,000 s
+2018-09-05 11:28:00,953 INFO  SnsAmbassador - Receive v2xMessage.id=156 on node=veh_3 @time=110.000,400,000 s
+2018-09-05 11:28:00,953 INFO  SnsAmbassador - Receive v2xMessage.id=156 on node=veh_0 @time=110.000,400,000 s
+2018-09-05 11:28:00,953 INFO  SnsAmbassador - Receive v2xMessage.id=156 on node=veh_1 @time=110.000,400,000 s
+2018-09-05 11:28:00,953 INFO  SnsAmbassador - Receive v2xMessage.id=156 on node=tl_0 @time=110.000,400,000 s
+2018-09-05 11:28:00,953 INFO  SnsAmbassador - Send v2xMessage.id=157 from=veh_2 as Geocast (geo routing) @time=110.000,000,000 s
+2018-09-05 11:28:00,963 INFO  SnsAmbassador - Send v2xMessage.id=158 from=veh_2 as Geocast (geo routing) @time=111.000,000,000 s
+2018-09-05 11:28:00,966 INFO  SnsAmbassador - Send v2xMessage.id=159 from node=rsu_0 as Topocast (singlehop) @time=112.000,000,000 s
+2018-09-05 11:28:00,967 INFO  SnsAmbassador - Receive v2xMessage.id=159 on node=veh_2 @time=112.000,900,000 s
+2018-09-05 11:28:00,967 INFO  SnsAmbassador - Receive v2xMessage.id=159 on node=veh_3 @time=112.000,900,000 s
+2018-09-05 11:28:00,967 INFO  SnsAmbassador - Receive v2xMessage.id=159 on node=veh_0 @time=112.000,900,000 s
+2018-09-05 11:28:00,967 INFO  SnsAmbassador - Receive v2xMessage.id=159 on node=veh_1 @time=112.000,900,000 s
+2018-09-05 11:28:00,967 INFO  SnsAmbassador - Receive v2xMessage.id=159 on node=tl_0 @time=112.000,900,000 s
+2018-09-05 11:28:00,968 INFO  SnsAmbassador - Send v2xMessage.id=160 from=veh_2 as Geocast (geo routing) @time=112.000,000,000 s
+2018-09-05 11:28:00,970 INFO  SnsAmbassador - Send v2xMessage.id=161 from=veh_2 as Geocast (geo routing) @time=113.000,000,000 s
+2018-09-05 11:28:00,976 INFO  SnsAmbassador - Send v2xMessage.id=162 from node=rsu_0 as Topocast (singlehop) @time=114.000,000,000 s
+2018-09-05 11:28:00,977 INFO  SnsAmbassador - Receive v2xMessage.id=162 on node=veh_2 @time=114.001,400,000 s
+2018-09-05 11:28:00,978 INFO  SnsAmbassador - Receive v2xMessage.id=162 on node=veh_3 @time=114.001,400,000 s
+2018-09-05 11:28:00,978 INFO  SnsAmbassador - Receive v2xMessage.id=162 on node=veh_0 @time=114.001,400,000 s
+2018-09-05 11:28:00,979 INFO  SnsAmbassador - Receive v2xMessage.id=162 on node=veh_1 @time=114.001,400,000 s
+2018-09-05 11:28:00,980 INFO  SnsAmbassador - Receive v2xMessage.id=162 on node=tl_0 @time=114.001,400,000 s
+2018-09-05 11:28:00,980 INFO  SnsAmbassador - Send v2xMessage.id=163 from=veh_2 as Geocast (geo routing) @time=114.000,000,000 s
+2018-09-05 11:28:00,983 INFO  SnsAmbassador - Send v2xMessage.id=164 from=veh_2 as Geocast (geo routing) @time=115.000,000,000 s
+2018-09-05 11:28:00,990 INFO  SnsAmbassador - Send v2xMessage.id=165 from node=rsu_0 as Topocast (singlehop) @time=116.000,000,000 s
+2018-09-05 11:28:01,001 INFO  SnsAmbassador - Receive v2xMessage.id=165 on node=veh_2 @time=116.001,400,000 s
+2018-09-05 11:28:01,001 INFO  SnsAmbassador - Receive v2xMessage.id=165 on node=veh_3 @time=116.001,400,000 s
+2018-09-05 11:28:01,001 INFO  SnsAmbassador - Receive v2xMessage.id=165 on node=veh_0 @time=116.001,400,000 s
+2018-09-05 11:28:01,001 INFO  SnsAmbassador - Receive v2xMessage.id=165 on node=veh_1 @time=116.001,400,000 s
+2018-09-05 11:28:01,001 INFO  SnsAmbassador - Receive v2xMessage.id=165 on node=tl_0 @time=116.001,400,000 s
+2018-09-05 11:28:01,001 INFO  SnsAmbassador - Send v2xMessage.id=166 from=veh_2 as Geocast (geo routing) @time=116.000,000,000 s
+2018-09-05 11:28:01,005 INFO  SnsAmbassador - Send v2xMessage.id=167 from=veh_2 as Geocast (geo routing) @time=117.000,000,000 s
+2018-09-05 11:28:01,010 INFO  SnsAmbassador - Send v2xMessage.id=168 from node=rsu_0 as Topocast (singlehop) @time=118.000,000,000 s
+2018-09-05 11:28:01,012 INFO  SnsAmbassador - Receive v2xMessage.id=168 on node=veh_2 @time=118.001,900,000 s
+2018-09-05 11:28:01,012 INFO  SnsAmbassador - Receive v2xMessage.id=168 on node=veh_3 @time=118.001,900,000 s
+2018-09-05 11:28:01,012 INFO  SnsAmbassador - Receive v2xMessage.id=168 on node=veh_0 @time=118.001,900,000 s
+2018-09-05 11:28:01,012 INFO  SnsAmbassador - Receive v2xMessage.id=168 on node=veh_1 @time=118.001,900,000 s
+2018-09-05 11:28:01,013 INFO  SnsAmbassador - Receive v2xMessage.id=168 on node=tl_0 @time=118.001,900,000 s
+2018-09-05 11:28:01,013 INFO  SnsAmbassador - Send v2xMessage.id=169 from=veh_2 as Geocast (geo routing) @time=118.000,000,000 s
+2018-09-05 11:28:01,016 INFO  SnsAmbassador - Send v2xMessage.id=170 from=veh_2 as Geocast (geo routing) @time=119.000,000,000 s
+2018-09-05 11:28:01,023 INFO  SnsAmbassador - Send v2xMessage.id=171 from node=rsu_0 as Topocast (singlehop) @time=120.000,000,000 s
+2018-09-05 11:28:01,024 INFO  SnsAmbassador - Receive v2xMessage.id=171 on node=veh_2 @time=120.002,400,000 s
+2018-09-05 11:28:01,025 INFO  SnsAmbassador - Receive v2xMessage.id=171 on node=veh_3 @time=120.002,400,000 s
+2018-09-05 11:28:01,025 INFO  SnsAmbassador - Receive v2xMessage.id=171 on node=veh_0 @time=120.002,400,000 s
+2018-09-05 11:28:01,025 INFO  SnsAmbassador - Receive v2xMessage.id=171 on node=veh_1 @time=120.002,400,000 s
+2018-09-05 11:28:01,025 INFO  SnsAmbassador - Receive v2xMessage.id=171 on node=tl_0 @time=120.002,400,000 s
+2018-09-05 11:28:01,025 INFO  SnsAmbassador - Send v2xMessage.id=172 from=veh_2 as Geocast (geo routing) @time=120.000,000,000 s
+2018-09-05 11:28:01,030 INFO  SnsAmbassador - Send v2xMessage.id=173 from=veh_2 as Geocast (geo routing) @time=121.000,000,000 s
+2018-09-05 11:28:01,033 INFO  SnsAmbassador - Send v2xMessage.id=174 from node=rsu_0 as Topocast (singlehop) @time=122.000,000,000 s
+2018-09-05 11:28:01,041 INFO  SnsAmbassador - Receive v2xMessage.id=174 on node=veh_2 @time=122.001,900,000 s
+2018-09-05 11:28:01,041 INFO  SnsAmbassador - Receive v2xMessage.id=174 on node=veh_3 @time=122.001,900,000 s
+2018-09-05 11:28:01,041 INFO  SnsAmbassador - Receive v2xMessage.id=174 on node=veh_0 @time=122.001,900,000 s
+2018-09-05 11:28:01,041 INFO  SnsAmbassador - Receive v2xMessage.id=174 on node=veh_1 @time=122.001,900,000 s
+2018-09-05 11:28:01,041 INFO  SnsAmbassador - Receive v2xMessage.id=174 on node=tl_0 @time=122.001,900,000 s
+2018-09-05 11:28:01,042 INFO  SnsAmbassador - Send v2xMessage.id=175 from=veh_2 as Geocast (geo routing) @time=122.000,000,000 s
+2018-09-05 11:28:01,051 INFO  SnsAmbassador - Send v2xMessage.id=176 from=veh_2 as Geocast (geo routing) @time=123.000,000,000 s
+2018-09-05 11:28:01,061 INFO  SnsAmbassador - Send v2xMessage.id=177 from node=rsu_0 as Topocast (singlehop) @time=124.000,000,000 s
+2018-09-05 11:28:01,062 INFO  SnsAmbassador - Receive v2xMessage.id=177 on node=veh_2 @time=124.002,400,000 s
+2018-09-05 11:28:01,062 INFO  SnsAmbassador - Receive v2xMessage.id=177 on node=veh_3 @time=124.002,400,000 s
+2018-09-05 11:28:01,062 INFO  SnsAmbassador - Receive v2xMessage.id=177 on node=veh_0 @time=124.002,400,000 s
+2018-09-05 11:28:01,062 INFO  SnsAmbassador - Receive v2xMessage.id=177 on node=veh_1 @time=124.002,400,000 s
+2018-09-05 11:28:01,062 INFO  SnsAmbassador - Receive v2xMessage.id=177 on node=tl_0 @time=124.002,400,000 s
+2018-09-05 11:28:01,062 INFO  SnsAmbassador - Send v2xMessage.id=178 from=veh_2 as Geocast (geo routing) @time=124.000,000,000 s
+2018-09-05 11:28:01,068 INFO  SnsAmbassador - Send v2xMessage.id=179 from=veh_2 as Geocast (geo routing) @time=125.000,000,000 s
+2018-09-05 11:28:01,084 INFO  SnsAmbassador - Send v2xMessage.id=180 from node=rsu_0 as Topocast (singlehop) @time=126.000,000,000 s
+2018-09-05 11:28:01,085 INFO  SnsAmbassador - Receive v2xMessage.id=180 on node=veh_2 @time=126.000,400,000 s
+2018-09-05 11:28:01,085 INFO  SnsAmbassador - Receive v2xMessage.id=180 on node=veh_3 @time=126.000,400,000 s
+2018-09-05 11:28:01,085 INFO  SnsAmbassador - Receive v2xMessage.id=180 on node=veh_0 @time=126.000,400,000 s
+2018-09-05 11:28:01,085 INFO  SnsAmbassador - Receive v2xMessage.id=180 on node=veh_1 @time=126.000,400,000 s
+2018-09-05 11:28:01,085 INFO  SnsAmbassador - Receive v2xMessage.id=180 on node=tl_0 @time=126.000,400,000 s
+2018-09-05 11:28:01,085 INFO  SnsAmbassador - Send v2xMessage.id=181 from=veh_2 as Geocast (geo routing) @time=126.000,000,000 s
+2018-09-05 11:28:01,100 INFO  SnsAmbassador - Send v2xMessage.id=182 from=veh_2 as Geocast (geo routing) @time=127.000,000,000 s
+2018-09-05 11:28:01,116 INFO  SnsAmbassador - Send v2xMessage.id=183 from node=rsu_0 as Topocast (singlehop) @time=128.000,000,000 s
+2018-09-05 11:28:01,117 INFO  SnsAmbassador - Receive v2xMessage.id=183 on node=veh_2 @time=128.001,900,000 s
+2018-09-05 11:28:01,117 INFO  SnsAmbassador - Receive v2xMessage.id=183 on node=veh_3 @time=128.001,900,000 s
+2018-09-05 11:28:01,117 INFO  SnsAmbassador - Receive v2xMessage.id=183 on node=veh_0 @time=128.001,900,000 s
+2018-09-05 11:28:01,117 INFO  SnsAmbassador - Receive v2xMessage.id=183 on node=veh_1 @time=128.001,900,000 s
+2018-09-05 11:28:01,117 INFO  SnsAmbassador - Receive v2xMessage.id=183 on node=tl_0 @time=128.001,900,000 s
+2018-09-05 11:28:01,117 INFO  SnsAmbassador - Send v2xMessage.id=184 from=veh_2 as Geocast (geo routing) @time=128.000,000,000 s
+2018-09-05 11:28:01,121 INFO  SnsAmbassador - Send v2xMessage.id=185 from=veh_2 as Geocast (geo routing) @time=129.000,000,000 s
+2018-09-05 11:28:01,134 INFO  SnsAmbassador - Send v2xMessage.id=186 from node=rsu_0 as Topocast (singlehop) @time=130.000,000,000 s
+2018-09-05 11:28:01,134 INFO  SnsAmbassador - Receive v2xMessage.id=186 on node=veh_2 @time=130.000,900,000 s
+2018-09-05 11:28:01,134 INFO  SnsAmbassador - Receive v2xMessage.id=186 on node=veh_3 @time=130.000,900,000 s
+2018-09-05 11:28:01,134 INFO  SnsAmbassador - Receive v2xMessage.id=186 on node=veh_0 @time=130.000,900,000 s
+2018-09-05 11:28:01,134 INFO  SnsAmbassador - Receive v2xMessage.id=186 on node=veh_1 @time=130.000,900,000 s
+2018-09-05 11:28:01,134 INFO  SnsAmbassador - Receive v2xMessage.id=186 on node=tl_0 @time=130.000,900,000 s
+2018-09-05 11:28:01,135 INFO  SnsAmbassador - Send v2xMessage.id=187 from=veh_2 as Geocast (geo routing) @time=130.000,000,000 s
+2018-09-05 11:28:01,150 INFO  SnsAmbassador - Send v2xMessage.id=188 from=veh_2 as Geocast (geo routing) @time=131.000,000,000 s
+2018-09-05 11:28:01,154 INFO  SnsAmbassador - Send v2xMessage.id=189 from node=rsu_0 as Topocast (singlehop) @time=132.000,000,000 s
+2018-09-05 11:28:01,166 INFO  SnsAmbassador - Receive v2xMessage.id=189 on node=veh_2 @time=132.001,400,000 s
+2018-09-05 11:28:01,166 INFO  SnsAmbassador - Receive v2xMessage.id=189 on node=veh_3 @time=132.001,400,000 s
+2018-09-05 11:28:01,166 INFO  SnsAmbassador - Receive v2xMessage.id=189 on node=veh_0 @time=132.001,400,000 s
+2018-09-05 11:28:01,166 INFO  SnsAmbassador - Receive v2xMessage.id=189 on node=veh_1 @time=132.001,400,000 s
+2018-09-05 11:28:01,166 INFO  SnsAmbassador - Receive v2xMessage.id=189 on node=tl_0 @time=132.001,400,000 s
+2018-09-05 11:28:01,168 INFO  SnsAmbassador - Send v2xMessage.id=190 from=veh_2 as Geocast (geo routing) @time=132.000,000,000 s
+2018-09-05 11:28:01,171 INFO  SnsAmbassador - Send v2xMessage.id=191 from=veh_2 as Geocast (geo routing) @time=133.000,000,000 s
+2018-09-05 11:28:01,186 INFO  SnsAmbassador - Send v2xMessage.id=192 from node=rsu_0 as Topocast (singlehop) @time=134.000,000,000 s
+2018-09-05 11:28:01,187 INFO  SnsAmbassador - Receive v2xMessage.id=192 on node=veh_2 @time=134.000,900,000 s
+2018-09-05 11:28:01,187 INFO  SnsAmbassador - Receive v2xMessage.id=192 on node=veh_3 @time=134.000,900,000 s
+2018-09-05 11:28:01,187 INFO  SnsAmbassador - Receive v2xMessage.id=192 on node=veh_0 @time=134.000,900,000 s
+2018-09-05 11:28:01,187 INFO  SnsAmbassador - Receive v2xMessage.id=192 on node=veh_1 @time=134.000,900,000 s
+2018-09-05 11:28:01,187 INFO  SnsAmbassador - Receive v2xMessage.id=192 on node=tl_0 @time=134.000,900,000 s
+2018-09-05 11:28:01,187 INFO  SnsAmbassador - Send v2xMessage.id=193 from=veh_2 as Geocast (geo routing) @time=134.000,000,000 s
+2018-09-05 11:28:01,200 INFO  SnsAmbassador - Send v2xMessage.id=194 from=veh_2 as Geocast (geo routing) @time=135.000,000,000 s
+2018-09-05 11:28:01,204 INFO  SnsAmbassador - Send v2xMessage.id=195 from node=rsu_0 as Topocast (singlehop) @time=136.000,000,000 s
+2018-09-05 11:28:01,213 INFO  SnsAmbassador - Receive v2xMessage.id=195 on node=veh_2 @time=136.001,900,000 s
+2018-09-05 11:28:01,213 INFO  SnsAmbassador - Receive v2xMessage.id=195 on node=veh_3 @time=136.001,900,000 s
+2018-09-05 11:28:01,213 INFO  SnsAmbassador - Receive v2xMessage.id=195 on node=veh_0 @time=136.001,900,000 s
+2018-09-05 11:28:01,213 INFO  SnsAmbassador - Receive v2xMessage.id=195 on node=veh_1 @time=136.001,900,000 s
+2018-09-05 11:28:01,213 INFO  SnsAmbassador - Receive v2xMessage.id=195 on node=tl_0 @time=136.001,900,000 s
+2018-09-05 11:28:01,213 INFO  SnsAmbassador - Send v2xMessage.id=196 from=veh_2 as Geocast (geo routing) @time=136.000,000,000 s
+2018-09-05 11:28:01,217 INFO  SnsAmbassador - Send v2xMessage.id=197 from=veh_2 as Geocast (geo routing) @time=137.000,000,000 s
+2018-09-05 11:28:01,219 INFO  SnsAmbassador - Send v2xMessage.id=198 from node=rsu_0 as Topocast (singlehop) @time=138.000,000,000 s
+2018-09-05 11:28:01,220 INFO  SnsAmbassador - Receive v2xMessage.id=198 on node=veh_2 @time=138.002,400,000 s
+2018-09-05 11:28:01,220 INFO  SnsAmbassador - Receive v2xMessage.id=198 on node=veh_3 @time=138.002,400,000 s
+2018-09-05 11:28:01,220 INFO  SnsAmbassador - Receive v2xMessage.id=198 on node=veh_0 @time=138.002,400,000 s
+2018-09-05 11:28:01,220 INFO  SnsAmbassador - Receive v2xMessage.id=198 on node=veh_1 @time=138.002,400,000 s
+2018-09-05 11:28:01,220 INFO  SnsAmbassador - Receive v2xMessage.id=198 on node=tl_0 @time=138.002,400,000 s
+2018-09-05 11:28:01,220 INFO  SnsAmbassador - Send v2xMessage.id=199 from=veh_2 as Geocast (geo routing) @time=138.000,000,000 s
+2018-09-05 11:28:01,233 INFO  SnsAmbassador - Send v2xMessage.id=200 from=veh_2 as Geocast (geo routing) @time=139.000,000,000 s
+2018-09-05 11:28:01,235 INFO  SnsAmbassador - Send v2xMessage.id=201 from node=rsu_0 as Topocast (singlehop) @time=140.000,000,000 s
+2018-09-05 11:28:01,235 INFO  SnsAmbassador - Receive v2xMessage.id=201 on node=veh_2 @time=140.002,400,000 s
+2018-09-05 11:28:01,235 INFO  SnsAmbassador - Receive v2xMessage.id=201 on node=veh_3 @time=140.002,400,000 s
+2018-09-05 11:28:01,235 INFO  SnsAmbassador - Receive v2xMessage.id=201 on node=veh_0 @time=140.002,400,000 s
+2018-09-05 11:28:01,236 INFO  SnsAmbassador - Receive v2xMessage.id=201 on node=veh_1 @time=140.002,400,000 s
+2018-09-05 11:28:01,236 INFO  SnsAmbassador - Receive v2xMessage.id=201 on node=tl_0 @time=140.002,400,000 s
+2018-09-05 11:28:01,236 INFO  SnsAmbassador - Send v2xMessage.id=202 from=veh_2 as Geocast (geo routing) @time=140.000,000,000 s
+2018-09-05 11:28:01,248 INFO  SnsAmbassador - Send v2xMessage.id=203 from=veh_2 as Geocast (geo routing) @time=141.000,000,000 s
+2018-09-05 11:28:01,250 INFO  SnsAmbassador - Send v2xMessage.id=204 from node=rsu_0 as Topocast (singlehop) @time=142.000,000,000 s
+2018-09-05 11:28:01,251 INFO  SnsAmbassador - Receive v2xMessage.id=204 on node=veh_2 @time=142.001,400,000 s
+2018-09-05 11:28:01,251 INFO  SnsAmbassador - Receive v2xMessage.id=204 on node=veh_3 @time=142.001,400,000 s
+2018-09-05 11:28:01,251 INFO  SnsAmbassador - Receive v2xMessage.id=204 on node=veh_0 @time=142.001,400,000 s
+2018-09-05 11:28:01,251 INFO  SnsAmbassador - Receive v2xMessage.id=204 on node=veh_1 @time=142.001,400,000 s
+2018-09-05 11:28:01,251 INFO  SnsAmbassador - Receive v2xMessage.id=204 on node=tl_0 @time=142.001,400,000 s
+2018-09-05 11:28:01,251 INFO  SnsAmbassador - Send v2xMessage.id=205 from=veh_2 as Geocast (geo routing) @time=142.000,000,000 s
+2018-09-05 11:28:01,263 INFO  SnsAmbassador - Send v2xMessage.id=206 from=veh_2 as Geocast (geo routing) @time=143.000,000,000 s
+2018-09-05 11:28:01,266 INFO  SnsAmbassador - Send v2xMessage.id=207 from node=rsu_0 as Topocast (singlehop) @time=144.000,000,000 s
+2018-09-05 11:28:01,267 INFO  SnsAmbassador - Receive v2xMessage.id=207 on node=veh_2 @time=144.000,400,000 s
+2018-09-05 11:28:01,267 INFO  SnsAmbassador - Receive v2xMessage.id=207 on node=veh_3 @time=144.000,400,000 s
+2018-09-05 11:28:01,267 INFO  SnsAmbassador - Receive v2xMessage.id=207 on node=veh_0 @time=144.000,400,000 s
+2018-09-05 11:28:01,267 INFO  SnsAmbassador - Receive v2xMessage.id=207 on node=veh_1 @time=144.000,400,000 s
+2018-09-05 11:28:01,267 INFO  SnsAmbassador - Receive v2xMessage.id=207 on node=tl_0 @time=144.000,400,000 s
+2018-09-05 11:28:01,267 INFO  SnsAmbassador - Send v2xMessage.id=208 from=veh_2 as Geocast (geo routing) @time=144.000,000,000 s
+2018-09-05 11:28:01,270 INFO  SnsAmbassador - Send v2xMessage.id=209 from=veh_2 as Geocast (geo routing) @time=145.000,000,000 s
+2018-09-05 11:28:01,281 INFO  SnsAmbassador - Send v2xMessage.id=210 from node=rsu_0 as Topocast (singlehop) @time=146.000,000,000 s
+2018-09-05 11:28:01,282 INFO  SnsAmbassador - Receive v2xMessage.id=210 on node=veh_2 @time=146.000,400,000 s
+2018-09-05 11:28:01,282 INFO  SnsAmbassador - Receive v2xMessage.id=210 on node=veh_3 @time=146.000,400,000 s
+2018-09-05 11:28:01,282 INFO  SnsAmbassador - Receive v2xMessage.id=210 on node=veh_0 @time=146.000,400,000 s
+2018-09-05 11:28:01,282 INFO  SnsAmbassador - Receive v2xMessage.id=210 on node=veh_1 @time=146.000,400,000 s
+2018-09-05 11:28:01,282 INFO  SnsAmbassador - Receive v2xMessage.id=210 on node=tl_0 @time=146.000,400,000 s
+2018-09-05 11:28:01,282 INFO  SnsAmbassador - Send v2xMessage.id=211 from=veh_2 as Geocast (geo routing) @time=146.000,000,000 s
+2018-09-05 11:28:01,284 INFO  SnsAmbassador - Send v2xMessage.id=212 from=veh_2 as Geocast (geo routing) @time=147.000,000,000 s
+2018-09-05 11:28:01,287 INFO  SnsAmbassador - Send v2xMessage.id=213 from node=rsu_0 as Topocast (singlehop) @time=148.000,000,000 s
+2018-09-05 11:28:01,287 INFO  SnsAmbassador - Receive v2xMessage.id=213 on node=veh_2 @time=148.000,400,000 s
+2018-09-05 11:28:01,287 INFO  SnsAmbassador - Receive v2xMessage.id=213 on node=veh_3 @time=148.000,400,000 s
+2018-09-05 11:28:01,287 INFO  SnsAmbassador - Receive v2xMessage.id=213 on node=veh_0 @time=148.000,400,000 s
+2018-09-05 11:28:01,287 INFO  SnsAmbassador - Receive v2xMessage.id=213 on node=veh_1 @time=148.000,400,000 s
+2018-09-05 11:28:01,288 INFO  SnsAmbassador - Receive v2xMessage.id=213 on node=tl_0 @time=148.000,400,000 s
+2018-09-05 11:28:01,295 INFO  SnsAmbassador - Send v2xMessage.id=214 from=veh_2 as Geocast (geo routing) @time=148.000,000,000 s
+2018-09-05 11:28:01,299 INFO  SnsAmbassador - Send v2xMessage.id=215 from=veh_2 as Geocast (geo routing) @time=149.000,000,000 s
+2018-09-05 11:28:01,301 INFO  SnsAmbassador - Send v2xMessage.id=216 from node=rsu_0 as Topocast (singlehop) @time=150.000,000,000 s
+2018-09-05 11:28:01,301 INFO  SnsAmbassador - Receive v2xMessage.id=216 on node=veh_2 @time=150.001,900,000 s
+2018-09-05 11:28:01,302 INFO  SnsAmbassador - Receive v2xMessage.id=216 on node=veh_3 @time=150.001,900,000 s
+2018-09-05 11:28:01,302 INFO  SnsAmbassador - Receive v2xMessage.id=216 on node=veh_0 @time=150.001,900,000 s
+2018-09-05 11:28:01,302 INFO  SnsAmbassador - Receive v2xMessage.id=216 on node=veh_1 @time=150.001,900,000 s
+2018-09-05 11:28:01,302 INFO  SnsAmbassador - Receive v2xMessage.id=216 on node=tl_0 @time=150.001,900,000 s
+2018-09-05 11:28:01,302 INFO  SnsAmbassador - Send v2xMessage.id=217 from=veh_2 as Geocast (geo routing) @time=150.000,000,000 s
+2018-09-05 11:28:01,313 INFO  SnsAmbassador - Send v2xMessage.id=218 from=veh_2 as Geocast (geo routing) @time=151.000,000,000 s
+2018-09-05 11:28:01,316 INFO  SnsAmbassador - Send v2xMessage.id=219 from node=rsu_0 as Topocast (singlehop) @time=152.000,000,000 s
+2018-09-05 11:28:01,316 INFO  SnsAmbassador - Receive v2xMessage.id=219 on node=veh_2 @time=152.001,900,000 s
+2018-09-05 11:28:01,316 INFO  SnsAmbassador - Receive v2xMessage.id=219 on node=veh_3 @time=152.001,900,000 s
+2018-09-05 11:28:01,316 INFO  SnsAmbassador - Receive v2xMessage.id=219 on node=veh_0 @time=152.001,900,000 s
+2018-09-05 11:28:01,316 INFO  SnsAmbassador - Receive v2xMessage.id=219 on node=veh_1 @time=152.001,900,000 s
+2018-09-05 11:28:01,316 INFO  SnsAmbassador - Receive v2xMessage.id=219 on node=tl_0 @time=152.001,900,000 s
+2018-09-05 11:28:01,316 INFO  SnsAmbassador - Send v2xMessage.id=220 from=veh_2 as Geocast (geo routing) @time=152.000,000,000 s
+2018-09-05 11:28:01,320 INFO  SnsAmbassador - Send v2xMessage.id=221 from=veh_2 as Geocast (geo routing) @time=153.000,000,000 s
+2018-09-05 11:28:01,329 INFO  SnsAmbassador - Send v2xMessage.id=222 from node=rsu_0 as Topocast (singlehop) @time=154.000,000,000 s
+2018-09-05 11:28:01,330 INFO  SnsAmbassador - Receive v2xMessage.id=222 on node=veh_2 @time=154.001,900,000 s
+2018-09-05 11:28:01,331 INFO  SnsAmbassador - Receive v2xMessage.id=222 on node=veh_3 @time=154.001,900,000 s
+2018-09-05 11:28:01,331 INFO  SnsAmbassador - Receive v2xMessage.id=222 on node=veh_0 @time=154.001,900,000 s
+2018-09-05 11:28:01,331 INFO  SnsAmbassador - Receive v2xMessage.id=222 on node=veh_1 @time=154.001,900,000 s
+2018-09-05 11:28:01,331 INFO  SnsAmbassador - Receive v2xMessage.id=222 on node=tl_0 @time=154.001,900,000 s
+2018-09-05 11:28:01,331 INFO  SnsAmbassador - Send v2xMessage.id=223 from=veh_2 as Geocast (geo routing) @time=154.000,000,000 s
+2018-09-05 11:28:01,334 INFO  SnsAmbassador - Send v2xMessage.id=224 from=veh_2 as Geocast (geo routing) @time=155.000,000,000 s
+2018-09-05 11:28:01,337 INFO  SnsAmbassador - Send v2xMessage.id=225 from node=rsu_0 as Topocast (singlehop) @time=156.000,000,000 s
+2018-09-05 11:28:01,337 INFO  SnsAmbassador - Receive v2xMessage.id=225 on node=veh_2 @time=156.001,900,000 s
+2018-09-05 11:28:01,337 INFO  SnsAmbassador - Receive v2xMessage.id=225 on node=veh_3 @time=156.001,900,000 s
+2018-09-05 11:28:01,338 INFO  SnsAmbassador - Receive v2xMessage.id=225 on node=veh_0 @time=156.001,900,000 s
+2018-09-05 11:28:01,338 INFO  SnsAmbassador - Receive v2xMessage.id=225 on node=veh_1 @time=156.001,900,000 s
+2018-09-05 11:28:01,345 INFO  SnsAmbassador - Receive v2xMessage.id=225 on node=tl_0 @time=156.001,900,000 s
+2018-09-05 11:28:01,345 INFO  SnsAmbassador - Send v2xMessage.id=226 from=veh_2 as Geocast (geo routing) @time=156.000,000,000 s
+2018-09-05 11:28:01,349 INFO  SnsAmbassador - Send v2xMessage.id=227 from=veh_2 as Geocast (geo routing) @time=157.000,000,000 s
+2018-09-05 11:28:01,351 INFO  SnsAmbassador - Send v2xMessage.id=228 from node=rsu_0 as Topocast (singlehop) @time=158.000,000,000 s
+2018-09-05 11:28:01,351 INFO  SnsAmbassador - Receive v2xMessage.id=228 on node=veh_2 @time=158.001,400,000 s
+2018-09-05 11:28:01,351 INFO  SnsAmbassador - Receive v2xMessage.id=228 on node=veh_3 @time=158.001,400,000 s
+2018-09-05 11:28:01,353 INFO  SnsAmbassador - Receive v2xMessage.id=228 on node=veh_0 @time=158.001,400,000 s
+2018-09-05 11:28:01,353 INFO  SnsAmbassador - Receive v2xMessage.id=228 on node=veh_1 @time=158.001,400,000 s
+2018-09-05 11:28:01,353 INFO  SnsAmbassador - Receive v2xMessage.id=228 on node=tl_0 @time=158.001,400,000 s
+2018-09-05 11:28:01,353 INFO  SnsAmbassador - Send v2xMessage.id=229 from=veh_2 as Geocast (geo routing) @time=158.000,000,000 s
+2018-09-05 11:28:01,362 INFO  SnsAmbassador - Send v2xMessage.id=230 from=veh_2 as Geocast (geo routing) @time=159.000,000,000 s
+2018-09-05 11:28:01,365 INFO  SnsAmbassador - Send v2xMessage.id=231 from node=rsu_0 as Topocast (singlehop) @time=160.000,000,000 s
+2018-09-05 11:28:01,366 INFO  SnsAmbassador - Receive v2xMessage.id=231 on node=veh_2 @time=160.001,900,000 s
+2018-09-05 11:28:01,366 INFO  SnsAmbassador - Receive v2xMessage.id=231 on node=veh_3 @time=160.001,900,000 s
+2018-09-05 11:28:01,366 INFO  SnsAmbassador - Receive v2xMessage.id=231 on node=veh_0 @time=160.001,900,000 s
+2018-09-05 11:28:01,366 INFO  SnsAmbassador - Receive v2xMessage.id=231 on node=veh_1 @time=160.001,900,000 s
+2018-09-05 11:28:01,366 INFO  SnsAmbassador - Receive v2xMessage.id=231 on node=tl_0 @time=160.001,900,000 s
+2018-09-05 11:28:01,366 INFO  SnsAmbassador - Send v2xMessage.id=232 from=veh_2 as Geocast (geo routing) @time=160.000,000,000 s
+2018-09-05 11:28:01,369 INFO  SnsAmbassador - Send v2xMessage.id=233 from=veh_2 as Geocast (geo routing) @time=161.000,000,000 s
+2018-09-05 11:28:01,378 INFO  SnsAmbassador - Send v2xMessage.id=234 from node=rsu_0 as Topocast (singlehop) @time=162.000,000,000 s
+2018-09-05 11:28:01,379 INFO  SnsAmbassador - Receive v2xMessage.id=234 on node=veh_2 @time=162.001,400,000 s
+2018-09-05 11:28:01,379 INFO  SnsAmbassador - Receive v2xMessage.id=234 on node=veh_3 @time=162.001,400,000 s
+2018-09-05 11:28:01,379 INFO  SnsAmbassador - Receive v2xMessage.id=234 on node=veh_0 @time=162.001,400,000 s
+2018-09-05 11:28:01,379 INFO  SnsAmbassador - Receive v2xMessage.id=234 on node=veh_1 @time=162.001,400,000 s
+2018-09-05 11:28:01,379 INFO  SnsAmbassador - Receive v2xMessage.id=234 on node=tl_0 @time=162.001,400,000 s
+2018-09-05 11:28:01,380 INFO  SnsAmbassador - Send v2xMessage.id=235 from=veh_2 as Geocast (geo routing) @time=162.000,000,000 s
+2018-09-05 11:28:01,382 INFO  SnsAmbassador - Send v2xMessage.id=236 from=veh_2 as Geocast (geo routing) @time=163.000,000,000 s
+2018-09-05 11:28:01,384 INFO  SnsAmbassador - Send v2xMessage.id=237 from node=rsu_0 as Topocast (singlehop) @time=164.000,000,000 s
+2018-09-05 11:28:01,385 INFO  SnsAmbassador - Receive v2xMessage.id=237 on node=veh_2 @time=164.000,900,000 s
+2018-09-05 11:28:01,385 INFO  SnsAmbassador - Receive v2xMessage.id=237 on node=veh_3 @time=164.000,900,000 s
+2018-09-05 11:28:01,385 INFO  SnsAmbassador - Receive v2xMessage.id=237 on node=veh_0 @time=164.000,900,000 s
+2018-09-05 11:28:01,385 INFO  SnsAmbassador - Receive v2xMessage.id=237 on node=veh_1 @time=164.000,900,000 s
+2018-09-05 11:28:01,385 INFO  SnsAmbassador - Receive v2xMessage.id=237 on node=tl_0 @time=164.000,900,000 s
+2018-09-05 11:28:01,385 INFO  SnsAmbassador - Send v2xMessage.id=238 from=veh_2 as Geocast (geo routing) @time=164.000,000,000 s
+2018-09-05 11:28:01,387 INFO  SnsAmbassador - Send v2xMessage.id=239 from=veh_2 as Geocast (geo routing) @time=165.000,000,000 s
+2018-09-05 11:28:01,399 INFO  SnsAmbassador - Send v2xMessage.id=240 from node=rsu_0 as Topocast (singlehop) @time=166.000,000,000 s
+2018-09-05 11:28:01,400 INFO  SnsAmbassador - Receive v2xMessage.id=240 on node=veh_2 @time=166.001,400,000 s
+2018-09-05 11:28:01,400 INFO  SnsAmbassador - Receive v2xMessage.id=240 on node=veh_3 @time=166.001,400,000 s
+2018-09-05 11:28:01,400 INFO  SnsAmbassador - Receive v2xMessage.id=240 on node=veh_0 @time=166.001,400,000 s
+2018-09-05 11:28:01,400 INFO  SnsAmbassador - Receive v2xMessage.id=240 on node=veh_1 @time=166.001,400,000 s
+2018-09-05 11:28:01,400 INFO  SnsAmbassador - Receive v2xMessage.id=240 on node=tl_0 @time=166.001,400,000 s
+2018-09-05 11:28:01,400 INFO  SnsAmbassador - Send v2xMessage.id=241 from=veh_2 as Geocast (geo routing) @time=166.000,000,000 s
+2018-09-05 11:28:01,402 INFO  SnsAmbassador - Send v2xMessage.id=242 from=veh_2 as Geocast (geo routing) @time=167.000,000,000 s
+2018-09-05 11:28:01,411 INFO  SnsAmbassador - Send v2xMessage.id=243 from node=rsu_0 as Topocast (singlehop) @time=168.000,000,000 s
+2018-09-05 11:28:01,413 INFO  SnsAmbassador - Receive v2xMessage.id=243 on node=veh_2 @time=168.001,400,000 s
+2018-09-05 11:28:01,413 INFO  SnsAmbassador - Receive v2xMessage.id=243 on node=veh_3 @time=168.001,400,000 s
+2018-09-05 11:28:01,413 INFO  SnsAmbassador - Receive v2xMessage.id=243 on node=veh_0 @time=168.001,400,000 s
+2018-09-05 11:28:01,413 INFO  SnsAmbassador - Receive v2xMessage.id=243 on node=veh_1 @time=168.001,400,000 s
+2018-09-05 11:28:01,413 INFO  SnsAmbassador - Receive v2xMessage.id=243 on node=tl_0 @time=168.001,400,000 s
+2018-09-05 11:28:01,413 INFO  SnsAmbassador - Send v2xMessage.id=244 from=veh_2 as Geocast (geo routing) @time=168.000,000,000 s
+2018-09-05 11:28:01,416 INFO  SnsAmbassador - Send v2xMessage.id=245 from=veh_2 as Geocast (geo routing) @time=169.000,000,000 s
+2018-09-05 11:28:01,418 INFO  SnsAmbassador - Send v2xMessage.id=246 from node=rsu_0 as Topocast (singlehop) @time=170.000,000,000 s
+2018-09-05 11:28:01,418 INFO  SnsAmbassador - Receive v2xMessage.id=246 on node=veh_2 @time=170.000,400,000 s
+2018-09-05 11:28:01,418 INFO  SnsAmbassador - Receive v2xMessage.id=246 on node=veh_3 @time=170.000,400,000 s
+2018-09-05 11:28:01,418 INFO  SnsAmbassador - Receive v2xMessage.id=246 on node=veh_0 @time=170.000,400,000 s
+2018-09-05 11:28:01,418 INFO  SnsAmbassador - Receive v2xMessage.id=246 on node=veh_1 @time=170.000,400,000 s
+2018-09-05 11:28:01,418 INFO  SnsAmbassador - Receive v2xMessage.id=246 on node=tl_0 @time=170.000,400,000 s
+2018-09-05 11:28:01,418 INFO  SnsAmbassador - Send v2xMessage.id=247 from=veh_2 as Geocast (geo routing) @time=170.000,000,000 s
+2018-09-05 11:28:01,429 INFO  SnsAmbassador - Send v2xMessage.id=248 from=veh_2 as Geocast (geo routing) @time=171.000,000,000 s
+2018-09-05 11:28:01,432 INFO  SnsAmbassador - Send v2xMessage.id=249 from node=rsu_0 as Topocast (singlehop) @time=172.000,000,000 s
+2018-09-05 11:28:01,433 INFO  SnsAmbassador - Receive v2xMessage.id=249 on node=veh_2 @time=172.001,400,000 s
+2018-09-05 11:28:01,433 INFO  SnsAmbassador - Receive v2xMessage.id=249 on node=veh_3 @time=172.001,400,000 s
+2018-09-05 11:28:01,433 INFO  SnsAmbassador - Receive v2xMessage.id=249 on node=veh_0 @time=172.001,400,000 s
+2018-09-05 11:28:01,433 INFO  SnsAmbassador - Receive v2xMessage.id=249 on node=veh_1 @time=172.001,400,000 s
+2018-09-05 11:28:01,433 INFO  SnsAmbassador - Receive v2xMessage.id=249 on node=tl_0 @time=172.001,400,000 s
+2018-09-05 11:28:01,433 INFO  SnsAmbassador - Send v2xMessage.id=250 from=veh_2 as Geocast (geo routing) @time=172.000,000,000 s
+2018-09-05 11:28:01,435 INFO  SnsAmbassador - Send v2xMessage.id=251 from=veh_2 as Geocast (geo routing) @time=173.000,000,000 s
+2018-09-05 11:28:01,438 INFO  SnsAmbassador - Send v2xMessage.id=252 from node=rsu_0 as Topocast (singlehop) @time=174.000,000,000 s
+2018-09-05 11:28:01,444 INFO  SnsAmbassador - Receive v2xMessage.id=252 on node=veh_2 @time=174.000,400,000 s
+2018-09-05 11:28:01,445 INFO  SnsAmbassador - Receive v2xMessage.id=252 on node=veh_3 @time=174.000,400,000 s
+2018-09-05 11:28:01,445 INFO  SnsAmbassador - Receive v2xMessage.id=252 on node=veh_0 @time=174.000,400,000 s
+2018-09-05 11:28:01,445 INFO  SnsAmbassador - Receive v2xMessage.id=252 on node=veh_1 @time=174.000,400,000 s
+2018-09-05 11:28:01,445 INFO  SnsAmbassador - Receive v2xMessage.id=252 on node=tl_0 @time=174.000,400,000 s
+2018-09-05 11:28:01,446 INFO  SnsAmbassador - Send v2xMessage.id=253 from=veh_2 as Geocast (geo routing) @time=174.000,000,000 s
+2018-09-05 11:28:01,448 INFO  SnsAmbassador - Send v2xMessage.id=254 from=veh_2 as Geocast (geo routing) @time=175.000,000,000 s
+2018-09-05 11:28:01,453 INFO  SnsAmbassador - Send v2xMessage.id=255 from node=rsu_0 as Topocast (singlehop) @time=176.000,000,000 s
+2018-09-05 11:28:01,453 INFO  SnsAmbassador - Receive v2xMessage.id=255 on node=veh_2 @time=176.000,900,000 s
+2018-09-05 11:28:01,453 INFO  SnsAmbassador - Receive v2xMessage.id=255 on node=veh_3 @time=176.000,900,000 s
+2018-09-05 11:28:01,453 INFO  SnsAmbassador - Receive v2xMessage.id=255 on node=veh_0 @time=176.000,900,000 s
+2018-09-05 11:28:01,453 INFO  SnsAmbassador - Receive v2xMessage.id=255 on node=veh_1 @time=176.000,900,000 s
+2018-09-05 11:28:01,453 INFO  SnsAmbassador - Receive v2xMessage.id=255 on node=tl_0 @time=176.000,900,000 s
+2018-09-05 11:28:01,453 INFO  SnsAmbassador - Send v2xMessage.id=256 from=veh_2 as Geocast (geo routing) @time=176.000,000,000 s
+2018-09-05 11:28:01,463 INFO  SnsAmbassador - Send v2xMessage.id=257 from=veh_2 as Geocast (geo routing) @time=177.000,000,000 s
+2018-09-05 11:28:01,466 INFO  SnsAmbassador - Send v2xMessage.id=258 from node=rsu_0 as Topocast (singlehop) @time=178.000,000,000 s
+2018-09-05 11:28:01,466 INFO  SnsAmbassador - Receive v2xMessage.id=258 on node=veh_2 @time=178.000,900,000 s
+2018-09-05 11:28:01,466 INFO  SnsAmbassador - Receive v2xMessage.id=258 on node=veh_3 @time=178.000,900,000 s
+2018-09-05 11:28:01,466 INFO  SnsAmbassador - Receive v2xMessage.id=258 on node=veh_0 @time=178.000,900,000 s
+2018-09-05 11:28:01,466 INFO  SnsAmbassador - Receive v2xMessage.id=258 on node=veh_1 @time=178.000,900,000 s
+2018-09-05 11:28:01,466 INFO  SnsAmbassador - Receive v2xMessage.id=258 on node=tl_0 @time=178.000,900,000 s
+2018-09-05 11:28:01,466 INFO  SnsAmbassador - Send v2xMessage.id=259 from=veh_2 as Geocast (geo routing) @time=178.000,000,000 s
+2018-09-05 11:28:01,469 INFO  SnsAmbassador - Send v2xMessage.id=260 from=veh_2 as Geocast (geo routing) @time=179.000,000,000 s
+2018-09-05 11:28:01,481 INFO  SnsAmbassador - Finish Simulation

@@ -1,0 +1,151 @@
+2018-09-01 12:44:55,910 INFO  MappingAmbassador - File found, read successfully.
+The following object was created (This is the created, internal JSON data object and might differ from the initial JSON-String read).
+The normal string representation.
+{"prototypes":[{"name":"PKW","applications":["com.dcaiti.vsimrti.app.tutorials.tiergarten.vehicle.TiergartenVehicle","com.dcaiti.vsimrti.app.tutorials.tiergarten.vehicle.TiergartenVehicleSlave"],"length":5.0,"minGap":2.5,"maxSpeed":10.0,"accel":1.5,"decel":4.5,"sigma":0.5,"tau":1.0},{"name":"TLPKW","applications":["com.dcaiti.vsimrti.app.tutorials.tiergarten.vehicle.TrafficLightVehicle"]},{"name":"RSU","applications":["com.dcaiti.vsimrti.app.tutorials.tiergarten.rsu.TiergartenRSU"]},{"name":"TrafficLight","applications":["com.dcaiti.vsimrti.app.tutorials.tiergarten.trafficLight.TrafficLightApp"]}],"rsus":[{"name":"RSU","lat":52.513060766781614,"lon":13.32891047000885}],"tls":[{"name":"TrafficLight","tlName":"27011311"},{"name":"TrafficLight","tlName":"252864801"}],"vehicles":[{"startingTime":1.0,"targetDensity":600.0,"maxNumberVehicles":1,"types":[{"name":"PKW"}],"deterministic":true,"pos":0,"route":"0"},{"startingTime":5.0,"targetDensity":600.0,"maxNumberVehicles":1,"types":[{"name":"PKW"}],"deterministic":true,"pos":0,"route":"0"},{"startingTime":8.0,"targetDensity":600.0,"maxNumberVehicles":1,"types":[{"name":"TLPKW"}],"deterministic":true,"pos":0,"route":"0"},{"startingTime":10.0,"targetDensity":600.0,"maxNumberVehicles":1,"types":[{"name":"PKW"}],"deterministic":true,"pos":0,"route":"0"}]}
+The pretty string representation.
+{
+  "prototypes": [
+    {
+      "name": "PKW",
+      "applications": [
+        "com.dcaiti.vsimrti.app.tutorials.tiergarten.vehicle.TiergartenVehicle",
+        "com.dcaiti.vsimrti.app.tutorials.tiergarten.vehicle.TiergartenVehicleSlave"
+      ],
+      "length": 5.0,
+      "minGap": 2.5,
+      "maxSpeed": 10.0,
+      "accel": 1.5,
+      "decel": 4.5,
+      "sigma": 0.5,
+      "tau": 1.0
+    },
+    {
+      "name": "TLPKW",
+      "applications": [
+        "com.dcaiti.vsimrti.app.tutorials.tiergarten.vehicle.TrafficLightVehicle"
+      ]
+    },
+    {
+      "name": "RSU",
+      "applications": [
+        "com.dcaiti.vsimrti.app.tutorials.tiergarten.rsu.TiergartenRSU"
+      ]
+    },
+    {
+      "name": "TrafficLight",
+      "applications": [
+        "com.dcaiti.vsimrti.app.tutorials.tiergarten.trafficLight.TrafficLightApp"
+      ]
+    }
+  ],
+  "rsus": [
+    {
+      "name": "RSU",
+      "lat": 52.513060766781614,
+      "lon": 13.32891047000885
+    }
+  ],
+  "tls": [
+    {
+      "name": "TrafficLight",
+      "tlName": "27011311"
+    },
+    {
+      "name": "TrafficLight",
+      "tlName": "252864801"
+    }
+  ],
+  "vehicles": [
+    {
+      "startingTime": 1.0,
+      "targetDensity": 600.0,
+      "maxNumberVehicles": 1,
+      "types": [
+        {
+          "name": "PKW"
+        }
+      ],
+      "deterministic": true,
+      "pos": 0,
+      "route": "0"
+    },
+    {
+      "startingTime": 5.0,
+      "targetDensity": 600.0,
+      "maxNumberVehicles": 1,
+      "types": [
+        {
+          "name": "PKW"
+        }
+      ],
+      "deterministic": true,
+      "pos": 0,
+      "route": "0"
+    },
+    {
+      "startingTime": 8.0,
+      "targetDensity": 600.0,
+      "maxNumberVehicles": 1,
+      "types": [
+        {
+          "name": "TLPKW"
+        }
+      ],
+      "deterministic": true,
+      "pos": 0,
+      "route": "0"
+    },
+    {
+      "startingTime": 10.0,
+      "targetDensity": 600.0,
+      "maxNumberVehicles": 1,
+      "types": [
+        {
+          "name": "PKW"
+        }
+      ],
+      "deterministic": true,
+      "pos": 0,
+      "route": "0"
+    }
+  ]
+}
+2018-09-01 12:45:04,053 INFO  MappingAmbassador - processMessage(): com.dcaiti.vsimrti.rti.messages.init.VehiclePathsInitMessage
+2018-09-01 12:45:04,053 INFO  MappingAmbassador - processMessage(): com.dcaiti.vsimrti.rti.messages.traffic.ScenarioTrafficLights
+2018-09-01 12:45:04,053 INFO  MappingAmbassador - Received TL-Message
+2018-09-01 12:45:04,053 INFO  MappingAmbassador - Creating Traffic Light: name=21487176, apps=[]
+2018-09-01 12:45:04,053 INFO  MappingAmbassador - Creating Traffic Light: name=21668930, apps=[]
+2018-09-01 12:45:04,054 INFO  MappingAmbassador - Creating Traffic Light: name=21677261, apps=[]
+2018-09-01 12:45:04,054 INFO  MappingAmbassador - Creating Traffic Light: name=251106773, apps=[]
+2018-09-01 12:45:04,054 INFO  MappingAmbassador - Creating Traffic Light: name=251150123, apps=[]
+2018-09-01 12:45:04,055 INFO  MappingAmbassador - Creating Traffic Light: name=252864801, apps=[com.dcaiti.vsimrti.app.tutorials.tiergarten.trafficLight.TrafficLightApp]
+2018-09-01 12:45:04,070 INFO  MappingAmbassador - Creating Traffic Light: name=252864802, apps=[]
+2018-09-01 12:45:04,070 INFO  MappingAmbassador - Creating Traffic Light: name=25661280, apps=[]
+2018-09-01 12:45:04,070 INFO  MappingAmbassador - Creating Traffic Light: name=262454829, apps=[]
+2018-09-01 12:45:04,070 INFO  MappingAmbassador - Creating Traffic Light: name=26703689, apps=[]
+2018-09-01 12:45:04,070 INFO  MappingAmbassador - Creating Traffic Light: name=26704447, apps=[]
+2018-09-01 12:45:04,070 INFO  MappingAmbassador - Creating Traffic Light: name=26704448, apps=[]
+2018-09-01 12:45:04,070 INFO  MappingAmbassador - Creating Traffic Light: name=26704482, apps=[]
+2018-09-01 12:45:04,070 INFO  MappingAmbassador - Creating Traffic Light: name=26870674, apps=[]
+2018-09-01 12:45:04,070 INFO  MappingAmbassador - Creating Traffic Light: name=26873453, apps=[]
+2018-09-01 12:45:04,071 INFO  MappingAmbassador - Creating Traffic Light: name=26873454, apps=[]
+2018-09-01 12:45:04,071 INFO  MappingAmbassador - Creating Traffic Light: name=26938203, apps=[]
+2018-09-01 12:45:04,071 INFO  MappingAmbassador - Creating Traffic Light: name=26938204, apps=[]
+2018-09-01 12:45:04,071 INFO  MappingAmbassador - Creating Traffic Light: name=26938209, apps=[]
+2018-09-01 12:45:04,071 INFO  MappingAmbassador - Creating Traffic Light: name=26938212, apps=[]
+2018-09-01 12:45:04,071 INFO  MappingAmbassador - Creating Traffic Light: name=26938214, apps=[]
+2018-09-01 12:45:04,071 INFO  MappingAmbassador - Creating Traffic Light: name=26938217, apps=[]
+2018-09-01 12:45:04,071 INFO  MappingAmbassador - Creating Traffic Light: name=26938219, apps=[]
+2018-09-01 12:45:04,071 INFO  MappingAmbassador - Creating Traffic Light: name=27011219, apps=[]
+2018-09-01 12:45:04,071 INFO  MappingAmbassador - Creating Traffic Light: name=27011225, apps=[]
+2018-09-01 12:45:04,071 INFO  MappingAmbassador - Creating Traffic Light: name=27011229, apps=[]
+2018-09-01 12:45:04,071 INFO  MappingAmbassador - Creating Traffic Light: name=27011256, apps=[]
+2018-09-01 12:45:04,071 INFO  MappingAmbassador - Creating Traffic Light: name=27011259, apps=[]
+2018-09-01 12:45:04,072 INFO  MappingAmbassador - Creating Traffic Light: name=27011305, apps=[]
+2018-09-01 12:45:04,072 INFO  MappingAmbassador - Creating Traffic Light: name=27011308, apps=[]
+2018-09-01 12:45:04,072 INFO  MappingAmbassador - Creating Traffic Light: name=27011311, apps=[com.dcaiti.vsimrti.app.tutorials.tiergarten.trafficLight.TrafficLightApp]
+2018-09-01 12:45:04,072 INFO  MappingAmbassador - Creating Traffic Light: name=272256206, apps=[]
+2018-09-01 12:45:04,072 INFO  MappingAmbassador - Creating Traffic Light: name=281788931, apps=[]
+2018-09-01 12:45:04,073 INFO  MappingAmbassador - Creating Traffic Light: name=415838099, apps=[]
+2018-09-01 12:45:04,096 INFO  MappingAmbassador - Creating RSU @GeoPoint{lat|lon=[52.513061,13.328910]} with apps: com.dcaiti.vsimrti.app.tutorials.tiergarten.rsu.TiergartenRSU
+2018-09-01 12:45:04,297 INFO  MappingAmbassador - Creating Vehicle. Route=0, time=1000000000, name=veh_0, lane=0, pos=0: Vehicle: name=PKW, apps=com.dcaiti.vsimrti.app.tutorials.tiergarten.vehicle.TiergartenVehicle,com.dcaiti.vsimrti.app.tutorials.tiergarten.vehicle.TiergartenVehicleSlave

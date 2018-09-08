@@ -1,0 +1,1 @@
+{"userid":"0","version":"1.0","arch":"x86_64","os":"Linux","osversion":"16.04","cpumodel":"core(tm)2duocpue8400@3.00ghz","sockets":1,"cores":2,"memory":2960,"type":"checkin","loginmd5":"4D4ECB2B511E6A05ACDAE7DA8BC76EAD","simulationuuid":"","macs":["b8:ac:6f:28:ff:3b"]}
