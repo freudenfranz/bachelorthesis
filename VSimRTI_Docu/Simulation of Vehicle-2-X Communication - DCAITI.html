@@ -1,0 +1,712 @@
+<!DOCTYPE html>
+<html><head>
+  <meta http-equiv="Content-Security-Policy" content="default-src chrome:; img-src *; media-src *">
+  <meta content="text/html; charset=UTF-8" http-equiv="content-type">
+  <meta name="viewport" content="width=device-width; user-scalable=0">
+  <link rel="stylesheet" href="Simulation%20of%20Vehicle-2-X%20Communication%20-%20DCAITI_files/aboutReader.css" type="text/css">
+  <script type="text/javascript" src="Simulation%20of%20Vehicle-2-X%20Communication%20-%20DCAITI_files/aboutReader.js"></script>
+<link rel="stylesheet" href="Simulation%20of%20Vehicle-2-X%20Communication%20-%20DCAITI_files/narrate.css"><title>Simulation of Vehicle-2-X Communication - DCAITI</title><link rel="shortcut icon" href="https://www.dcaiti.tu-berlin.de/favicon.ico"></head>
+
+<body class="light sans-serif loaded">
+  <div class="container font-size5 content-width3">
+    <div class="header reader-header" style="display: block;">
+      <a class="domain reader-domain" href="https://www.dcaiti.tu-berlin.de/research/simulation/">dcaiti.tu-berlin.de</a>
+      <div class="domain-border"></div>
+      <h1 class="reader-title">Simulation of Vehicle-2-X Communication - DCAITI</h1>
+      <div class="credits reader-credits">DCAITI - TU Berlin</div>
+      <div class="meta-data">
+        <div class="reader-estimated-time">22-28 minutes</div>
+      </div>
+    </div>
+
+    <hr>
+
+    <div class="content">
+      <div class="moz-reader-content line-height4" style="display: block;"><div id="readability-page-1" class="page"><div id="container">
+
+
+
+
+
+
+
+<div id="textBlock">
+
+<img src="Simulation%20of%20Vehicle-2-X%20Communication%20-%20DCAITI_files/VSimRTI_logo.png" alt="The V2X Simulation Runtime Infrastructure VSimRTI">
+
+
+<p>
+The V2X Simulation Runtime Infrastructure (VSimRTI) is a comprehensive 
+framework for the assessment of new solutions for Cooperative 
+Intelligent Transportation Systems. Vehicle movements and sophisticated 
+communication technologies like Vehicle-2-X communication and cellular 
+networks can be modeled in detail. VSimRTI is one of the most flexible 
+systems available in the automotive research arena to dynamically 
+simulate Smart Mobility applications and to assess their impacts and 
+benefits.
+</p>
+<p>
+VSimRTI couples different simulators to allow the simulation of the 
+various aspects of future Intelligent Transportation Systems. The easy 
+integration and exchange of simulators enables the substitution of the 
+most relevant simulators for a realistic presentation of vehicular 
+traffic, emissions, wireless communication (cellular and ad-hoc), user 
+behavior, and the modelling of mobility applications. Furthermore, 
+VSimRTI is currently extended to allow the simulation of electric 
+mobility scenarios.
+</p>
+
+
+
+<h4>Jump to ...</h4>
+
+
+<h2>VSimRTI Features</h2>
+
+<p>
+Smart Mobility applications and Cooperative Transportation Systems help 
+to enhance safety and traffic efficiency. However, the simulation of 
+corresponding scenarios is a challenge because different simulation 
+worlds come together here: e.g. vehicular traffic, wireless network 
+communication, and application modeling. To solve this problem, VSimRTI 
+couples different simulators and enables the simulation of the various 
+aspects of future Intelligent Transportation Systems. Consequently, 
+VSimRTI simulations allow the analysis of novel mobility solutions 
+before real field tests start.
+</p>
+
+<div>
+<img src="Simulation%20of%20Vehicle-2-X%20Communication%20-%20DCAITI_files/VSimRTI_Simulation_Aspects.png" alt="Different simulations aspects modeled by VSimRTI" title="Different simulations aspects modeled by VSimRTI"><p style="" class="readability-styled">
+Different simulations aspects modeled by VSimRTI
+</p></div>
+
+<p>
+The aim of the VSimRTI project is to make the preparation and execution 
+of simulations as easy as possible for the users. Therefore, a 
+comprehensive framework for simulator integration was created that 
+facilitates the simulation of Smart Mobility scenarios. All simulator 
+management tasks, such as synchronization, interaction and lifecycle 
+management are handled completely by VSimRTI. Several optimization 
+techniques, such as optimistic synchronization, enable high performance 
+simulations. Special features, e.g. traffic lights, roadside stations, 
+and CAM and DENM transmissions, are supported by VSimRTI. Moreover, 
+various configuration, visualization and analysis tools assure maximum 
+usability.
+</p>
+
+<h2>VSimRTI Concept</h2>
+
+<p>
+In contrast to existing fixed simulator couplings, the VSimRTI 
+simulation infrastructure allows the easy integration and exchange of 
+simulators. Thus, the high flexibility of VSimRTI enables the coupling 
+of the most appropriate simulators for a realistic presentation of 
+vehicular traffic, emissions, wireless communication (cellular and 
+ad-hoc), user behavior, and the modelling of mobility applications. 
+Depending on the specific requirements of a simulation scenario, the 
+most relevant simulators can be used.
+</p>
+
+<div>
+<img src="Simulation%20of%20Vehicle-2-X%20Communication%20-%20DCAITI_files/VSimRTI_example.png" alt="An example of a VSimRTI simulator coupling" title="An example of a VSimRTI simulator coupling"><p style="" class="readability-styled">
+An example of a VSimRTI simulator coupling
+</p></div>
+
+<p>
+VSimRTI uses an ambassador concept inspired by some fundamental concepts
+ of the High Level Architecture (HLA). Thus, it is possible to couple 
+arbitrary simulation systems with a remote control interface. Attaching 
+an additional simulator only requires that the ambassador interface is 
+implemented and, then, the specified commands are executed. For 
+immediate use, a set of simulators is already coupled with VSimRTI, for 
+example:</p>
+<ul>
+<li>
+the traffic simulators SUMO and PHABMACS;
+</li>
+<li>
+the communication simulators ns-3, OMNeT++, SNS, and VSimRTI_Cell;
+</li>
+<li>
+the application simulator VSimRTI_AppNT;
+</li>
+<li>
+several visualization and analysis tools.
+</li>
+</ul>
+
+
+<h3>The VSimRTI Application Simulator</h3>
+
+<p>
+The application simulator of VSimRTI is optimized for the simulation of 
+Smart Mobility applications. Applications run in a sandbox which offers 
+vehicle-like interfaces, e.g. for requesting sensor data or interacting 
+with communication modules. Data provided by traffic, communication 
+network and further connected simulators are transformed in a format 
+used by components of real vehicles. To run an application, its logic is
+ implemented in Java. Additionally, the VSimRTI application simulator 
+supports various settings to specify the characteristics of an 
+application and to configure its behavior.
+</p>
+
+<div>
+<img src="Simulation%20of%20Vehicle-2-X%20Communication%20-%20DCAITI_files/app_simulator.png" alt="Features of the VSimRTI Application Simulator" title="Features of the VSimRTI Application Simulator"><p style="" class="readability-styled">
+Features of the VSimRTI Application Simulator
+</p></div>
+
+<p>
+The architecture of the Application Simulator is based on the ETSI ITS 
+Standard. Besides the sandboxed Application Layer approach, it features a
+ rich Facility Layer with Application, Information and Communication 
+Support. The individual aspects should be explained in the following:
+</p>
+<ul>
+<li>
+<em>Station Positioning:</em> The realistic movement information from 
+the traffic simulator is provided for the application of the 
+EGO-vehicle. This information is already formatted in WGS-84 GPS 
+coordinates to simulate real navigation system. Furthermore, Map and own
+ Route Information are available.
+</li>
+<li>
+<em>Station Control:</em> The Vehicle is able to sensor events, which 
+can be simulated by the Environment Simulator. The Vehicle can moreover 
+directly influence its driving maneuvers by slowing down, accelerating 
+or changing the route to another road.
+</li>
+<li>
+<em>Message Management:</em> From the V2X domain, several message types 
+are supported. Most prominent is the periodical CAM-generation following
+ specified rules (by ETSI standard, by User-timing, etc.). Event based 
+DENMs are supported as well. Besides, further message types as SPAT 
+(signal phases from intelligent traffic lights) are also included.
+</li>
+<li>
+<em>LDM-Management and LDM-Database:</em> Currently the features of a 
+dynamic knowledge base a.k.a. local dynamic map are implemented 
+following the concepts of the LDM++. These concepts respect the 
+information dynamics from static to highly dynamic without 
+discretization loss due to the LDM layer structure from the SOTIS 
+approach. Rules in the LDM-Management then control which information 
+should be aggregated and which information should be used directly, 
+according to the lifetime of the information.
+</li>
+<li>
+<em>Station type/ Capabilities:</em> Simulated stations in VSimRTI can 
+be specified with different capabilities. The configuration is part of 
+the VSimRTI Mapping Component, which supports different kinds of 
+vehicles and certainly also Roadside Units as well as intelligent 
+Traffic Lights.
+</li>
+<li>
+<em>Addressing and GeoNetworking:</em> VSimRTI Applications have the 
+necessary APIs to control the according addressing mode. While the 
+actual routing is implemented in the Communication Simulator, the 
+Application Simulator supports different addressing schemes for ad-hoc 
+communication (Unicast, Broadcast, Geocast) as well as for communication
+ over the infrastructure-based cellular networks.
+</li>
+</ul>
+
+
+<h3>The VSimRTI Cellular Simulator</h3>
+
+<p>
+The VSimRTI cellular simulator enables the simulation of wireless 
+transmissions via cellular networks. This simulator basically consists 
+of two components: the GEO Server and the Cellular Network Simulation 
+(CNS). In contrast to ad-hoc communication, cellular systems always 
+require a deployed network infrastructure. The addressing between the 
+nodes needs to be realized by IP. The GEO Server is a central server 
+which is connected to the Gateway GPRS Support Node (GGSN). It has the 
+task to maintain a table with all vehicles in the region. In this way, 
+Geo addressing similar to geographic ad-hoc routing can be realized.
+</p>
+
+<div>
+<img src="Simulation%20of%20Vehicle-2-X%20Communication%20-%20DCAITI_files/cell_simulator.png" alt="The architecture of the VSimRTI Cellular Simulator" title="The architecture of the VSimRTI Cellular Simulator"><p style="" class="readability-styled">
+The architecture of the VSimRTI Cellular Simulator
+</p></div>
+
+
+<p>
+The second component of the VSimRTI Cellular Simulator is the Cellular 
+Network Simulation (CNS), which is the most important component for the 
+simulation of the Radio Access Network (RAN) and its connection to the 
+IP-based core network. The CNS subdivides the simulation area into 
+various regions to modulate a network with different coverage 
+properties. For each region, three nested models are used to simulate 
+the packet transmission: the Core Delay Model, the PDR Model, and the 
+Bandwidth Model.
+</p>
+<ul>
+<li>
+The Core Delay model supports different basic delay types to simulate the transmission time for every packet statistically.
+</li>
+<li>
+The PDR model is named after the Packet Delivery Ratio and models the 
+effect of individual packet losses between the node and the base station
+ due to inappropriate signal coverage.
+</li>
+<li>
+The Bandwidth model considers the channel load of a region and calculates the final delay for the individual packets.
+</li>
+</ul>
+
+
+<h3>Further Components</h3>
+
+<p>
+Much attention is paid to comprehensive configuration possibilities to 
+simulate realistic scenarios. In these terms, the Mapping Component 
+plays an important role.
+</p>
+
+<h4>Mapping Component</h4>
+
+<p>
+The VSimRTI Mapping component is used to de?ne the specific type of 
+simulated vehicles, RSUs and intelligent traffic lights. This means that
+ one or multiple applications, different communication parameterization 
+and behavioral aspects can be mapped to the dedicated nodes (vehicles, 
+RSUs, traffic lights) in the scenario. Either one or a ratio of all 
+nodes can be selected. Therefore, a deterministic mapping (producing the
+ exact same sequence of mapped vehicles in every simulation run with 
+regard to the given ratios at each point in time the simulation) and a 
+stochastic mapping (resulting in a random order of mapped vehicles) 
+exist.
+In this manner, the Mapping Component offers a convenient way to set up 
+simulation series e.g. with the respect to market deployment rates where
+ 5%, 10%, etc. of all vehicles and traffic participants are based on the
+ V2X communication technology.
+</p>
+
+
+<h2>Evaluation of V2X Applications with VSimRTI</h2>
+
+<p>
+VSimRTI has been used by various automotive companies and research institutes to evaluate
+V2X applications. The following two examples are a small excerpt from the wide
+range of simulation scenarios that VSimRTI has performed thus far:
+</p>
+
+<p>
+The goal of the intelligent V2X-based navigation system is to recommend travel routes
+which avoid congested areas. In contrast to classical traffic management systems, V2X
+technology operates in near real-time. That means it is able to avoid congested roads and
+those which are about to become congested. The VSimRTI simulations helped to optimize
+the effectiveness of the algorithm and to reduce the travel time and vehicle emissions.
+</p>
+
+<div>
+<img src="Simulation%20of%20Vehicle-2-X%20Communication%20-%20DCAITI_files/tiri.png" alt="Vehicles use the V2X-based navigation system to recalculate new optimized routes which avoid congested areas." title="Vehicles use the V2X-based navigation system to recalculate new optimized routes which avoid congested areas."><p style="" class="readability-styled">
+Vehicles use the V2X-based navigation system to recalculate new optimized routes which avoid congested areas.
+</p></div>
+
+<p>
+The V2X-based speed warning application aims to reduce accidents caused by bad weather
+conditions for example. Vehicles share information about dangerous road conditions
+such as ice roads or fog banks via V2X communication. This information helps to adapt
+speed, especially on road segments that are difficult to observe. To evaluate the application,
+an area with tight turns and often limited visibility in the Taunus Mountains was
+simulated. The VSimRTI results were used to improve the application and further reduce
+the number of speeding vehicles.
+</p>
+
+<div>
+<img src="Simulation%20of%20Vehicle-2-X%20Communication%20-%20DCAITI_files/rcs.png" alt="The V2X-based speed warning application allows vehicles to adapt their speed, especially on road segments which are difficult to observe." title="The V2X-based speed warning application allows vehicles to adapt their speed, especially on road segments which are difficult to observe."><p style="" class="readability-styled">
+The V2X-based speed warning application allows vehicles to adapt their 
+speed, especially on road segments which are difficult to observe.
+</p></div>
+
+<h2>VSimRTI Workshop</h2>
+
+<p>
+The VSimRTI Workshop provides an insight of how to setup and run 
+simulations as well as discussions of state of the art methods and tools
+ for the assessment of novel solutions for Cooperative Intelligent 
+Transportation Systems.
+</p>
+
+<h2>Publications</h2>
+
+<h3>Books and Book Chapters</h3>
+
+<ul>
+<li>
+Robert Protzmann, Björn Schünemann, and Ilja Radusch. <em>Simulation of Convergent Networks for Intelligent Transport Systems with VSimRTI</em>.
+ In Benoit Hilt, Marion Berbineau, Alexey Vinel, and Alain Pirovano, 
+editors, Networking Simulation for Intelligent Transportation Systems: 
+High Mobile Wireless Nodes, chapter 1, pages 1–28. John Wiley &amp; 
+Sons, 2017. ISBN: 978-1-119-40745-4
+</li>
+<li>
+C. Sommer, J. Härri, F. Hrizi, B. Schünemann, F. Dressler: <em>Simulation Tools and Techniques for Vehicular Communications and Applications</em>.
+ In C. Campolo and A. Molinaro and R. Scopigno, editors, Vehicular ad 
+hoc Networks, pp.365-392, 2015, Springer International Publishing, ISBN:
+ 978-3-319-15496-1
+</li>
+</ul>
+
+
+<h3>Journal Articles</h3>
+
+<ul>
+<li>
+R. Protzmann, B. Schuenemann, I. Radusch: <em>The Influences of Communication Models on the Simulated Effectiveness of V2X Applications</em>. IEEE Communications Magazine, Volume 49, Issue 11, pp. 149-155, November 2011, ISSN: 0163-6804
+</li>
+<li>K. Katsaros, R. Kernchen, M. Dianati, D. Rieck, C. Zinoviou: <em>Application of vehicular communications for improving the efficiency of traffic in urban areas</em>. Wireless Communications and Mobile Computing, November 2011. John Wiley &amp; Sons, Ltd, ISSN: 1530-8677
+</li>
+<li>
+B. Schuenemann: <em>V2X Simulation Runtime Infrastructure VSimRTI: An Assessment Tool to Design Smart Traffic Management Systems</em>.
+ Computer Networks, Volume 55, Issue 14, pp. 3189-3198, October 2011. 
+Elsevier North-Holland, Inc., New York, NY, USA, ISSN: 1389-1286
+</li>
+<li>
+B. Schuenemann, J. W. Wedel, I. Radusch: <em>V2X-Based Traffic Congestion Recognition and Avoidance</em>.
+ Tamkang Journal of Science and Engineering, vol. 13, no. 1, pp. 63-70, 
+March 2010. Tamkang University Press, Tamsui, Taiwan, R.O.C., ISSN: 
+1560-6686
+</li>
+</ul>
+
+
+<h3>Conference Proceedings</h3>
+
+<li>
+K. Hübner, T. Schilling, B. Schünemann, I. Radusch: <em>On Assessing Road Safety Aspects of a Cycling Router Application</em>.
+ Proceedings of the 15th edition of International Conference on 
+Intelligent Transport Systems (ITS) Telecommunications (ITST 2017), 
+Warsaw, Poland, 2017, IEEE Xplore, ISBN: 978-1-5090-5274-5
+</li>
+<li>
+K. Hübner, T. Schilling, B. Schünemann, I. Radusch: <em>On Assessing Road Safety Aspects of a Cycling Router Application</em>.
+ Proceedings of the 15th edition of International Conference on 
+Intelligent Transport Systems (ITS) Telecommunications (ITST 2017), 
+Warsaw, Poland, 2017, IEEE Xplore, ISBN: 978-1-5090-5274-5
+</li>
+<li>
+K. Hübner, R. Cristea, S. Rulewitz, I. Radusch, B. Schünemann: <em>Implementation of Cognitive Driver Models in Microscopic Traffic Simulations</em>.
+ Proceedings of the 9th EAI International Conference on Simulation Tools
+ and Techniques (SIMUTools '16), Prague, Czech Republic, pp.104-111, 
+2016, ICST (Institute for Computer Sciences, Social-Informatics and 
+Telecommunications Engineering), Brussels, Belgium, ISBN: 
+978-1-63190-120-1
+</li>
+<li>
+K. Hübner, B. Schünemann, I. Radusch: <em>Sophisticated Route Calculation Approaches for Microscopic Traffic Simulations</em>.
+ Proceedings of the 8th International Conference on Simulation Tools and
+ Techniques (SIMUTools '15), Athens, Greece, pp.147-154, 2015, ICST 
+(Institute for Computer Sciences, Social-Informatics and 
+Telecommunications Engineering), Brussels, Belgium, ISBN: 
+978-1-63190-079-2
+</li>
+<li>
+D. Rieck, B. Schünemann, I. Radusch: <em>Advanced Traffic Light Information in OpenStreetMap for Traffic Simulations</em>.
+ Modeling Mobility with Open Data: 2nd SUMO Conference 2014 Berlin, 
+Germany, pp.25-34, March 2015, M. Behrisch and M. Weber, Springer 
+International Publishing, ISBN: 978-3-319-15023-9
+</li>
+<li>
+R. Protzmann, B. Schünemann, I. Radusch: <em>On site-specific propagation models for the evaluation of V2X applications</em>.
+ Communication Technologies for Vehicles (Nets4Cars-Fall), 2014 7th 
+International Workshop on , pp.35-39, Oct 2014, ISBN: 978-1-4799-5270-0
+</li>
+<li>
+Robert Protzmann, Kay Massow, and Ilja Radusch. <em>An evaluation environment and methodology for automotive media streaming applications</em>.
+ In Innovative Mobile and Internet Services in Ubiquitous Computing 
+(IMIS), 2014 Eighth International Conference on, pages 297–304. IEEE, 
+2014. ISBN: 978-1-4799-4331-9
+</li>
+<li>
+R. Protzmann, B. Schünemann, I. Radusch: <em>A Sensitive Metric for the Assessment of Vehicular Communication Applications</em>.
+ Advanced Information Networking and Applications (AINA), 2014 IEEE 28th
+ International Conference on , pp.697-703, 13-16 May 2014, ISBN: 
+978-1-4799-3629-8
+</li>
+<li>
+R. Protzmann, K. Massow, I. Radusch: <em>On performance estimation of prefetching algorithms for streaming content in automotive environments</em>.
+ Wireless On-demand Network Systems and Services (WONS), 2014 11th 
+Annual Conference on , pp.147, 2-4 April 2014, ISBN: 978-1-4799-4937-3
+</li>
+<li>
+R. Protzmann, B. Schünemann, I. Radusch: <em>Effects of Random Number Generators on V2X Communication Simulation</em>.
+ AsiaSim 2013, Communications in Computer and Information Science, vol. 
+402, pp. 200-211, 2013, Springer Berlin Heidelberg, ISBN: 
+978-3-642-45036-5
+</li>
+<li>
+D. Chuang, B. Schünemann, D. Rieck, I. Radusch: <em>GRIND: An Generic Interface for Coupling Power Grid Simulators with Traffic, Communication and Application Simulation Tools</em>.
+ SIMUL 2013, The Fifth International Conference on Advances in System 
+Simulation, pp. 174-177, 27-31 October 2013, ISBN: 978-1-61208-308-7
+</li>
+<li>
+R. Protzmann, K. Mahler, K. Oltmann, I. Radusch: <em>Extending the V2X simulation environment VSimRTI with advanced communication models</em>. ITS Telecommunications (ITST), 2012 12th International Conference on , pp.683,688, 5-8 Nov. 2012, ISBN: 978-1-4673-3071-8
+</li>
+<li>
+B. Schünemann, D. Rieck, I. Radusch: <em>Performance and scalability analyses of federation-based V2X simulation systems</em>.
+ Ad Hoc Networking Workshop (Med-Hoc-Net), 2012 The 11th Annual 
+Mediterranean, pp.119-126, 19-22 June 2012, ISBN: 978-1-4673-2038-2
+</li>
+<li>
+C. Zinoviou, K. Katsaros, R. Kernchen, M. Dianati: <em>Performance evaluation of an Adaptive Route Change application using an integrated cooperative ITS simulation platform</em>.
+ Wireless Communications and Mobile Computing Conference (IWCMC), 2012 
+8th International, pp.377-382, 27-31 Aug. 2012, ISBN: 978-1-4577-1378-1
+</li>
+<li>
+S. Lobach, I. Radusch: <em>Integration of Communication Security into Advanced Simulation Environments for ITS</em>.
+ Vehicular Technology Conference (VTC Fall), 2011 IEEE, San Francisco, 
+CA, 5-8 Sept. 2011, ISSN: 1090-3038, Print ISBN: 978-1-4244-8328-0
+</li>
+<li>
+K. Katsaros, R. Kernchen, M. Dianati, D. Rieck: <em>Performance study of
+ a Green Light Optimized Speed Advisory (GLOSA) application using an 
+integrated cooperative ITS simulation platform</em>. Wireless 
+Communications and Mobile Computing Conference (IWCMC), 2011 7th 
+International, pp.918-923, 4-8 July 2011, ISBN: 978-1-4244-9539-9
+</li>
+<li>
+N. Bißmeyer, B. Schünemann, I. Radusch, C. Schmidt: <em>Simulation of attacks and corresponding driver behavior in vehicular ad hoc networks with VSimRTI</em>.
+ In Proceedings of the 4th International ICST Conference on Simulation 
+Tools and Techniques (SIMUTools '11). ICST (Institute for Computer 
+Sciences, Social-Informatics and Telecommunications Engineering), ICST, 
+Brussels, Belgium, Belgium, 162-167, ISBN: 978-1-936968-00-8
+</li>
+<li>
+R. Protzmann, B. Schuenemann, I. Radusch: <em>The Influences of Communication Models on the Simulated Effectiveness of V2X Applications</em>. Vehicular Networking Conference (VNC), 2010 IEEE, Jersey City, NJ, pp. 102 - 109, Dec. 2010, ISBN: 978-1-4244-9526-9
+</li>
+<li>
+D. Rieck, B. Schuenemann, I. Radusch, C. Meinel: <em>Efficient Traffic Simulator Coupling in a Distributed V2X Simulation Environment</em>.
+ SIMUTools '10: Proceedings of the 3rd International ICST Conference on 
+Simulation Tools and Techniques, Torremolinos, Malaga, Spain, 2010. ICST
+ (Institute for Computer Sciences, Social-Informatics and 
+Telecommunications Engineering), ICST, Brussels, Belgium, pp. 1-9, ISBN:
+ 978-963-9799-87-5
+</li>
+<li>
+T. Benz, B. Schuenemann, R. Kernchen, M. Killat, A. Richter: <em>A Comprehensive Simulation Tool Set for Cooperative Systems</em>.
+ Advanced Microsystems for Automotive Applications 2010 : Smart Systems 
+for Green Cars and Safe Mobility, pp. 411-422, May 2010, G. Meyer and J.
+ Valldorf, Springer Berlin, Germany, ISBN: 978-3-642-12647-5
+</li>
+<li>
+J. W. Wedel, B. Schuenemann, I. Radusch: <em>V2X-Based Traffic Congestion Recognition and Avoidance</em>.
+ Parallel Architectures, Algorithms, and Networks, International 
+Symposium on, pp. 637-641, 2009 10th International Symposium on 
+Pervasive Systems, Algorithms, and Networks, 2009. IEEE Computer 
+Society, Los Alamitos, CA, USA, ISBN: 978-0-7695-3908-9
+</li>
+<li>
+N. Naumann, B. Schuenemann, I. Radusch, C. Meinel: <em>Improving V2X Simulation Performance with Optimistic Synchronization</em>.
+ Services Computing Conference, 2009. APSCC 2009. IEEE Asia-Pacific, pp.
+ 52-57, Singapore, December, 2009. IEEE Xplore, ISBN: 978-1-4244-5338-2
+</li>
+<li>
+N. Naumann, B. Schuenemann, I. Radusch: <em>VSimRTI - Simulation Runtime Infrastructure for V2X Communication Scenarios</em>.
+ Proceedings of the 16th World Congress and Exhibition on Intelligent 
+Transport Systems and Services (ITS Stockholm 2009), Stockholm, Sweden, 
+September 2009
+</li>
+<li>
+T. Queck, B. Schuenemann, I. Radusch, C. Meinel: <em>Realistic Simulation of V2X Communication Scenarios</em>.
+ Asia-Pacific Conference on Services Computing. 2006 IEEE, vol. 0, no. 
+0, pp. 1623-1627, 2008 IEEE Asia-Pacific Services Computing Conference, 
+2008. IEEE Computer Society, Los Alamitos, CA, USA, ISBN: 
+978-0-7695-3473-2
+</li>
+<li>
+T. Queck, B. Schuenemann, I. Radusch: <em>Runtime Infrastructure for Simulating Vehicle-2-X Communication Scenarios</em>.
+ In Proceedings of the Fifth ACM international Workshop on Vehicular 
+inter-Networking, San Francisco, California, USA, September 15, 2008. 
+VANET '08. ACM, pp. 78, New York, NY, USA, ISBN: 978-1-60558-191-0
+</li>
+<li>
+B. Schuenemann, K. Massow, I. Radusch: <em>A Novel Approach for Realistic Emulation of Vehicle-2-X Communication Applications</em>.
+ Vehicular Technology Conference, 2008. VTC Spring 2008. IEEE, pp. 
+2709-2713, Singapore, May 11-14, 2008, IEEE Press, New York, ISBN: 
+978-1-4244-1644-8
+</li>
+<li>
+B. Schuenemann, K. Massow, I. Radusch: <em>Realistic Simulation of Vehicular Communication and Vehicle-2-X Applications</em>.
+ In Proceedings of the 1st international Conference on Simulation Tools 
+and Techniques For Communications, Networks and Systems &amp; Workshops 
+(Simutools '08), Marseille, France, March 03 - 07, 2008. ICST (Institute
+ for Computer Sciences Social-Informatics and Telecommunications 
+Engineering), ICST, Brussels, Belgium, pp. 1-9, ISBN: 978-963-9799-20-2
+</li>
+
+
+<h3>Technical Reports</h3>
+
+<ul>
+<li>
+C. Sommer, B. Scheuermann, T. Tielert, B. Schünemann: <em>Proceedings of the 1st GI/ITG KuVS Fachgespräch Inter-Vehicle Communication (FG-IVC 2013)</em>. University of Innsbruck, Institute of Computer Science, Technical Report, CCS-2013-01, February 2013.
+</li>
+</ul>
+
+<h2>Related Theses</h2>
+
+<h3>Dissertations</h3>
+
+<ul>
+<li>
+Dr. Björn Schünemann: <em>The V2X Simulation Runtime Infrastructure: VSimRTI</em>
+</li>
+<li>
+Dr. Robert Protzmann: <em>V2X Communication in Heterogeneous Networks</em>
+</li>
+</ul>
+
+<h3>Masters' Theses</h3>
+
+<ul>
+<li>
+Chris Kay Baumann: <em>Collection and Merging of Automotive Lidar Data on Edge Servers</em>
+</li>
+<li>
+Florian Greiner: <em>Simulation of Connected Mobility Solutions for Railway Traffic in VSimRTI</em>
+</li>
+<li>
+Sven Erik Jeroschewski: <em>Improving Automotive Communication with Innovations in 4G and 5G Mobile Networks</em>
+</li>
+<li>
+Yi Li: <em>V2X-basiertes rekuperatives Bremssystem für Elektrofahrzeuge</em>
+</li>
+<li>
+Roland Cristea: <em>Umsetzung eines emotional beeinflussten, kognitiven Fahrerverhaltensmodells in der Simulationsumgebung VSimRTI</em>
+</li>
+<li>
+Stefan Rulewitz: <em>Evaluation von Fahrverhaltensmodellen und Modellierung von Störeffekten in Verkehrssimulationen</em>
+</li>
+<li>
+Michalis Adamidis: <em>Kooperatives ADAS für V2X Simulationsumgebungen</em>
+</li>
+<li>
+Dennis Gerike: <em>Verbesserung der Informationsverbreitung für Car-2-X-Fernbereichsanwendungen</em>
+</li>
+<li>
+Karl Hübner: <em>Smart Calculation of Diversified Routes for Road Traffic Simulations</em>
+</li>
+<li>
+David Chuang: <em>Embedding power system simulators into a simulation environment for ITS</em>
+</li>
+<li>
+Julian Peters: <em>Modeling realistic driving behavior in V2X simulation scenarios</em>
+</li>
+<li>
+Benjamin Rust: <em>Visuelle Fehler- und Performance-Analyse für VSimRTI</em>
+</li>
+<li>
+Marcel Busse: <em>Dynamic adaption of communication models in Vehicle-2-X simulation environments</em>
+</li>
+<li>
+Alexander Scheck: <em>A Map Matching Framework for Road Network Transformations</em>
+</li>
+<li>
+Michael Oppermann: <em>Assessing the Impact of Obstacles in Vehicle-2-X Communication Simulations</em>
+</li>
+<li>
+Stefan Reichel: <em>Embedding real OSGi based V2X applications in a simulation environment</em>
+</li>
+<li>
+Robert Protzmann: <em>Accuracy of Communication Models and its Influences on V2X Application Simulations</em>
+</li>
+<li>
+Nico Naumann: <em>Optimistic Synchronization in a Distributed V2X Simulation Infrastructure</em>
+</li>
+<li>
+David Rieck: <em>Specialized Simulators in a Distributed Vehicle-2-X Simulation Environment</em>
+</li>
+<li>
+Jan Wedel: <em>Analysis of V2X-Based Traffic Congestion Recognition</em>
+</li>
+<li>
+Tobias Queck: <em>Runtime Infrastructure for Simulating Vehicle-2-X Communication Scenarios</em>
+</li>
+</ul>
+
+<h3>Bachelors' Theses</h3>
+
+<ul>
+<li>
+Maximilian Neubauer: <em>Containerized Applications in V2X Simulation Environments</em>
+</li>
+<li>
+Michael Weiner: <em>Big-Data-Analyse von verorteten Fahrzeugdaten zur Erkennung von Verkehrssituationen</em>
+</li>
+<li>
+Bernard Ladenthin: <em>Konzeption und Entwicklung einer eventbasierenden Applikations-Schnittstelle für VSimRTI</em>
+</li>
+<li>
+Jiajun Hu: <em>Improved V2X-based Congestion Avoidance</em>
+</li>
+</ul>
+
+
+<br>
+
+</div>
+
+
+
+
+
+
+</div></div></div>
+    </div>
+
+    <div>
+      <div class="reader-message" style="display: none;">Loading…</div>
+    </div>
+  </div>
+
+  <ul class="toolbar reader-toolbar">
+    <li><button class="button close-button" title="Close Reader View"></button></li>
+    <ul class="dropdown style-dropdown">
+      <li><button class="dropdown-toggle button style-button" title="Type controls"></button></li>
+      <li class="dropdown-popup">
+        <div class="font-type-buttons"><button class="sans-serif-button selected"><div class="name">Aa</div><div class="description">Sans-serif</div></button><button class="serif-button"><div class="name">Aa</div><div class="description">Serif</div></button></div>
+        <hr>
+        <div class="font-size-buttons">
+          <button class="minus-button">
+          </button><button class="font-size-sample">Aa</button><button class="plus-button">
+        </button></div>
+        <hr>
+        <div class="content-width-buttons">
+          <button class="content-width-minus-button">
+          </button><button class="content-width-plus-button">
+        </button></div>
+        <hr>
+        <div class="line-height-buttons">
+          <button class="line-height-minus-button">
+          </button><button class="line-height-plus-button">
+        </button></div>
+        <hr>
+        <div class="color-scheme-buttons"><button class="light-button selected"><div class="name">Light</div></button><button class="dark-button"><div class="name">Dark</div></button><button class="sepia-button"><div class="name">Sepia</div></button></div>
+        <div class="dropdown-arrow">
+      </div></li>
+    </ul>
+  <ul class="dropdown narrate-dropdown"><li>
+       <button class="dropdown-toggle button narrate-toggle" title="Narrate"></button>
+    </li>
+    <li class="dropdown-popup">
+      <div class="narrate-row narrate-control">
+        <button disabled="disabled" class="narrate-skip-previous" title="Back"></button>
+        <button class="narrate-start-stop" title="Start"></button>
+        <button disabled="disabled" class="narrate-skip-next" title="Forward"></button>
+      </div>
+      <div class="narrate-row narrate-rate">
+        <input class="narrate-rate-input" value="0" step="5" max="100" min="-100" title="Speed" type="range">
+      </div>
+      <div class="narrate-row narrate-voices"><div class="voiceselect voice-select"><button class="select-toggle" aria-controls="voice-options">
+      <span class="label">Voice:</span> <span class="current-voice">Default</span>
+    </button>
+    <div class="options" id="voice-options" role="listbox"><button data-value="automatic" class="option selected" tabindex="-1" role="option" aria-selected="true">Default</button><button data-value="urn:moz-tts:speechd:en-westindies?en-029" class="option" tabindex="-1" role="option">English (en-029)</button><button data-value="urn:moz-tts:speechd:english_rp?en-GB" class="option" tabindex="-1" role="option">English (en-GB)</button><button data-value="urn:moz-tts:speechd:english-north?en-GB" class="option" tabindex="-1" role="option">English (en-GB)</button><button data-value="urn:moz-tts:speechd:english_wmids?en-GB" class="option" tabindex="-1" role="option">English (en-GB)</button><button data-value="urn:moz-tts:speechd:en-scottish?en-GB" class="option" tabindex="-1" role="option">English (en-GB)</button><button data-value="urn:moz-tts:speechd:english?en-GB" class="option" tabindex="-1" role="option">English (en-GB)</button><button data-value="urn:moz-tts:speechd:english-us?en-US" class="option" tabindex="-1" role="option">English (en-US)</button></div></div></div>
+      <div class="dropdown-arrow"></div>
+    </li></ul><button data-buttonid="pocket-button" class="button pocket-button" style="background-image: url(&quot;chrome://pocket/content/panels/img/pocket.svg#pocket-mark&quot;);" title="Save to Pocket"></button></ul>
+
+
+
+
+</body></html>

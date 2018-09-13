@@ -86,8 +86,13 @@ headings=normal
 % Kapitelnummer.Formelnummer, sondern nur mit Formelnummer
 %\renewcommand{\theequation}{\arabic{equation}}
 
+\usepackage{color}
 % eine Randnote für fehlende Teile
-\newcommand{\fehlt}[1]{(\marginpar[\hfill!$\longrightarrow$]{$\longleftarrow$!}Hier fehlt \emph{#1})}
+\newcommand{\miss}[1]{\textcolor{blue}{(\marginpar[\hfill!$\longrightarrow$]{$\longleftarrow$!}Hier fehlt \emph{#1})}}
+% eine Randnote für Kommentare
+\newcommand{\comment}[1]{\textcolor{yellow}{(\marginpar[\hfill!$\longrightarrow$]{$\longleftarrow$!}! \emph{#1})}}
+% Markiert '\todo{anleitung}' farbig, um besser zu finden was noch zu tun ist..
+\newcommand{\todo}[1]{\textcolor{red}{@TODO: #1}}
 
 % Keinen Einzug bei neuen Absätzen
  \setlength{\parindent}{0ex}
@@ -99,7 +104,7 @@ headings=normal
 \renewcommand{\theequation}{\thechapter.\arabic{equation}}
 
 % Datum
-%\date{Frankfurt am Main\\ \today \\ \vspace{0.2cm}}
+\date{Berlin\\ \today \\ \vspace{0.2cm}}
 
 % Und hier geht es los
 \begin{document}
@@ -119,73 +124,157 @@ headings=normal
   \vspace{1cm}
 
 
-  \bfseries{Maschinelle Extraktion von Modes aus Anforderungsdokumenten in der Automobilbranche}
+  \bfseries{Implementierung einer Schnittstelle zu VSimRTI für Hardwaremodule\todo{titel überlegen}}
   \vspace{2cm}
 
-  - EXPOS\'{E} -
-
+  - EXPOS\'{E} - 
+ \\ \todo{ALLE TODO's entfernen!!} \\
+  \todo{text nochmal durch den duden jagen!}
   \vspace{4cm}
   \begin{tabular}{|p{5cm}|p{9cm}|}
   \hline
-  Name,Vorname & Pudlitz, Florian\\ \hline
+  Name,Vorname & Stimpfl, Jakob Lorenz\\ \hline
   Erstellung des Expos\'{e}s & \today\\ \hline
-  Studiengang & Computer Engineering (M.Sc.)\\ \hline
-  Betreuer & Prof. Dr. Kao, Jonas Winkler\\ \hline
+  Studiengang & BSc. Computer Engineering\\ \hline
+  Betreuer \\   \todo{Betreuer herausfinden..}& Prof. Dr. Kao, Jonas Winkler\\ \hline
   \end{tabular}
 
   \end{center}
 
+\todo{Wiese steht die Lautsprache oben? Soll da noch das logo hin}
+\comment{Herausfinden, wer auf den Namen DAITI gekommen ist und ihm dazu gratulieren!}
+\todo{Herausfinden wie viele Seiten Umfang die Arbeit haben sollte und Seitenabschätzung in vorläufige Gliederung einarbeiten.}
+\todo{Prüfungsordnung zur BA befragen. (U.a. wie muss Code dokumentiert werden?)}
 \newpage
+%-----------------------------
+\section{Forschungsstand}
+Da das Umsetzten von Ideen in konkrete Prozesse und Objekte viel Zeit, Geld und Energie kosten kann, ist es meistens ratsam sich zumindest über Teilaspekte derselben ausgiebig Gedanken zu machen, oder wie in Industrie und Forschung, diese zu planen. Mit leistungsfähigeren Computern wird die Planung um die Simulation erweitert, wird dadurch präziser und kann die Umsetzung erheblich beschleunigen. Auch können schon im Vorfeld Probleme erkannt, umgangen oder ausgeschlossen werden. Dabei kann letzteres für die spätere Zertifizierung wichtig sein. \todo{Herausfinden warum genau VSimRTI entwickelt wird und ob Zertifizierung dabei eine Rolle spielt?!}\\
+Viele der für die Simulation entwickelten Programme (Simulatoren), orientieren sich an einem IEEE Standard, dem High Level Architecture (HLA) \todo{Quelle einfügen} Standard.
+Im ?Daimler Center for Automotive Information Technology Innovations? kurz DAITI, der TU-Berlin \todo{Wer entwickelt VSimRTI eigentlich? Frauenhofer oder DCAITI? Ist das DCAITI nur an der TU?} wird in diesem Wissen eine Software entwickelt, mit dessen Hilfe unterschiedliche Einzelsimulatoren zu einer Föderation \todo{Fußnote zu Föderation} verbunden werden können um eine übergeordnete Fragestellung in einer verteilten Simulation zu beantworten. Beispielsweise kann ein Simulator für Wetter und Umgebung mit einem Simulator für Verkehr kombiniert werden, um das Verhalten von Verkehr bei sich ändernder Witterung zu simulieren. Diese ?Vehicle to Everything Simulation Runtime Infrastructure? (VSimRTI) \todo{Quelle einfügen} genannte Werkzeug wird hauptsächlich für die Automobilindustrie und die Kommunikation zwischen Fahrzeugen und anderen Geräten zu simulieren \todo{stimmt das?}.\\
 
-\section{Einleitung}
-Die stetig steigende Anzahl von Funktionen und Assistenzsystemen in einem Fahrzeug führt zu einem Komfortgewinn für den Fahrer und steigert die Sicherheit im Straßenverkehr. Dies geht einher mit einem immer wachsenden Softwareanteil, der für die Steuerung, Regelung, Überwachung und Automatisierung im Fahrzeug verantwortlich ist\cite{SEAutomotiv}. Die wachsende Komplexität stellt eine zunehmende Herausforderung für die Entwickler und Tester dar. Trotz der detaillierten Beschreibungen der Einzelfunktionen in den Anforderungsdokumenten gilt es ein funktionierendes Gesamtsystem zu entwickeln in denen alle Komponenten zuverlässig miteinander arbeiten. \\
-Um den Entwicklungsprozess zu unterstützen, konnte sich eine modellbasierte Softwareentwicklung etablieren. Hierbei wird die Software mit Hilfe von verschiedenen Modellen abgebildet und anschließend automatisiert in Quellcode umgesetzt. Softwareentwickler müssen aus den bestehenden Anforderungsdokumenten Zustände ableiten die in der modellbasierten Softwareentwicklung zum Einsatz kommen. Bisher fehlen jedoch Ansätze komponentenübergreifende globale Zustände aus den Lastenheften automatisiert zu erkennen. Auf der einen Seite profitieren Entwickler von den Informationen, welche globalen Zustände existieren, um die Systeme besser im Gesamtkontext zu verstehen. Auf der anderen Seite unterstützt es die Arbeit der Testentwickler Vorbedingungen für Tests zu erstellen. 
 
-\section{Modes}
-Die modellbasierte Softwareentwicklung beinhaltet die Abbildung der Software und deren Funktionen auf unterschiedliche Systemzustände. Diese Zustände werden Modes genannt\cite{Vogelsang}. 
-Um die Entwicklung eines Algorithmus zu ermöglichen und die Ergebnisse besser evaluieren zu können, ist eine genaue Definition von Modes notwendig. Die folgenden Kriterien müssen erfüllt sein, um als Mode in einem Lastenheft erkannt zu werden:
+%-----------------------------
+\section{Problemstellung}
+Bei der Arbeit mit den Simulatoren tauchte in der Vergangenheit der Wunsch nach einer Schnittstelle auf, über die Sensoren oder Aktoren in Form von schon existierenden elektronischen Bauelementen wie z.B. ein Motorsteuerungsgerät in die Simulation eingebunden werden können. Die würde VSimRTI befähigen diese Hardware in einer Simulationsumgebung zu testen wenn beispielsweise kein Simulationsmodell dafür existiert, oder wenn der Vergleich zu demselben gemacht werden soll. \todo{was meint Pudel dazu??} Außerdem kann dadurch sichergestellt werden, dass die Hardware alle relevanten Zustände durchlaufen hat.
+\todo{Brauche ich eine Forschungsfrage oder reicht 'Problemstellung'?}
+
+%-----------------------------
+\section{Fragestellung}
+In meiner Bachelorarbeit möchte ich versuchen dieses Lücke zwischen Hard- und Software zu füllen. Konkret möchte ich die in HLA und VSimRTI, \todo{referenz auf Begriffserklärung} ?Ambassador? \todo{muss das noch weiter erklärt werden?} genannte Schnittstelle implementieren, in welcher das Protokoll, die auszutauschenden Daten usw. \miss{Das muss noch genauer recherchiert werden was genau bei einem Ambassador implementiert werden muss.} definiert werden. 
+Mit Hinblick auf die den wahrscheinlichen Fall einer Verwendung im Automobilkontext ist ein erster Gedanke die Schnittstelle für die Kommunikation mit der in diesem häufig gebrauchten CAN-Bus auszurüsten. Eine mögliche kostengünstige Lösung hierfür wäre die Anschaffung eines ?Arduinos?. Dieser im Hobbybereich häufig eingesetzte Kleincomputer, kann nach einer ersten Recherche um ein CAN-Bus-Modul erweitert werden.
+Kernthema der Bachelorabeit soll die Schnittstelle bleiben, allerdings möchte ich mir die mögliche Erweiterung um den Arduino und in einem weiteren Schritt die Ausrüstung desselben mit einem CAN-Modul -in der Arduinoterminologie auch Schield genannt- offen halten falls der Rahmen das zulässt.  
+\miss{Abschnitt zu Echtzeit}
+
+%-----------------------------
+\section{Herangehensweise}
+\subsection{Kernthema}
+\begin{enumerate}
+	\item Definieren ab wann die Arbeit als fertig gilt, bzw. was als Minimum erforderlich ist, außerdem die möglichen Erweiterungen und wann diese als abgeschlossen gelten.
+	\item Den Standard HLA durcharbeiten.
+	\item Die VSimRTI Dokumentation durcharbeiten.
+	\item Alle relevanten Teile beider Dokumentationen herausarbeiten und herausfinden, was genau wie implementiert werden muss.
+	\item Infrage kommende Protokolle zur Kommunikation eingebundener Hardware mit VSimRTI recherchieren.
+	\item Sich für ein Protokoll entscheiden, oder eines selbst definieren.
+	\item Falls die Implementierung des Ambassador für die Funktion der Schnittstelle ausreicht, diesen vorbereitend definieren und anschließend implementieren. Anderenfalls dies für alle anderen Teile auch machen.
+	\item Die Implementation dokumentieren
+	\item Bachelorarbeit ausarbeiten
+\end{enumerate}
+\subsection{erste Erweiterung}
+\begin{enumerate}
+	\item Arduino besorgen
+	\item Rudimentären Arduino-Client programmieren, testen, dokumentieren und in BA einpflegen
+\end{enumerate}	
+\subsection{zweite Erweiterung}
+\begin{enumerate}
+	\item CAN-Schield besorgen
+	\item in wesentliche Teile des CAN-Protokolls einarbeiten
+	\item Arduino-Client um CAN Funktion erweitern, testen, dokumentieren und in BA einpflegen
+\end{enumerate}
+\subsection{dritte Erweiterung}
+\begin{enumerate}
+	\item einfaches CAN fähiges Gerät testen mit Client testen, dokumentieren und in BA einpflegen. Dabei Client verbessern.
+	\item komplizierteres Gerät testen, dokumentieren und in BA einpflegen. Dabei Client verbessern.
+\end{enumerate}
+\subsection{vierte Erweiterung (eventuell auch schon als zweite Erweiterung)}
+\begin{enumerate}
+	\item Anforderungen an Echtzeit überlegen, diese testen, dokumentieren und einpflegen. 
+\end{enumerate}
+\todo{Überlegen wie die Arbeit mit den Erweiterungen umgehen soll. Soll ich im Falle einer Erweiterung so tun, als ob ich die von vornherein vorhatte zu machen, oder soll ich so wie hier, diese ganz offen als solche deklarieren? Das gibt aber ev. ein Problem bei z.B den Vorbetrachtungen. Ist aber eigentlich ein Anspruch an wissenschaftliches Arbeiten..}
+
+%-----------------------------
+\section{Material}
+\subsection{Literatur}
 \begin{itemize}
-\item Der Wechsel von Modezuständen ist nur während des Betriebs möglich. Parameter und Konstanten werden nicht als Mode erkannt.
-\item Die Zustände können ausschließlich konkrete Werte annehmen. Kontinuierliche Zustandsübergänge, beispielsweise Temperatur und Geschwindigkeit, sind ausgeschlossen.
-\item Die Zustandsänderung ist von außen durch den Nutzer beobachtbar. Es werden keine internen Änderungen berücksichtigt.
-\item Modes müssen eine funktionale Bedeutung für das Gesamtsystem haben. Fehlerzustände sind keine Modes.
+	\item Usermanual VSimRTI
+	\item Doku VSimRTI \todo{Quelle}
+	\item ein wenig Doku zu HLA und Simulationen im Allgemeinen, ev. Echtzeitfähigkeit für den Theorieteil.
+	\item wenn möglich ein paar Paper über solche Schnittstellen und zu dem nutzen von Simulationen
 \end{itemize}
-Diese Arbeit konzentriert sich auf die Erkennung von globalen systemübergreifenden Modes. Sie umfassen mehrere einzelne Komponenten und bilden einen Gesamtzustand des Fahrzeugs ab.
-
-\section{Aufgabenstellung}
-Viele Anforderungsdokumente, beispielsweise Lastenhefte, sind in natürlicher Sprache verfasst. Das erhöht das Verständnis bei allen Beteiligten. Gleichzeitig erschwert es die automatisierte Suche von Modes, da domänenspezifische Begriffe und Abkürzungen verwendet werden. \\
-In dieser Arbeit soll ein Algorithmus zur Erkennung von globales Modes entwickelt werden, der anschließend mit Hilfe eines Tools evaluiert wird.\\ Folgende Teilaufgaben konnten dafür identifiziert:
-
+\subsection{Software}
 \begin{itemize}
-\item Entwicklung eines Algorithmus zur Erkennung von globalen Modes
-\item Identifikation der möglichen Zustände die ein Mode annehmen kann
-\item Entwicklung eines Softwaretools zur Umsetzung des Algorithmus
-\item Evaluation der Ergebnisse
+	\item JAR-Archiv VSimRTI 
+	\item Lizenz für VSimRTI\todo{beschreiben wie man da rankommt}
+	\item Linux-PC mit installiertem SUMO \todo{beschreiben wofür ich sumo brauche. brauche ich sumo überhaubt??} 
+	\item Entwicklungsumgebung für Java
+	\item Entwicklungsumgebung für Arduino
+\end{itemize}
+\subsection{Hardware}
+\begin{itemize}
+	\item erste Erweiterung: Arduino 
+	\item zweite Erweiterung: CAN-Shield 
+	\item dritte Erweiterung: CAN-fähige Testgeräte
 \end{itemize}
 
-\section{Lösungsansatz}
+%-----------------------------
+\section{Gliederungsentwurf}
+\todo{Ideen in Überschriften umformulieren.}
+\subsection{Forschungsstand}
+\begin{enumerate}
+	\item Simulationen im Allgemeinen
+	\item HLA 
+	\item VSimRTI
+	\item Die Anwendugsfälle von VSimRTI
+	\item HLA und SimRTI
+	\item 'Forschungsstand' zum Ambassador
+\end{enumerate}
+\subsection{Problemstellung}
+\begin{enumerate}
+	\item	\todo{Unterkapitel überlegen}
+\end{enumerate}
 
-Um Modes in Lastenheften automatisiert zu erkennen, sind umfangreiche Analysen der Anforderungs- und Informationstexte nötig. Ein großer Teil bezieht sich auf die Analyse von natürlicher Sprache.\\
-Im ersten Schritt werden Substantive mit Hilfe des Stanford Part-Of-Speech Tagger \cite{Toutanova} herausgefiltert. Anschließend dient die Häufigkeit des Vorkommens in allen ausgewählten Lastenheften einen ersten Anhaltspunkt für globale Modes. Inhaltlich gleiche Modes können über die Häufigkeit wie oft sie nebeneinander auftreten zusammengefasst werden.\\ 
-Im zweiten Schritt hat der Nutzer die Möglichkeit die Auswahl weiter einzugrenzen. Anschließend werden von den verbleibenden Modes die Zustände aus den Anforderungsdokumenten extrahiert. Dazu werden die Informationen eines \textit{Grammatikparsers} eingesetzt \cite{BitPar}. Dieser ermittelt den grammatikalischen Zusammenhang innerhalb eines Texts.\\
-Um die Qualität der Modeextraktion zu erhöhen, wird die Auswahl des Nutzers gespeichert und hat Einfluss in der nächsten Textanalyse.\\
-Weitere Optimierungen, beispielsweise parallele Ausführung der Lastenheftanalyse, sind denkbar.
-%
-%\begin{itemize}
-%\item POS-Tagger, Lemmatisierer für Modes
-%\item Häufigkeiten, Abbkürzungsverzeichnis für Modes
-%\item Wortabhängigkeiten für Zustände der Modes
-%\item GUI (zur Nutzung des Nutzerwissens) zur Verbesserung Zuverlässigkeit
-%\item Lernalgorithmus für Qualitätssteigerung
-%\end{itemize}
-%Um die Erkennung von globalen Modes zu ermöglichen, müssen mehrere Lastenhefte analysiert werden.
+\subsection{Vorbetrachtungen}
+\begin{enumerate}
+	\item Welche Hardware soll bei der Implementierung der Schnittstelle berücksichtigt werden und welche Anforderungen gelten an diese?
+	\item erste Erweiterung: Unterkapitel zu Arduino
+	\item zweite Erweiterung: Was muss zum CAN-Bus betrachtet werden?
+	\item Welche Protokolle sind geeignet um mit der Hardware zu kommunizieren und welches ist am geeignetsten?
+	\item Wie kann die Schnittstelle möglichst offen und wiederverwendbar gestaltet werden?
+	\item Welche Programmiersprache ist geeignet für den Client?
+\end{enumerate}
+\subsection{Umsetzung}
+\begin{enumerate}
+	\item	\todo{Unterkapitel überlegen}
+\end{enumerate}
+\subsection{Fazit}
+\begin{enumerate}
+	\item Wurden die einzelnen Ziele erreicht?
+	\item Nachteile dieser Umsetzung
+	\item Einschätzung der Möglichkeiten mit diesem Ergebnis.
+	\item Für welche Simulationsanwendungen könnte die Schnittstelle noch interessant sein und was wäre dafür grob zu tun?
+	\item Gibt es in der Automobilindustrie andere Protokolle, für die ein Client interessant sein könnte? Was wäre dafür zu tun?
+	\item Was könnte sonst noch alles verbessert, erweitert werden
+\end{enumerate}
+\todo{herausfinden welche Kapitel noch relevant sein könnten.}
 
-\section{Evaluation}
-Um den Algorithmus anschließend zu evaluieren, wird dieser in einem Softwaretool implementiert und die Ausgaben mit einer Referenzliste verglichen.
-Dazu wird ein Set von Lastenheften ausgewählt, in denen globale Modes enthalten sind. Die Lastenhefte werden von der Daimler AG zur Verfügung gestellt. Die Referenzliste von Modes entsteht durch eine manuelle Analyse der Lastenhefte. Dafür wird eine Befragung einer kleinen Gruppe von Softwareentwicklern und Testern der Daimler AG durchgeführt. Anschließend können die identifizierten Modes mit den Ergebnissen des Softwaretools verglichen werden. 
-Die Qualität der Evaluation kann verbessert werden, wenn der Vorgang mit weiteren Sets an Lastenheften durchgeführt wird. 
-\bibliography{Literatur1}
+%-----------------------------
+\section{vorläufiges Literaturverzeichnis}
+\todo{Literatur einfügen}
+\bibliography{literature}
 \bibliographystyle {plain}
+
+%-----------------------------
+\section{grober Zeitplan}
+\todo{Zeitplan aufstellen}
 
 \end{document}
 
